@@ -1,0 +1,166 @@
+@import "compass/css3/shared";
+
+@font-face {
+  font-family: 'ios7-icon';
+  src:
+    url('http://ios7-icon-font-demo.herokuapp.com/fonts/ios7-icon.woff') format('woff'),
+    url('http://ios7-icon-font-demo.herokuapp.com/fonts/ios7-icon.ttf') format('ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+$blue : #007aff;
+$green : #4dd865;
+$red : #ff3b30;
+$white : #ffffff;
+$black : #000000;
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+}
+
+body {
+  padding: 50px;
+  font-family: 'Helvetica Neue' !important;
+  font-weight: 300;
+}
+
+.wrapper {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+h1 {
+  font-weight: 100;
+  font-size: 45px;
+  color: $blue;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 21px;
+  margin-bottom: 15px;
+}
+
+section {
+  margin-top: 30px;
+  
+  p {
+    line-height: 1.4;
+    margin-bottom: 20px;
+  }
+}
+
+button {
+  @include experimental('appearance', 
+    none, 
+    webkit, moz, o, ms, not khtml);
+  @include border-radius(5px);
+  border: none;
+  outline:none;
+  font: inherit;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+  background: $white;
+  color: $blue;
+  font-weight: 300;
+  font-size: 16px;
+  @include border-radius(0px);
+  
+  &:hover {
+    text-decoration: underline;
+  }
+
+/*  &:last-child {
+    border-color: red;
+    margin-bottom: 0;
+  }*/
+  
+  &.button-border {
+    
+    @include border-radius(5px);
+    padding: 10px 12px 8px 12px;
+    border: 1px solid $blue; 
+  
+    &:hover {
+      background: $blue;
+      color: $white;
+      text-decoration: none;
+    }
+    
+  }
+
+  &.button-success {
+    color: $green;
+    border-color: $green;
+    &:hover {
+      background: $green;
+    }
+  }
+
+  &.button-error {
+    color: $red;
+    border-color: $red;
+    &:hover {
+      background: $red;
+    }
+  }
+  
+}
+
+.modal {
+   
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: auto;
+  margin-left: -200px;
+  margin-top: -150px;
+  background-color: $white;
+  padding: 25px;
+  border-radius: 5px;
+  z-index: 10;
+  box-shadow: 0 0 0 9999px rgba(0,0,0,0.5);
+  
+  &.active {
+    display: block;
+  }
+  
+  header {
+    position: relative;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  .close {
+    position: absolute;
+    top: 3px;
+    right: 0;
+    margin: 0;
+  }
+
+
+}
+
+.pull-right {
+  float: right;  
+}
+
+.icon {
+  display: inline-block;
+  font-size: inherit;
+  font-family: 'ios7-icon';
+  margin-right: 5px;
+  color: inherit;
+  -webkit-text-rendering: geometricPrecision;
+  -moz-text-rendering: geometricPrecision;
+  -ms-text-rendering: geometricPrecision;
+  -o-text-rendering: geometricPrecision;
+  text-rendering: geometricPrecision;
+}
+
