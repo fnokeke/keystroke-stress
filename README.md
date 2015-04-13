@@ -24,6 +24,8 @@ Just delete your 'datasets' directory -- all data is currently stored locally. G
 > **Note:**
 > - The directories with extension '.app' are applications on MAC. Just like 'adobe.app', 'Safari.app', this will be 'label'.app where label is the name of the directory. You start them by double-clicking just like you would a regular application.
 > - The applications will show on the dock when run in MAC. To have them not show, go to <app_name>/Contents/Info.plist where <app_name> is the name of one of the listed applications you're interested. Then following the XML format of the file, add:
-```<key>LSIU Element></key> 
-   <true/>
+
+``` 
+    <key>LSUIElement</key> 
+    <true/>
 ``` 
