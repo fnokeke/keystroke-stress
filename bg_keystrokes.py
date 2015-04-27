@@ -25,7 +25,8 @@ class AppDelegate(NSObject):
 
 
 def handler(event):
-    if event.type() == NSKeyDown and keycode.tostring(event.keyCode()) in string.printable:
+    # if event.type() == NSKeyDown and keycode.tostring(event.keyCode()) in string.printable:
+    if event.type() == NSKeyDown:
         print keycode.tostring(event.keyCode())
 
 

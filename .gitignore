@@ -1,2 +1,4 @@
 .DS_Store
 .*pyc
+web_local_pam/
+*log.txt

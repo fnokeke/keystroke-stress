@@ -9,12 +9,16 @@
 # print the foreground application running in MAC OS
 def print_fg_app(how_many):
     from AppKit import NSWorkspace
+    import time
 
     count = 0
-    while count < how_many:
+    while True:
         activeAppName = NSWorkspace.sharedWorkspace().activeApplication()['NSApplicationName']
-        print activeAppName
-        count += 1
+        import datetime
+        print "%s | %20s" % (datetime.datetime.now(), activeAppName)
+        time.sleep(10) #every seconds
+        # if count % 10 == 0: 
+        # count += 1
 
 
 ######################################################
