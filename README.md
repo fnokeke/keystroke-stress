@@ -41,7 +41,7 @@ This assumes that you already have [python installed].
 In order to manage privacy, every data collected is stored on the user's computer; no data is sent to any server. This means that a user can decide to remove the parts of the data they are not comfortable with if this is used for a research experiment.
 
 ### Dataset
-All dataset is stored in the dataset directory.
+All dataset is stored in the data directory.
 
 [***You need to open each of the applications using AppleScriptEditor and then change the dataset directory to your own choice -- currently hardcoded.***]
 
@@ -83,8 +83,10 @@ Current focus is on OS X (other operating systems coming soon...)
     - add image of EMA
     - how to install pyobjc
     - automatically install pykeycode for the user
+    - reference pykeycode
 
 
 
     [pam-logo]: link
     [python installed]: link
+    [pykeycode]: link
