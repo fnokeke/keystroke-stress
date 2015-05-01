@@ -1,0 +1,245 @@
+{
+	"pam_images":
+	[
+		{
+			"id": 1,
+			"cell_id": 1,
+			"url": "1_afraid/1_1.jpg"
+		},
+		{
+			"id": 2,
+			"cell_id": 1,
+			"url": "1_afraid/1_2.jpg"
+		},
+		{
+			"id": 3,
+			"cell_id": 1,
+			"url": "1_afraid/1_3.jpg"
+		},
+		{
+			"id": 4,
+			"cell_id": 2,
+			"url": "2_tense/2_1.jpg"
+		},
+		{
+			"id": 5,
+			"cell_id": 2,
+			"url": "2_tense/2_2.jpg"
+		},
+		{
+			"id": 6,
+			"cell_id": 2,
+			"url": "2_tense/2_3.jpg"
+		},
+		{
+			"id": 7,
+			"cell_id": 3,
+			"url": "3_excited/3_1.jpg"
+		},
+		{
+			"id": 8,
+			"cell_id": 3,
+			"url": "3_excited/3_2.jpg"
+		},
+		{
+			"id": 9,
+			"cell_id": 3,
+			"url": "3_excited/3_3.jpg"
+		},
+		{
+			"id": 10,
+			"cell_id": 4,
+			"url": "4_delighted/4_1.jpg"
+		},
+		{
+			"id": 11,
+			"cell_id": 4,
+			"url": "4_delighted/4_2.jpg"
+		},
+		{
+			"id": 12,
+			"cell_id": 4,
+			"url": "4_delighted/4_3.jpg"
+		},
+		{
+			"id": 13,
+			"cell_id": 5,
+			"url": "5_frustrated/5_1.jpg"
+		},
+		{
+			"id": 14,
+			"cell_id": 5,
+			"url": "5_frustrated/5_2.jpg"
+		},
+		{
+			"id": 15,
+			"cell_id": 5,
+			"url": "5_frustrated/5_3.jpg"
+		},
+		{
+			"id": 16,
+			"cell_id": 6,
+			"url": "6_angry/6_1.jpg"
+		},
+		{
+			"id": 17,
+			"cell_id": 6,
+			"url": "6_angry/6_2.jpg"
+		},
+		{
+			"id": 18,
+			"cell_id": 6,
+			"url": "6_angry/6_3.jpg"
+		},
+		{
+			"id": 19,
+			"cell_id": 7,
+			"url": "7_happy/7_1.jpg"
+		},
+		{
+			"id": 20,
+			"cell_id": 7,
+			"url": "7_happy/7_2.jpg"
+		},
+		{
+			"id": 21,
+			"cell_id": 7,
+			"url": "7_happy/7_3.jpg"
+		},
+		{
+			"id": 22,
+			"cell_id": 8,
+			"url": "8_glad/8_1.jpg"
+		},
+		{
+			"id": 23,
+			"cell_id": 8,
+			"url": "8_glad/8_2.jpg"
+		},
+		{
+			"id": 24,
+			"cell_id": 8,
+			"url": "8_glad/8_3.jpg"
+		},
+		{
+			"id": 25,
+			"cell_id": 9,
+			"url": "9_miserable/9_1.jpg"
+		},
+		{
+			"id": 26,
+			"cell_id": 9,
+			"url": "9_miserable/9_2.jpg"
+		},
+		{
+			"id": 27,
+			"cell_id": 9,
+			"url": "9_miserable/9_3.jpg"
+		},
+		{
+			"id": 28,
+			"cell_id": 10,
+			"url": "10_sad/10_1.jpg"
+		},
+		{
+			"id": 29,
+			"cell_id": 10,
+			"url": "10_sad/10_2.jpg"
+		},
+		{
+			"id": 30,
+			"cell_id": 10,
+			"url": "10_sad/10_3.jpg"
+		},
+		{
+			"id": 31,
+			"cell_id": 11,
+			"url": "11_calm/11_1.jpg"
+		},
+		{
+			"id": 32,
+			"cell_id": 11,
+			"url": "11_calm/11_2.jpg"
+		},
+		{
+			"id": 33,
+			"cell_id": 11,
+			"url": "11_calm/11_3.jpg"
+		},
+		{
+			"id": 34,
+			"cell_id": 12,
+			"url": "12_satisfied/12_1.jpg"
+		},
+		{
+			"id": 35,
+			"cell_id": 12,
+			"url": "12_satisfied/12_2.jpg"
+		},
+		{
+			"id": 36,
+			"cell_id": 12,
+			"url": "12_satisfied/12_3.jpg"
+		},
+		{
+			"id": 37,
+			"cell_id": 13,
+			"url": "13_gloomy/13_1.jpg"
+		},
+		{
+			"id": 38,
+			"cell_id": 13,
+			"url": "13_gloomy/13_2.jpg"
+		},
+		{
+			"id": 39,
+			"cell_id": 13,
+			"url": "13_gloomy/13_3.jpg"
+		},
+		{
+			"id": 40,
+			"cell_id": 14,
+			"url": "14_tired/14_1.jpg"
+		},
+		{
+			"id": 41,
+			"cell_id": 14,
+			"url": "14_tired/14_2.jpg"
+		},
+		{
+			"id": 42,
+			"cell_id": 14,
+			"url": "14_tired/14_3.jpg"
+		},
+		{
+			"id": 43,
+			"cell_id": 15,
+			"url": "15_sleepy/15_1.jpg"
+		},
+		{
+			"id": 44,
+			"cell_id": 15,
+			"url": "15_sleepy/15_2.jpg"
+		},
+		{
+			"id": 45,
+			"cell_id": 15,
+			"url": "15_sleepy/15_3.jpg"
+		},
+		{
+			"id": 46,
+			"cell_id": 16,
+			"url": "16_serene/16_1.jpg"
+		},
+		{
+			"id": 47,
+			"cell_id": 16,
+			"url": "16_serene/16_2.jpg"
+		},
+		{
+			"id": 48,
+			"cell_id": 16,
+			"url": "16_serene/16_3.jpg"
+		}
+	]
+}

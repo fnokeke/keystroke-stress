@@ -1,0 +1,9 @@
+# PAM (Photographic Affect Meter) Resources
+# Medium sized images
+
+JP Pollak (http://jppollak.com)
+Phil Adams (http://philadams.net)
+
+These images are larger sized versions of the canonical PAM image set. The canonical set are 80px square; these images are 500px on the longest side.
+
+Note: the medium version of 16\_1.jpg is missing and has not yet been recovered; for now, the smaller version stands in its place.

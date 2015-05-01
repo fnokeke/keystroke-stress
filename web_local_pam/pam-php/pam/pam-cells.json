@@ -1,0 +1,133 @@
+{
+	"pam_cells":
+	[
+		{
+			"id": 1,
+			"name": "afraid",
+			"valence": -2,
+			"arousal": 4,
+			"valence_pa": 1,
+			"valence_na": 4
+		},
+		{
+			"id": 2,
+			"name": "tense",
+			"valence": -1,
+			"arousal": 4,
+			"valence_pa": 2,
+			"valence_na": 3
+		},
+		{
+			"id": 3,
+			"name": "excited",
+			"valence": 1,
+			"arousal": 4,
+			"valence_pa": 3,
+			"valence_na": 2
+		},
+		{
+			"id": 4,
+			"name": "delighted",
+			"valence": 2,
+			"arousal": 4,
+			"valence_pa": 4,
+			"valence_na": 1
+		},
+		{
+			"id": 5,
+			"name": "frustrated",
+			"valence": -2,
+			"arousal": 3,
+			"valence_pa": 1,
+			"valence_na": 4
+		},
+		{
+			"id": 6,
+			"name": "angry",
+			"valence": -1,
+			"arousal": 3,
+			"valence_pa": 2,
+			"valence_na": 3
+		},
+		{
+			"id": 7,
+			"name": "happy",
+			"valence": 1,
+			"arousal": 3,
+			"valence_pa": 3,
+			"valence_na": 2
+		},
+		{
+			"id": 8,
+			"name": "glad",
+			"valence": 2,
+			"arousal": 3,
+			"valence_pa": 4,
+			"valence_na": 1
+		},
+		{
+			"id": 9,
+			"name": "miserable",
+			"valence": -2,
+			"arousal": 2,
+			"valence_pa": 1,
+			"valence_na": 4
+		},
+		{
+			"id": 10,
+			"name": "sad",
+			"valence": -1,
+			"arousal": 2,
+			"valence_pa": 2,
+			"valence_na": 3
+		},
+		{
+			"id": 11,
+			"name": "calm",
+			"valence": 1,
+			"arousal": 2,
+			"valence_pa": 3,
+			"valence_na": 2
+		},
+		{
+			"id": 12,
+			"name": "satisfied",
+			"valence": 2,
+			"arousal": 2,
+			"valence_pa": 4,
+			"valence_na": 1
+		},
+		{
+			"id": 13,
+			"name": "gloomy",
+			"valence": -2,
+			"arousal": 1,
+			"valence_pa": 1,
+			"valence_na": 4
+		},
+		{
+			"id": 14,
+			"name": "tired",
+			"valence": -1,
+			"arousal": 1,
+			"valence_pa": 2,
+			"valence_na": 3
+		},
+		{
+			"id": 15,
+			"name": "sleepy",
+			"valence": 1,
+			"arousal": 1,
+			"valence_pa": 3,
+			"valence_na": 2
+		},
+		{
+			"id": 16,
+			"name": "serene",
+			"valence": 2,
+			"arousal": 1,
+			"valence_pa": 4,
+			"valence_na": 1
+		}
+	]
+}

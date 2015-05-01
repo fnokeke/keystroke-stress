@@ -1,0 +1,40 @@
+/* PAM Widget CSS
+ * PAM: Photographic Affect Meter
+ * http://idl.cornell.edu
+ * Phil Adams (http://philadams.net)
+ * JP Pollak (http://jppollak.com)
+*/
+
+div#pam-widget ul, div#pam-widget li {
+    margin: 0;
+    padding: 0;
+}
+
+div#pam-widget {
+    margin: 12px 0;
+    width: 344px;
+    display: none;
+}
+div#pam-widget ul {
+    margin-top: 12px;
+}
+div#pam-widget ul li {
+    margin: 3px;
+    float: left;
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+}
+div#pam-widget p {
+    clear: both;
+    padding-top: 12px;
+    text-align: center;
+    /*font-weight: bold;*/
+    font-size: 22px;
+	/*font-weight: bold;*/
+    font-family:  verdana,helvetica, sans-serif;
+    color:#FFF;
+}
+input[type=submit] {
+    margin: 0 0 0 130px;
+}
