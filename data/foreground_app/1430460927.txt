@@ -1,0 +1,2046 @@
+2015-05-01 02:15:28.010715 |            WhatPulse
+2015-05-01 02:15:38.013898 |         Google Drive
+2015-05-01 02:15:48.019763 |         Google Drive
+2015-05-01 02:15:58.020365 |         Google Drive
+2015-05-01 02:16:08.021060 |     part2_keystrokes
+2015-05-01 02:16:18.023429 |     part2_keystrokes
+2015-05-01 02:16:28.029619 |     part2_keystrokes
+2015-05-01 02:16:38.032491 |     part2_keystrokes
+2015-05-01 02:16:48.036914 |     part2_keystrokes
+2015-05-01 02:16:58.037848 |     part2_keystrokes
+2015-05-01 02:17:08.040686 |        Script Editor
+2015-05-01 02:17:18.042155 |        Script Editor
+2015-05-01 02:17:28.047736 |        Script Editor
+2015-05-01 02:17:38.049275 |        Script Editor
+2015-05-01 02:17:48.051498 |        Script Editor
+2015-05-01 02:17:58.053690 |        Script Editor
+2015-05-01 02:18:08.059900 |        Script Editor
+2015-05-01 02:18:18.066083 |        Script Editor
+2015-05-01 02:18:28.072225 |        Script Editor
+2015-05-01 02:18:38.073968 |        Script Editor
+2015-05-01 02:18:48.078930 |        Script Editor
+2015-05-01 02:18:58.081756 |        Script Editor
+2015-05-01 02:19:08.087864 |        Script Editor
+2015-05-01 02:19:18.090811 |        Script Editor
+2015-05-01 02:19:28.096982 |        Script Editor
+2015-05-01 02:19:38.103153 |        Script Editor
+2015-05-01 02:19:48.109373 |        Script Editor
+2015-05-01 02:19:58.114979 |        Script Editor
+2015-05-01 02:20:08.117070 |        Script Editor
+2015-05-01 02:20:18.123239 |        Script Editor
+2015-05-01 02:20:28.129439 |        Script Editor
+2015-05-01 02:20:38.135540 |        Script Editor
+2015-05-01 02:20:48.140831 |        Script Editor
+2015-05-01 02:20:58.146967 |        Script Editor
+2015-05-01 02:21:08.153067 |        Script Editor
+2015-05-01 02:21:18.159284 |        Script Editor
+2015-05-01 02:21:28.160563 |        Script Editor
+2015-05-01 02:21:38.166738 |        Script Editor
+2015-05-01 02:21:48.172050 |        Script Editor
+2015-05-01 02:21:58.174997 |        Script Editor
+2015-05-01 02:22:08.181267 |        Script Editor
+2015-05-01 02:22:18.185143 |        Script Editor
+2015-05-01 02:22:28.191286 |        Script Editor
+2015-05-01 02:22:38.197294 |        Script Editor
+2015-05-01 02:22:48.203500 |        Script Editor
+2015-05-01 02:22:58.208821 |        Script Editor
+2015-05-01 02:23:08.214983 |        Script Editor
+2015-05-01 02:23:18.226112 |        Script Editor
+2015-05-01 02:23:28.237274 |        Script Editor
+2015-05-01 02:23:38.248462 |        Script Editor
+2015-05-01 02:23:48.259625 |        Script Editor
+2015-05-01 02:23:58.266245 |        Script Editor
+2015-05-01 02:24:08.273411 |        Script Editor
+2015-05-01 02:24:18.284595 |        Script Editor
+2015-05-01 02:24:28.291074 |        Script Editor
+2015-05-01 02:24:38.302243 |        Script Editor
+2015-05-01 02:24:48.313476 |        Script Editor
+2015-05-01 02:24:58.316237 |        Script Editor
+2015-05-01 02:25:08.323834 |        Script Editor
+2015-05-01 02:25:18.331123 |        Script Editor
+2015-05-01 02:25:28.339116 |        Script Editor
+2015-05-01 02:25:38.352134 |               Finder
+2015-05-01 02:25:48.353167 |               Finder
+2015-05-01 02:25:58.357201 |               Finder
+2015-05-01 02:26:08.363475 |               Finder
+2015-05-01 02:26:18.369650 |               Finder
+2015-05-01 02:26:28.374038 |               Finder
+2015-05-01 02:26:38.380118 |               Finder
+2015-05-01 02:26:48.386301 |               Finder
+2015-05-01 02:26:58.389068 |               Finder
+2015-05-01 02:27:08.395233 |               Finder
+2015-05-01 02:27:18.396387 |               Finder
+2015-05-01 02:27:28.402548 |               Finder
+2015-05-01 02:27:38.408637 |               Finder
+2015-05-01 02:27:48.414765 |               Finder
+2015-05-01 02:27:58.417105 |               Finder
+2015-05-01 02:28:08.423223 |               Finder
+2015-05-01 02:28:18.429438 |               Finder
+2015-05-01 02:28:28.435561 |               Finder
+2015-05-01 02:28:38.440950 |               Finder
+2015-05-01 02:28:48.442245 |               Finder
+2015-05-01 02:28:58.448367 |               Finder
+2015-05-01 02:29:08.454573 |               Finder
+2015-05-01 02:29:18.456502 |               Finder
+2015-05-01 02:29:28.462690 |               Finder
+2015-05-01 02:29:38.468753 |               Finder
+2015-05-01 02:29:48.474938 |               Finder
+2015-05-01 02:29:58.481108 |               Finder
+2015-05-01 02:30:08.484848 |               Finder
+2015-05-01 02:30:18.485945 |               Finder
+2015-05-01 02:30:28.489727 |               Finder
+2015-05-01 02:30:38.490365 |               Finder
+2015-05-01 02:30:48.491179 |               Finder
+2015-05-01 02:30:58.497237 |               Finder
+2015-05-01 02:31:08.503384 |               Finder
+2015-05-01 02:31:18.506409 |               Finder
+2015-05-01 02:31:28.511269 |               Finder
+2015-05-01 02:31:38.517374 |               Finder
+2015-05-01 02:31:48.528571 |               Finder
+2015-05-01 02:31:58.531797 |               Finder
+2015-05-01 02:32:08.536653 |               Finder
+2015-05-01 02:32:18.539912 |               Finder
+2015-05-01 02:32:28.543102 |               Finder
+2015-05-01 02:32:38.547857 |               Finder
+2015-05-01 02:32:48.559094 |               Finder
+2015-05-01 02:32:58.570260 |               Finder
+2015-05-01 02:33:08.578291 |               Finder
+2015-05-01 02:33:18.589422 |               Finder
+2015-05-01 02:33:28.598444 |               Finder
+2015-05-01 02:33:38.609629 |               Finder
+2015-05-01 02:33:48.620835 |               Finder
+2015-05-01 02:33:58.631999 |               Finder
+2015-05-01 02:34:08.643151 |               Finder
+2015-05-01 02:34:18.653302 |               Finder
+2015-05-01 02:34:28.664433 |               Finder
+2015-05-01 02:34:38.671626 |               Finder
+2015-05-01 02:34:48.674541 |               Finder
+2015-05-01 02:34:58.682511 |               Finder
+2015-05-01 02:35:08.693626 |               Finder
+2015-05-01 02:35:18.704301 |               Finder
+2015-05-01 02:35:28.710612 |               Finder
+2015-05-01 02:35:38.715873 |               Finder
+2015-05-01 02:35:48.719055 |               Finder
+2015-05-01 02:35:58.730161 |               Finder
+2015-05-01 02:36:08.741286 |               Finder
+2015-05-01 02:36:18.752394 |               Finder
+2015-05-01 02:36:28.756674 |               Finder
+2015-05-01 02:36:38.759410 |               Finder
+2015-05-01 02:36:48.769349 |               Finder
+2015-05-01 02:36:58.773455 |               Finder
+2015-05-01 02:37:08.784668 |               Finder
+2015-05-01 02:37:18.790979 |               Finder
+2015-05-01 02:37:28.802121 |               Finder
+2015-05-01 02:37:38.813283 |               Finder
+2015-05-01 02:37:48.824460 |               Finder
+2015-05-01 02:37:58.835622 |               Finder
+2015-05-01 02:38:08.839836 |               Finder
+2015-05-01 02:38:18.850999 |               Finder
+2015-05-01 02:38:28.856598 |               Finder
+2015-05-01 02:38:38.867718 |               Finder
+2015-05-01 02:38:48.878802 |               Finder
+2015-05-01 02:38:58.889868 |               Finder
+2015-05-01 02:39:08.901040 |               Finder
+2015-05-01 02:39:18.910271 |               Finder
+2015-05-01 02:39:28.921400 |               Finder
+2015-05-01 02:39:38.932567 |               Finder
+2015-05-01 02:39:48.943817 |               Finder
+2015-05-01 02:39:58.955051 |               Finder
+2015-05-01 02:40:08.960666 |               Finder
+2015-05-01 02:40:18.965680 |               Finder
+2015-05-01 02:40:28.974511 |               Finder
+2015-05-01 02:40:38.985614 |               Finder
+2015-05-01 02:40:48.987319 |               Finder
+2015-05-01 02:40:58.989171 |               Finder
+2015-05-01 02:41:09.000331 |               Finder
+2015-05-01 02:41:19.011498 |               Finder
+2015-05-01 02:41:29.016122 |               Finder
+2015-05-01 02:41:39.020751 |               Finder
+2015-05-01 02:41:49.026130 |               Finder
+2015-05-01 02:41:59.037235 |               Finder
+2015-05-01 02:42:09.046567 |               Finder
+2015-05-01 02:42:19.057730 |               Finder
+2015-05-01 02:42:29.065793 |               Finder
+2015-05-01 02:42:39.076971 |               Finder
+2015-05-01 02:42:49.079249 |               Finder
+2015-05-01 02:42:59.090392 |               Finder
+2015-05-01 02:43:09.095381 |               Finder
+2015-05-01 02:43:19.102736 |               Finder
+2015-05-01 02:43:29.109497 |               Finder
+2015-05-01 02:43:39.120595 |               Finder
+2015-05-01 02:43:49.131752 |               Finder
+2015-05-01 02:43:59.142864 |               Finder
+2015-05-01 02:44:09.153961 |               Finder
+2015-05-01 02:44:19.165033 |               Finder
+2015-05-01 02:44:29.168063 |               Finder
+2015-05-01 02:44:39.177419 |               Finder
+2015-05-01 02:44:49.186196 |               Finder
+2015-05-01 02:44:59.187694 |               Finder
+2015-05-01 02:45:09.195131 |               Finder
+2015-05-01 02:45:19.206158 |               Finder
+2015-05-01 02:45:29.217267 |               Finder
+2015-05-01 02:45:39.228413 |               Finder
+2015-05-01 02:45:49.238013 |               Finder
+2015-05-01 02:45:59.249158 |               Finder
+2015-05-01 02:46:09.260291 |               Finder
+2015-05-01 02:46:19.269420 |               Finder
+2015-05-01 02:46:29.280659 |               Finder
+2015-05-01 02:46:39.291295 |               Finder
+2015-05-01 02:46:49.298134 |               Finder
+2015-05-01 02:46:59.309370 |               Finder
+2015-05-01 02:47:09.320483 |               Finder
+2015-05-01 02:47:19.324530 |               Finder
+2015-05-01 02:47:29.332945 |               Finder
+2015-05-01 02:47:39.344089 |               Finder
+2015-05-01 02:47:49.355312 |               Finder
+2015-05-01 02:47:59.366495 |               Finder
+2015-05-01 02:48:09.377648 |               Finder
+2015-05-01 02:48:19.388891 |               Finder
+2015-05-01 02:48:29.390144 |               Finder
+2015-05-01 02:48:39.395396 |        Google Chrome
+2015-05-01 02:48:49.400008 |        Google Chrome
+2015-05-01 02:48:59.403143 |        Google Chrome
+2015-05-01 02:49:09.406402 |               Finder
+2015-05-01 02:49:19.407842 |               Finder
+2015-05-01 02:49:29.409728 |               Finder
+2015-05-01 02:49:39.415426 |        Google Chrome
+2015-05-01 02:49:49.418696 |        Google Chrome
+2015-05-01 02:49:59.421308 |        Google Chrome
+2015-05-01 02:50:09.425837 |        Google Chrome
+2015-05-01 02:50:19.431820 |        Google Chrome
+2015-05-01 02:50:29.433012 |               Finder
+2015-05-01 02:50:39.436809 |                iTerm
+2015-05-01 02:50:49.442950 |                iTerm
+2015-05-01 02:50:59.446826 |                iTerm
+2015-05-01 02:51:09.452991 |                iTerm
+2015-05-01 02:51:19.455315 |        Google Chrome
+2015-05-01 02:51:29.459444 |        Google Chrome
+2015-05-01 02:51:39.462573 |        Google Chrome
+2015-05-01 02:51:49.468886 |        Google Chrome
+2015-05-01 02:51:59.475022 |        Google Chrome
+2015-05-01 02:52:09.477465 |                iTerm
+2015-05-01 02:52:19.483242 |                iTerm
+2015-05-01 02:52:29.486358 |                iTerm
+2015-05-01 02:52:39.489722 |                iTerm
+2015-05-01 02:52:49.491526 |               Finder
+2015-05-01 02:52:59.497847 |      pam_link_survey
+2015-05-01 02:53:09.503977 |        Google Chrome
+2015-05-01 02:53:19.509622 |                iTerm
+2015-05-01 02:53:29.512797 |                iTerm
+2015-05-01 02:53:39.514662 |                iTerm
+2015-05-01 02:53:49.520789 |                iTerm
+2015-05-01 02:53:59.526910 |                iTerm
+2015-05-01 02:54:09.529320 |                iTerm
+2015-05-01 02:54:19.534914 |                iTerm
+2015-05-01 02:54:29.537338 |        Script Editor
+2015-05-01 02:54:39.543512 |        Script Editor
+2015-05-01 02:54:49.549786 |        Script Editor
+2015-05-01 02:54:59.551573 |                iTerm
+2015-05-01 02:55:09.552656 |                iTerm
+2015-05-01 02:55:19.558834 |                iTerm
+2015-05-01 02:55:29.565087 |                iTerm
+2015-05-01 02:55:39.567255 |                iTerm
+2015-05-01 02:55:49.568638 |                iTerm
+2015-05-01 02:55:59.574664 |                iTerm
+2015-05-01 02:56:09.579257 |                iTerm
+2015-05-01 02:56:19.585418 |                iTerm
+2015-05-01 02:56:29.589772 |                iTerm
+2015-05-01 02:56:39.593194 |                iTerm
+2015-05-01 02:56:49.599304 |        Script Editor
+2015-05-01 02:56:59.603534 |        Script Editor
+2015-05-01 02:57:09.604472 |                iTerm
+2015-05-01 02:57:19.607778 |                iTerm
+2015-05-01 02:57:29.611076 |                iTerm
+2015-05-01 02:57:39.613354 |                iTerm
+2015-05-01 02:57:49.614391 |                iTerm
+2015-05-01 02:57:59.620617 |                iTerm
+2015-05-01 02:58:09.626795 |                iTerm
+2015-05-01 02:58:19.631142 |                iTerm
+2015-05-01 02:58:29.635610 |        Script Editor
+2015-05-01 02:58:39.639577 |               Finder
+2015-05-01 02:58:49.641627 |               Finder
+2015-05-01 02:58:59.647745 |      pam_link_survey
+2015-05-01 02:59:09.653869 |        Google Chrome
+2015-05-01 02:59:19.655925 |      pam_link_survey
+2015-05-01 02:59:29.662089 |                iTerm
+2015-05-01 02:59:39.665872 |                iTerm
+2015-05-01 02:59:49.667459 |                iTerm
+2015-05-01 02:59:59.673594 |                iTerm
+2015-05-01 03:00:09.679762 |                iTerm
+2015-05-01 03:00:19.685532 |                iTerm
+2015-05-01 03:00:29.689899 |        Google Chrome
+2015-05-01 03:00:39.692521 |        Google Chrome
+2015-05-01 03:00:49.693448 |        Google Chrome
+2015-05-01 03:00:59.697076 |        Google Chrome
+2015-05-01 03:01:09.699011 |        Google Chrome
+2015-05-01 03:01:19.702784 |        Google Chrome
+2015-05-01 03:01:29.708942 |        Script Editor
+2015-05-01 03:01:39.713537 |        Script Editor
+2015-05-01 03:01:49.719502 |        Script Editor
+2015-05-01 03:01:59.721491 |        Script Editor
+2015-05-01 03:02:09.727587 |        Script Editor
+2015-05-01 03:02:19.730418 |        Google Chrome
+2015-05-01 03:02:29.735482 |        Google Chrome
+2015-05-01 03:02:39.737477 |        Google Chrome
+2015-05-01 03:02:49.743734 |        Google Chrome
+2015-05-01 03:02:59.744759 |        Google Chrome
+2015-05-01 03:03:09.749017 |        Google Chrome
+2015-05-01 03:03:19.749626 |        Google Chrome
+2015-05-01 03:03:29.752280 |        Google Chrome
+2015-05-01 03:03:39.755914 |                iTerm
+2015-05-01 03:03:49.757575 |                iTerm
+2015-05-01 03:03:59.761534 |                iTerm
+2015-05-01 03:04:09.764815 |                iTerm
+2015-05-01 03:04:19.766564 | Cisco AnyConnect Secure Mobility Client
+2015-05-01 03:04:29.771078 |               Safari
+2015-05-01 03:04:39.776718 |               Safari
+2015-05-01 03:04:49.778368 |               Safari
+2015-05-01 03:04:59.783862 |               Safari
+2015-05-01 03:05:09.788775 |               Safari
+2015-05-01 03:05:19.790601 |               Safari
+2015-05-01 03:05:29.793934 |               Safari
+2015-05-01 03:05:39.796498 |               Safari
+2015-05-01 03:05:49.799688 |               Safari
+2015-05-01 03:05:59.801942 |               Safari
+2015-05-01 03:06:09.806861 |               Safari
+2015-05-01 03:06:19.813076 |               Safari
+2015-05-01 03:06:29.817324 |               Safari
+2015-05-01 03:06:39.822568 |               Safari
+2015-05-01 03:06:49.825247 |               Safari
+2015-05-01 03:06:59.826925 |               Safari
+2015-05-01 03:07:09.833121 |               Safari
+2015-05-01 03:07:19.837036 |               Safari
+2015-05-01 03:07:29.843172 |               Safari
+2015-05-01 03:07:39.844911 |               Safari
+2015-05-01 03:07:49.846852 |               Safari
+2015-05-01 03:07:59.848173 |               Safari
+2015-05-01 03:08:09.850692 |               Safari
+2015-05-01 03:08:19.856811 |               Safari
+2015-05-01 03:08:29.858753 |               Safari
+2015-05-01 03:08:39.865034 |               Safari
+2015-05-01 03:08:49.866436 |               Safari
+2015-05-01 03:08:59.869859 |               Safari
+2015-05-01 03:09:09.874643 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:09:19.879737 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:09:29.884588 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:09:39.890676 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:09:49.896530 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:09:59.899869 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:10:09.904320 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:10:19.909249 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:10:29.914326 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:10:39.919777 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:10:49.925467 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:10:59.928386 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:11:09.930334 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:11:19.933584 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:11:29.937744 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:11:39.942460 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:11:49.949041 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:11:59.954125 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:12:09.959989 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:12:19.963404 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:12:29.966058 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:12:39.973243 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:12:49.975605 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:12:59.980660 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:13:09.986003 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:13:19.992160 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:13:29.997224 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:13:40.001872 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:13:50.007309 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:14:00.011095 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:14:10.015697 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:14:20.021217 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:14:30.025920 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:14:40.030458 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:14:50.034821 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:15:00.038211 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:15:10.042797 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:15:20.047905 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:15:30.052930 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:15:40.058951 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:15:50.060671 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:16:00.063832 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:16:10.067730 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:16:20.071729 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:16:30.075399 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:16:40.080357 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:16:50.085439 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:17:00.088904 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:17:10.091814 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:17:20.097924 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:17:30.098682 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:17:40.105599 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:17:50.109064 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:18:00.112963 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:18:10.118134 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:18:20.121248 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:18:30.124960 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:18:40.126141 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:18:50.127641 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:19:00.130210 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:19:10.134984 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:19:20.139165 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:19:30.141299 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:19:40.146993 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:19:50.152165 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:20:00.157319 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:20:10.160559 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:20:20.165542 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:20:30.168562 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:20:40.172808 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:20:50.175230 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:21:00.180360 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:21:10.184704 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:21:20.189869 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:21:30.194900 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:21:40.197044 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:21:50.198042 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:22:00.203137 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:22:10.208288 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:22:20.215216 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:22:30.221044 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:22:40.225625 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:22:50.229117 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:23:00.235592 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:23:10.239374 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:23:20.242865 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:23:30.248606 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:23:40.254326 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:23:50.257986 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:24:00.262711 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:24:10.267524 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:24:20.269205 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:24:30.275283 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:24:40.279008 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:24:50.283370 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:25:00.289621 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:25:10.295566 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:25:20.301202 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:25:30.305764 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:25:40.309119 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:25:50.312134 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:26:00.313610 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:26:10.318936 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:26:20.323415 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:26:30.329121 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:26:40.331913 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:26:50.335065 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:27:00.341071 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:27:10.342990 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:27:20.344814 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:27:30.348432 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:27:40.350967 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:27:50.356339 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:28:00.361466 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:28:10.366820 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:28:20.369344 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:28:30.372332 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:28:40.378283 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:28:50.383705 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:29:00.387882 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:29:10.392417 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:29:20.398627 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:29:30.403362 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:29:40.408093 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:29:50.412455 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:30:00.415847 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:30:10.419285 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:30:20.425010 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:30:30.430759 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:30:40.435614 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:30:50.440169 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:31:00.441880 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:31:10.446133 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:31:20.450883 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:31:30.456842 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:31:40.461443 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:31:50.466368 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:32:00.472052 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:32:10.476374 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:32:20.480604 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:32:30.487095 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:32:40.492338 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:32:50.498313 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:33:00.500399 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:33:10.506876 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:33:20.509684 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:33:30.514499 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:33:40.520094 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:33:50.525171 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:34:00.529776 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:34:10.532856 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:34:20.538477 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:34:30.542143 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:34:40.546602 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:34:50.552144 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:35:00.556296 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:35:10.560546 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:35:20.566689 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:35:30.571448 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:35:40.576116 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:35:50.581958 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:36:00.588360 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:36:10.592805 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:36:20.598228 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:36:30.602516 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:36:40.607603 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:36:50.610011 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:37:00.615695 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:37:10.620209 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:37:20.625474 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:37:30.630194 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:37:40.634835 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:37:50.640337 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:38:00.644299 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:38:10.648951 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:38:20.655299 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:38:30.661318 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:38:40.667512 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:38:50.673751 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:39:00.678093 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:39:10.681405 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:39:20.685807 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:39:30.688530 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:39:40.692239 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:39:50.698636 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:40:00.703642 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:40:10.708283 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:40:20.709716 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:40:30.711100 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:40:40.715964 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:40:50.721263 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:41:00.725271 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:41:10.728419 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:41:20.732783 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:41:30.736243 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:41:40.741245 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:41:50.746892 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:42:00.752536 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:42:10.757764 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:42:20.762674 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:42:30.765103 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:42:40.767374 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:42:50.768221 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:43:00.773103 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:43:10.778359 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:43:20.781248 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:43:30.786356 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:43:40.791784 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:43:50.796387 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:44:00.801946 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:44:10.807470 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:44:20.812078 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:44:30.817460 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:44:40.822946 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:44:50.827411 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:45:00.832390 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:45:10.834713 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:45:20.838825 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:45:30.842504 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:45:40.844457 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:45:50.848020 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:46:00.852584 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:46:10.857748 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:46:20.863012 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:46:30.866971 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:46:40.872671 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:46:50.878590 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:47:00.883845 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:47:10.889436 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:47:20.892394 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:47:30.898391 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:47:40.901910 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:47:50.907599 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:48:00.911881 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:48:10.916869 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:48:20.921603 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:48:30.925963 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:48:40.931516 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:48:50.936356 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:49:00.941230 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:49:10.946023 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:49:20.950230 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:49:30.953648 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:49:40.958409 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:49:50.962691 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:50:00.964908 | Silverlight (Safari Internet plug-in)
+2015-05-01 03:50:10.967088 |               Safari
+2015-05-01 03:50:20.973262 |               Safari
+2015-05-01 03:50:30.976902 |               Safari
+2015-05-01 03:50:40.977899 |               Safari
+2015-05-01 03:50:50.984093 |               Safari
+2015-05-01 03:51:00.990163 |               Safari
+2015-05-01 03:51:10.994360 |               Safari
+2015-05-01 03:51:20.996936 |               Safari
+2015-05-01 03:51:30.998107 |               Safari
+2015-05-01 03:51:41.004266 |               Safari
+2015-05-01 03:51:51.007201 |               Safari
+2015-05-01 03:52:01.013345 |               Safari
+2015-05-01 03:52:11.014319 |               Safari
+2015-05-01 03:52:21.016285 |               Safari
+2015-05-01 03:52:31.022423 |               Safari
+2015-05-01 03:52:41.026978 |               Safari
+2015-05-01 03:52:51.032675 |               Safari
+2015-05-01 03:53:01.036875 |               Safari
+2015-05-01 03:53:11.042881 |               Safari
+2015-05-01 03:53:21.044695 |               Safari
+2015-05-01 03:53:31.046025 |               Safari
+2015-05-01 03:53:41.047152 |               Safari
+2015-05-01 03:53:51.051816 |               Safari
+2015-05-01 03:54:01.053689 |               Safari
+2015-05-01 03:54:11.057981 |               Safari
+2015-05-01 03:54:21.059664 |               Safari
+2015-05-01 03:54:31.061883 |               Safari
+2015-05-01 03:54:41.067042 |               Safari
+2015-05-01 03:54:51.068695 |               Safari
+2015-05-01 03:55:01.070863 |               Safari
+2015-05-01 03:55:11.077079 |               Safari
+2015-05-01 03:55:21.080813 |               Safari
+2015-05-01 03:55:31.088176 |               Safari
+2015-05-01 03:55:41.095389 |               Safari
+2015-05-01 03:55:51.098450 |               Safari
+2015-05-01 03:56:01.108484 |               Safari
+2015-05-01 03:56:11.118263 |               Safari
+2015-05-01 03:56:21.123448 |               Safari
+2015-05-01 03:56:31.126601 |               Safari
+2015-05-01 03:56:41.128208 |               Safari
+2015-05-01 03:56:51.137641 |               Safari
+2015-05-01 03:57:01.146077 |               Safari
+2015-05-01 03:57:11.155542 |               Safari
+2015-05-01 03:57:21.158074 |               Safari
+2015-05-01 03:57:31.160260 |               Safari
+2015-05-01 03:57:41.168283 |               Safari
+2015-05-01 03:57:51.173042 |               Safari
+2015-05-01 03:58:01.177566 |               Safari
+2015-05-01 03:58:11.184671 |               Safari
+2015-05-01 03:58:21.189597 |               Safari
+2015-05-01 03:58:31.195080 |               Safari
+2015-05-01 03:58:41.206232 |               Safari
+2015-05-01 03:58:51.217303 |               Safari
+2015-05-01 03:59:01.228460 |               Safari
+2015-05-01 03:59:11.235767 |               Safari
+2015-05-01 03:59:21.246562 |               Safari
+2015-05-01 03:59:31.257729 |               Safari
+2015-05-01 03:59:41.260495 |               Safari
+2015-05-01 03:59:51.264624 |               Safari
+2015-05-01 04:00:01.267567 |               Safari
+2015-05-01 04:00:11.271661 |               Safari
+2015-05-01 04:00:21.273974 |               Safari
+2015-05-01 04:00:31.285101 |               Safari
+2015-05-01 04:00:41.286976 |               Safari
+2015-05-01 04:00:51.288496 |               Safari
+2015-05-01 04:01:01.299762 |               Safari
+2015-05-01 04:01:11.306188 |               Safari
+2015-05-01 04:01:21.308467 |               Safari
+2015-05-01 04:01:31.316882 |               Safari
+2015-05-01 04:01:41.326647 |               Safari
+2015-05-01 04:01:51.328240 |               Safari
+2015-05-01 04:02:01.330462 |               Safari
+2015-05-01 04:02:11.339834 |               Safari
+2015-05-01 04:02:21.347384 |               Safari
+2015-05-01 04:02:31.355294 |               Safari
+2015-05-01 04:02:41.357709 |               Safari
+2015-05-01 04:02:51.361729 |               Safari
+2015-05-01 04:03:01.365720 |               Safari
+2015-05-01 04:03:11.368600 |               Safari
+2015-05-01 04:03:21.378812 |               Safari
+2015-05-01 04:03:31.383144 |               Safari
+2015-05-01 04:03:41.390034 |               Safari
+2015-05-01 04:03:51.398182 |               Safari
+2015-05-01 04:04:01.407566 |               Safari
+2015-05-01 04:04:11.416858 |               Safari
+2015-05-01 04:04:21.418297 |               Safari
+2015-05-01 04:04:31.427920 |               Safari
+2015-05-01 04:04:41.437875 |               Safari
+2015-05-01 04:04:51.442835 |               Safari
+2015-05-01 04:05:01.447560 |               Safari
+2015-05-01 04:05:11.450293 |               Safari
+2015-05-01 04:05:21.457546 |               Safari
+2015-05-01 04:05:31.468571 |               Safari
+2015-05-01 04:05:41.475254 |               Safari
+2015-05-01 04:05:51.483664 |               Safari
+2015-05-01 04:06:01.486924 |               Safari
+2015-05-01 04:06:11.491162 |               Safari
+2015-05-01 04:06:21.497020 |               Safari
+2015-05-01 04:06:31.498502 |               Safari
+2015-05-01 04:06:41.507467 |               Safari
+2015-05-01 04:06:51.510784 |               Safari
+2015-05-01 04:07:01.518955 |               Safari
+2015-05-01 04:07:11.524894 |               Safari
+2015-05-01 04:07:21.525966 |               Safari
+2015-05-01 04:07:31.531854 |               Safari
+2015-05-01 04:07:41.534483 |               Safari
+2015-05-01 04:07:51.539474 |               Safari
+2015-05-01 04:08:01.545925 |               Safari
+2015-05-01 04:08:11.548046 |               Safari
+2015-05-01 04:08:21.557838 |               Safari
+2015-05-01 04:08:31.568503 |               Safari
+2015-05-01 04:08:41.575318 |               Safari
+2015-05-01 04:08:51.578429 |               Safari
+2015-05-01 04:09:01.588209 |               Safari
+2015-05-01 04:09:11.598539 |               Safari
+2015-05-01 04:09:21.608088 |               Safari
+2015-05-01 04:09:31.616212 |               Safari
+2015-05-01 04:09:41.627438 |               Safari
+2015-05-01 04:09:51.632941 |               Safari
+2015-05-01 04:10:01.637630 |               Safari
+2015-05-01 04:10:11.647269 |               Safari
+2015-05-01 04:10:21.649528 |               Safari
+2015-05-01 04:10:31.655022 |               Safari
+2015-05-01 04:10:41.657986 |               Safari
+2015-05-01 04:10:51.668439 |               Safari
+2015-05-01 04:11:01.675913 |               Safari
+2015-05-01 04:11:11.679697 |               Safari
+2015-05-01 04:11:21.685195 |               Safari
+2015-05-01 04:11:31.687467 |               Safari
+2015-05-01 04:11:41.695908 |               Safari
+2015-05-01 04:11:51.707185 |               Safari
+2015-05-01 04:12:01.715045 |               Safari
+2015-05-01 04:12:11.718507 |               Safari
+2015-05-01 04:12:21.727543 |               Safari
+2015-05-01 04:12:31.738480 |               Safari
+2015-05-01 04:12:41.747797 |               Safari
+2015-05-01 04:12:51.758946 |               Safari
+2015-05-01 04:13:01.767361 |               Safari
+2015-05-01 04:13:11.777708 |               Safari
+2015-05-01 04:13:21.787723 |               Safari
+2015-05-01 04:13:31.791270 |               Safari
+2015-05-01 04:13:41.798849 |               Safari
+2015-05-01 04:13:51.804825 |               Safari
+2015-05-01 04:14:01.809550 |   startup_foreground
+2015-05-01 04:14:11.815717 |   startup_foreground
+2015-05-01 04:14:21.817843 |   startup_foreground
+2015-05-01 04:14:31.822743 |   startup_foreground
+2015-05-01 04:14:41.825731 |   startup_foreground
+2015-05-01 04:14:51.827473 |   startup_foreground
+2015-05-01 04:15:01.828620 |          loginwindow
+2015-05-01 04:15:11.835451 |          loginwindow
+2015-05-01 05:15:14.012326 |          loginwindow
+2015-05-01 05:15:24.019447 |          loginwindow
+2015-05-01 05:15:34.029032 |          loginwindow
+2015-05-01 05:15:44.034788 |          loginwindow
+2015-05-01 05:15:54.037850 |          loginwindow
+2015-05-01 05:16:04.046865 |          loginwindow
+2015-05-01 05:16:14.056369 |          loginwindow
+2015-05-01 05:16:24.060859 |          loginwindow
+2015-05-01 07:04:27.241480 |          loginwindow
+2015-05-01 07:04:37.244031 |          loginwindow
+2015-05-01 07:04:47.251274 |          loginwindow
+2015-05-01 07:04:57.252735 |          loginwindow
+2015-05-01 07:05:07.263590 |          loginwindow
+2015-05-01 07:05:17.273893 |          loginwindow
+2015-05-01 08:53:19.652523 |          loginwindow
+2015-05-01 08:53:29.658709 |          loginwindow
+2015-05-01 08:53:39.667397 |          loginwindow
+2015-05-01 08:53:49.676864 |          loginwindow
+2015-05-01 08:53:59.687971 |          loginwindow
+2015-05-01 09:37:40.702160 |          loginwindow
+2015-05-01 09:37:50.703573 |   startup_foreground
+2015-05-01 09:38:00.709841 |               Safari
+2015-05-01 09:38:10.714818 |        Google Chrome
+2015-05-01 09:38:20.717286 |        Google Chrome
+2015-05-01 09:38:30.719529 |                Viber
+2015-05-01 09:38:40.720943 |                Viber
+2015-05-01 09:38:50.725556 |        Google Chrome
+2015-05-01 09:39:00.726950 |        Google Chrome
+2015-05-01 09:39:10.732783 |        Google Chrome
+2015-05-01 09:39:20.734657 |        Google Chrome
+2015-05-01 09:39:30.740784 |                Viber
+2015-05-01 09:39:40.746281 |                Viber
+2015-05-01 09:39:50.752458 |        Google Chrome
+2015-05-01 09:40:00.758316 |        Google Chrome
+2015-05-01 09:40:10.760389 |        Google Chrome
+2015-05-01 09:40:20.766581 |        Google Chrome
+2015-05-01 09:40:30.772730 |        Google Chrome
+2015-05-01 09:40:40.777523 |        Google Chrome
+2015-05-01 09:40:50.781488 |                Viber
+2015-05-01 09:41:00.786474 |                Viber
+2015-05-01 09:41:10.788341 |                Viber
+2015-05-01 09:41:20.793255 |        Google Chrome
+2015-05-01 09:41:30.796318 |        Google Chrome
+2015-05-01 09:41:40.797436 |        Google Chrome
+2015-05-01 09:41:50.803354 |        Google Chrome
+2015-05-01 09:42:00.804880 |        Google Chrome
+2015-05-01 09:42:10.811217 |        Google Chrome
+2015-05-01 09:42:20.815838 |        Google Chrome
+2015-05-01 09:42:30.818258 |        Google Chrome
+2015-05-01 09:42:40.824437 |        Google Chrome
+2015-05-01 09:42:50.826866 |        Google Chrome
+2015-05-01 09:43:00.830703 |        Google Chrome
+2015-05-01 09:43:10.836887 |        Google Chrome
+2015-05-01 09:43:20.843130 |        Google Chrome
+2015-05-01 09:43:30.847219 |        Google Chrome
+2015-05-01 09:43:40.850052 |        Google Chrome
+2015-05-01 09:43:50.854588 |        Google Chrome
+2015-05-01 09:44:00.860581 |        Google Chrome
+2015-05-01 09:44:10.866766 |        Google Chrome
+2015-05-01 09:44:20.868833 |        Google Chrome
+2015-05-01 09:44:30.872210 |        Google Chrome
+2015-05-01 09:44:40.877101 |        Google Chrome
+2015-05-01 09:44:50.883296 |        Google Chrome
+2015-05-01 09:45:00.884349 |        Google Chrome
+2015-05-01 09:45:10.885587 |        Google Chrome
+2015-05-01 09:45:20.889188 |        Google Chrome
+2015-05-01 09:45:30.893884 |        Google Chrome
+2015-05-01 09:45:40.895817 |        Google Chrome
+2015-05-01 09:45:50.897936 |        Google Chrome
+2015-05-01 09:46:00.902103 |        Google Chrome
+2015-05-01 09:46:10.903787 |        Google Chrome
+2015-05-01 09:46:20.906027 |        Google Chrome
+2015-05-01 09:46:30.907215 |        Google Chrome
+2015-05-01 09:46:40.908257 |        Google Chrome
+2015-05-01 09:46:50.912150 |        Google Chrome
+2015-05-01 09:47:00.914777 |        Google Chrome
+2015-05-01 09:47:10.920830 |        Google Chrome
+2015-05-01 09:47:20.922191 |        Google Chrome
+2015-05-01 09:47:30.929048 |        Google Chrome
+2015-05-01 09:47:40.933826 |        Google Chrome
+2015-05-01 09:47:50.935189 |        Google Chrome
+2015-05-01 09:48:00.936347 |        Google Chrome
+2015-05-01 09:48:10.941645 |        Google Chrome
+2015-05-01 09:48:20.944368 |        Google Chrome
+2015-05-01 09:48:30.948332 |        Google Chrome
+2015-05-01 09:48:40.952891 |        Google Chrome
+2015-05-01 09:48:50.954594 |        Google Chrome
+2015-05-01 09:49:00.960775 |        Google Chrome
+2015-05-01 09:49:10.963808 |        Google Chrome
+2015-05-01 09:49:20.966474 |        Google Chrome
+2015-05-01 09:49:30.967654 |        Google Chrome
+2015-05-01 09:49:40.974126 |        Google Chrome
+2015-05-01 09:49:50.979038 |        Google Chrome
+2015-05-01 09:50:00.984038 |        Google Chrome
+2015-05-01 09:50:10.988378 |        Google Chrome
+2015-05-01 09:50:20.989980 |        Google Chrome
+2015-05-01 09:50:30.992878 |        Google Chrome
+2015-05-01 09:50:41.000829 |        Google Chrome
+2015-05-01 09:50:51.005109 |        Google Chrome
+2015-05-01 09:51:01.007084 |        Google Chrome
+2015-05-01 09:51:11.013580 |        Google Chrome
+2015-05-01 09:51:21.017572 |        Google Chrome
+2015-05-01 09:51:31.023596 |        Google Chrome
+2015-05-01 09:51:41.026907 |        Google Chrome
+2015-05-01 09:51:51.032763 |        Google Chrome
+2015-05-01 09:52:01.035255 |        Google Chrome
+2015-05-01 09:52:11.040175 |        Google Chrome
+2015-05-01 09:52:21.045293 |        Google Chrome
+2015-05-01 09:52:31.049572 |        Google Chrome
+2015-05-01 09:52:41.055524 |        Google Chrome
+2015-05-01 09:52:51.057498 |        Google Chrome
+2015-05-01 09:53:01.062293 |        Google Chrome
+2015-05-01 09:53:11.067051 |        Google Chrome
+2015-05-01 09:53:21.072927 |        Google Chrome
+2015-05-01 09:53:31.078970 |        Google Chrome
+2015-05-01 09:53:41.083537 |        Google Chrome
+2015-05-01 09:53:51.089477 |        Google Chrome
+2015-05-01 09:54:01.093724 |        Google Chrome
+2015-05-01 09:54:11.097273 |        Google Chrome
+2015-05-01 09:54:21.102343 |        Google Chrome
+2015-05-01 09:54:31.107744 |        Google Chrome
+2015-05-01 09:54:41.113205 |        Google Chrome
+2015-05-01 09:54:51.119356 |                iTerm
+2015-05-01 09:55:01.125492 |                iTerm
+2015-05-01 09:55:11.128766 |                iTerm
+2015-05-01 09:55:21.130478 |                iTerm
+2015-05-01 09:55:31.134599 |                iTerm
+2015-05-01 09:55:41.136243 |        Google Chrome
+2015-05-01 09:55:51.140325 |        Google Chrome
+2015-05-01 09:56:01.144507 |        Google Chrome
+2015-05-01 09:56:11.150518 |        Google Chrome
+2015-05-01 09:56:21.151176 |        Google Chrome
+2015-05-01 09:56:31.154409 |        Google Chrome
+2015-05-01 09:56:41.159651 |        Google Chrome
+2015-05-01 09:56:51.165257 |        Google Chrome
+2015-05-01 09:57:01.170456 |        Google Chrome
+2015-05-01 09:57:11.174416 |        Google Chrome
+2015-05-01 09:57:21.180442 |        Google Chrome
+2015-05-01 09:57:31.183237 |                iTerm
+2015-05-01 09:57:41.189531 |                iTerm
+2015-05-01 09:57:51.195747 |                iTerm
+2015-05-01 09:58:01.197063 |                iTerm
+2015-05-01 09:58:11.202804 |                iTerm
+2015-05-01 09:58:21.204957 |        Google Chrome
+2015-05-01 09:58:31.208602 |        Google Chrome
+2015-05-01 09:58:41.210134 |                iTerm
+2015-05-01 09:58:51.212126 |        Google Chrome
+2015-05-01 09:59:01.213375 |                iTerm
+2015-05-01 09:59:11.214087 |                iTerm
+2015-05-01 09:59:21.215020 |                iTerm
+2015-05-01 09:59:31.216081 |                iTerm
+2015-05-01 09:59:41.222271 |                iTerm
+2015-05-01 09:59:51.227976 |                iTerm
+2015-05-01 10:00:01.230767 |                iTerm
+2015-05-01 10:00:11.233816 |                iTerm
+2015-05-01 10:00:21.234792 |                iTerm
+2015-05-01 10:00:31.235753 |                iTerm
+2015-05-01 10:00:41.238543 |        Google Chrome
+2015-05-01 10:00:51.242610 |        Google Chrome
+2015-05-01 10:01:01.247469 |        Google Chrome
+2015-05-01 10:01:11.248420 |        Google Chrome
+2015-05-01 10:01:21.250597 |        Google Chrome
+2015-05-01 10:01:31.256291 |        Google Chrome
+2015-05-01 10:01:41.264000 |        Google Chrome
+2015-05-01 10:01:51.268246 |        Google Chrome
+2015-05-01 10:02:01.273707 |        Google Chrome
+2015-05-01 10:02:11.276613 |                iTerm
+2015-05-01 10:02:21.279819 |        Google Chrome
+2015-05-01 10:02:31.282226 |        Google Chrome
+2015-05-01 10:02:41.284095 |                iTerm
+2015-05-01 10:02:51.290087 |        Google Chrome
+2015-05-01 10:03:01.294990 |                iTerm
+2015-05-01 10:03:11.297046 |        Google Chrome
+2015-05-01 10:03:21.301698 |        Google Chrome
+2015-05-01 10:03:31.303470 |                iTerm
+2015-05-01 10:03:41.304617 |        Google Chrome
+2015-05-01 10:03:51.306489 |                iTerm
+2015-05-01 10:04:01.310019 |                iTerm
+2015-05-01 10:04:11.310959 |        Google Chrome
+2015-05-01 10:04:21.313510 |                iTerm
+2015-05-01 10:04:31.317408 |        Google Chrome
+2015-05-01 10:04:41.323601 |                iTerm
+2015-05-01 10:04:51.324539 |                iTerm
+2015-05-01 10:05:01.328567 |                iTerm
+2015-05-01 10:05:11.333356 |                iTerm
+2015-05-01 10:05:21.353329 |        Script Editor
+2015-05-01 10:05:31.357499 |        Script Editor
+2015-05-01 10:05:41.363632 |        Script Editor
+2015-05-01 10:05:51.369432 |        Script Editor
+2015-05-01 10:06:01.372608 |        Script Editor
+2015-05-01 10:06:11.378711 |               Finder
+2015-05-01 10:06:21.384846 |               Finder
+2015-05-01 10:06:31.386255 |               Finder
+2015-05-01 10:06:41.390007 |               Finder
+2015-05-01 10:06:51.396194 |        Google Chrome
+2015-05-01 10:07:01.401520 |                iTerm
+2015-05-01 10:07:11.403678 |                iTerm
+2015-05-01 10:07:21.404822 |                iTerm
+2015-05-01 10:07:31.406854 |                iTerm
+2015-05-01 10:07:41.412856 |                iTerm
+2015-05-01 10:07:51.419000 |                iTerm
+2015-05-01 10:08:01.425167 |                iTerm
+2015-05-01 10:08:11.431357 |                iTerm
+2015-05-01 10:08:21.437449 |                iTerm
+2015-05-01 10:08:31.443625 |                iTerm
+2015-05-01 10:08:41.449793 |                iTerm
+2015-05-01 10:08:51.452655 |                iTerm
+2015-05-01 10:09:01.458821 |                iTerm
+2015-05-01 10:09:11.464700 |                iTerm
+2015-05-01 10:09:21.470885 |                iTerm
+2015-05-01 10:09:31.477021 |                iTerm
+2015-05-01 10:09:41.478231 |                iTerm
+2015-05-01 10:09:51.484376 |                iTerm
+2015-05-01 10:10:01.488275 |                iTerm
+2015-05-01 10:10:11.492344 |                iTerm
+2015-05-01 10:10:21.495394 |                iTerm
+2015-05-01 10:10:31.500770 |                iTerm
+2015-05-01 10:10:41.504588 |                iTerm
+2015-05-01 10:10:51.510693 |                iTerm
+2015-05-01 10:11:01.512928 |                iTerm
+2015-05-01 10:11:11.513695 |                iTerm
+2015-05-01 10:11:21.515736 |                iTerm
+2015-05-01 10:11:31.521970 |                iTerm
+2015-05-01 10:11:41.528182 |                iTerm
+2015-05-01 10:11:51.531489 |                iTerm
+2015-05-01 10:12:01.533713 |        Google Chrome
+2015-05-01 10:12:11.538255 |        Google Chrome
+2015-05-01 10:12:21.542702 |        Google Chrome
+2015-05-01 10:12:31.547526 |        Google Chrome
+2015-05-01 10:12:41.551928 |        Google Chrome
+2015-05-01 10:12:51.557488 |        Google Chrome
+2015-05-01 10:13:01.566153 |        Google Chrome
+2015-05-01 10:13:11.568350 |        Google Chrome
+2015-05-01 10:13:21.571410 |        Google Chrome
+2015-05-01 10:13:31.576158 |        Google Chrome
+2015-05-01 10:13:41.577180 |        Google Chrome
+2015-05-01 10:13:51.578916 |        Google Chrome
+2015-05-01 10:14:01.584450 |        Google Chrome
+2015-05-01 10:14:11.589084 |        Google Chrome
+2015-05-01 10:14:21.591655 |        Google Chrome
+2015-05-01 10:14:31.597555 |        Google Chrome
+2015-05-01 10:14:41.599278 |        Google Chrome
+2015-05-01 10:14:51.604218 |        Google Chrome
+2015-05-01 10:15:01.610239 |        Google Chrome
+2015-05-01 10:15:11.615343 |        Google Chrome
+2015-05-01 10:15:21.620260 |        Google Chrome
+2015-05-01 10:15:31.623356 |        Google Chrome
+2015-05-01 10:15:41.626234 |        Google Chrome
+2015-05-01 10:15:51.627072 |        Google Chrome
+2015-05-01 10:16:01.632481 |        Google Chrome
+2015-05-01 10:16:11.635113 |        Google Chrome
+2015-05-01 10:16:21.637162 |        Google Chrome
+2015-05-01 10:16:31.643142 |        Google Chrome
+2015-05-01 10:16:41.646608 |        Google Chrome
+2015-05-01 10:16:51.647774 |        Google Chrome
+2015-05-01 10:17:01.649829 |        Google Chrome
+2015-05-01 10:17:11.653733 |        Google Chrome
+2015-05-01 10:17:21.658648 |        Google Chrome
+2015-05-01 10:17:31.660489 |        Google Chrome
+2015-05-01 10:17:41.665434 |        Google Chrome
+2015-05-01 10:17:51.669033 |        Google Chrome
+2015-05-01 10:18:01.675201 |        Google Chrome
+2015-05-01 10:18:11.680084 |        Google Chrome
+2015-05-01 10:18:21.685764 |        Google Chrome
+2015-05-01 10:18:31.687146 |        Google Chrome
+2015-05-01 10:18:41.689214 |        Google Chrome
+2015-05-01 10:18:51.695358 |        Google Chrome
+2015-05-01 10:19:01.700620 |        Google Chrome
+2015-05-01 10:19:11.704622 |        Google Chrome
+2015-05-01 10:19:21.710702 |        Google Chrome
+2015-05-01 10:19:31.714312 |        Google Chrome
+2015-05-01 10:19:41.719557 |        Google Chrome
+2015-05-01 10:19:51.721193 |        Google Chrome
+2015-05-01 10:20:01.725238 |                iTerm
+2015-05-01 10:20:11.728592 |                iTerm
+2015-05-01 10:20:21.731125 |                iTerm
+2015-05-01 10:20:31.736677 |                iTerm
+2015-05-01 10:20:41.742768 |                iTerm
+2015-05-01 10:20:51.748934 |                iTerm
+2015-05-01 10:21:01.750044 |                iTerm
+2015-05-01 10:21:11.756183 |                iTerm
+2015-05-01 10:21:21.760859 |                iTerm
+2015-05-01 10:21:31.765218 |                iTerm
+2015-05-01 10:21:41.769242 |                iTerm
+2015-05-01 10:21:51.770681 |                iTerm
+2015-05-01 10:22:01.775133 |                iTerm
+2015-05-01 10:22:11.780846 |                iTerm
+2015-05-01 10:22:21.787108 |                iTerm
+2015-05-01 10:22:31.788791 |                iTerm
+2015-05-01 10:22:41.789636 |                iTerm
+2015-05-01 10:22:51.790820 |                iTerm
+2015-05-01 10:23:01.791856 |        Google Chrome
+2015-05-01 10:23:11.798158 |                iTerm
+2015-05-01 10:23:21.804350 |                iTerm
+2015-05-01 10:23:31.810004 |                iTerm
+2015-05-01 10:23:41.813763 |                iTerm
+2015-05-01 10:23:51.817758 |        Google Chrome
+2015-05-01 10:24:01.821081 |                iTerm
+2015-05-01 10:24:11.824251 |                iTerm
+2015-05-01 10:24:21.825550 |        Script Editor
+2015-05-01 10:24:31.826983 |               Finder
+2015-05-01 10:24:41.833157 |               Finder
+2015-05-01 10:24:51.839329 |               Finder
+2015-05-01 10:25:01.843155 |      pam_link_survey
+2015-05-01 10:25:11.847359 |        Google Chrome
+2015-05-01 10:25:21.850786 |      pam_link_survey
+2015-05-01 10:25:31.853747 |        Script Editor
+2015-05-01 10:25:41.857174 |        Script Editor
+2015-05-01 10:25:51.858591 |        Script Editor
+2015-05-01 10:26:01.864864 |        Google Chrome
+2015-05-01 10:26:11.871038 |                iTerm
+2015-05-01 10:26:21.873863 |                iTerm
+2015-05-01 10:26:31.878703 |                iTerm
+2015-05-01 10:26:41.880829 |                iTerm
+2015-05-01 10:26:51.887067 |                iTerm
+2015-05-01 10:27:01.891611 |                iTerm
+2015-05-01 10:27:11.895701 |                iTerm
+2015-05-01 10:27:21.897562 |                iTerm
+2015-05-01 10:27:31.900286 |                iTerm
+2015-05-01 10:27:41.906450 |                iTerm
+2015-05-01 10:27:51.912680 |                iTerm
+2015-05-01 10:28:01.919006 |                iTerm
+2015-05-01 10:28:11.920409 |                iTerm
+2015-05-01 10:28:21.926587 |      pam_link_survey
+2015-05-01 10:28:31.932533 |        Script Editor
+2015-05-01 10:28:41.936740 |        Script Editor
+2015-05-01 10:28:51.938076 |        Script Editor
+2015-05-01 10:29:01.939513 |        Script Editor
+2015-05-01 10:29:11.945883 |        Script Editor
+2015-05-01 10:29:21.952034 |        Script Editor
+2015-05-01 10:29:31.956591 |        Script Editor
+2015-05-01 10:29:41.962718 |        Script Editor
+2015-05-01 10:29:51.968831 |        Script Editor
+2015-05-01 10:30:01.970043 |        Script Editor
+2015-05-01 10:30:11.971837 |        Script Editor
+2015-05-01 10:30:21.975961 |        Script Editor
+2015-05-01 10:30:31.977911 |        Script Editor
+2015-05-01 10:30:41.981731 |        Script Editor
+2015-05-01 10:30:51.987896 |        Script Editor
+2015-05-01 10:31:01.989335 |        Script Editor
+2015-05-01 10:31:11.995507 |        Script Editor
+2015-05-01 10:31:22.000772 |                iTerm
+2015-05-01 10:31:32.004789 |        Script Editor
+2015-05-01 10:31:42.010896 |        Script Editor
+2015-05-01 10:31:52.012809 |        Script Editor
+2015-05-01 10:32:02.017146 |        Script Editor
+2015-05-01 10:32:12.017954 |        Script Editor
+2015-05-01 10:32:22.019151 |        Script Editor
+2015-05-01 10:32:32.020888 |        Script Editor
+2015-05-01 10:32:42.027094 |        Script Editor
+2015-05-01 10:32:52.027955 |        Script Editor
+2015-05-01 10:33:02.029793 |        Script Editor
+2015-05-01 10:33:12.035953 |        Script Editor
+2015-05-01 10:33:22.037308 |      pam_link_survey
+2015-05-01 10:33:32.038596 |        Google Chrome
+2015-05-01 10:33:42.041185 |        Google Chrome
+2015-05-01 10:33:52.042210 |        Script Editor
+2015-05-01 10:34:02.045350 |        Script Editor
+2015-05-01 10:34:12.050563 |        Script Editor
+2015-05-01 10:34:22.053547 |        Script Editor
+2015-05-01 10:34:32.058749 |        Script Editor
+2015-05-01 10:34:42.063975 |                iTerm
+2015-05-01 10:34:52.067638 |        Google Chrome
+2015-05-01 10:35:02.069259 |        Script Editor
+2015-05-01 10:35:12.071345 |        Script Editor
+2015-05-01 10:35:22.072459 |        Script Editor
+2015-05-01 10:35:32.078671 |        Script Editor
+2015-05-01 10:35:42.081411 |               Finder
+2015-05-01 10:35:52.087271 |               Finder
+2015-05-01 10:36:02.093513 |      pam_link_survey
+2015-05-01 10:36:12.094530 |      pam_link_survey
+2015-05-01 10:36:22.100697 |                iTerm
+2015-05-01 10:36:32.106466 |                iTerm
+2015-05-01 10:36:42.110495 |                iTerm
+2015-05-01 10:36:52.114900 |      pam_link_survey
+2015-05-01 10:37:02.121056 |                iTerm
+2015-05-01 10:37:12.124517 |      pam_link_survey
+2015-05-01 10:37:22.128429 |        Script Editor
+2015-05-01 10:37:32.134465 |        Script Editor
+2015-05-01 10:37:42.138605 |                iTerm
+2015-05-01 10:37:52.144737 |                iTerm
+2015-05-01 10:38:02.146113 |        Script Editor
+2015-05-01 10:38:12.152359 |        Script Editor
+2015-05-01 10:38:22.157335 |                iTerm
+2015-05-01 10:38:32.161994 |                iTerm
+2015-05-01 10:38:42.165994 |                iTerm
+2015-05-01 10:38:52.170010 |        Google Chrome
+2015-05-01 10:39:02.173323 |        Google Chrome
+2015-05-01 10:39:12.176448 |                iTerm
+2015-05-01 10:39:22.177754 |                iTerm
+2015-05-01 10:39:32.182894 |        Google Chrome
+2015-05-01 10:39:42.184017 |        Google Chrome
+2015-05-01 10:39:52.186798 |                iTerm
+2015-05-01 10:40:02.191957 |                iTerm
+2015-05-01 10:40:12.198074 |                iTerm
+2015-05-01 10:40:22.198859 |               Finder
+2015-05-01 10:40:32.204456 |      pam_link_survey
+2015-05-01 10:40:42.208779 |      pam_link_survey
+2015-05-01 10:40:52.210030 |        Google Chrome
+2015-05-01 10:41:02.213607 |        Google Chrome
+2015-05-01 10:41:12.214691 |        Google Chrome
+2015-05-01 10:41:22.220819 |        Google Chrome
+2015-05-01 10:41:32.221708 |        Script Editor
+2015-05-01 10:41:42.224155 |        Script Editor
+2015-05-01 10:41:52.229427 |                iTerm
+2015-05-01 10:42:02.230538 |                iTerm
+2015-05-01 10:42:12.233636 |                iTerm
+2015-05-01 10:42:22.239448 |                iTerm
+2015-05-01 10:42:32.240701 |        Script Editor
+2015-05-01 10:42:42.246906 |                iTerm
+2015-05-01 10:42:52.253102 |                iTerm
+2015-05-01 10:43:02.259095 |                iTerm
+2015-05-01 10:43:12.260809 |                iTerm
+2015-05-01 10:43:22.261906 |                iTerm
+2015-05-01 10:43:32.262660 |                iTerm
+2015-05-01 10:43:42.267149 |                iTerm
+2015-05-01 10:43:52.270397 |                iTerm
+2015-05-01 10:44:02.271568 |                iTerm
+2015-05-01 10:44:12.272631 |               Finder
+2015-05-01 10:44:22.275285 | UserNotificationCenter
+2015-05-01 10:44:32.279518 |                iTerm
+2015-05-01 10:44:42.284991 |      pam_link_survey
+2015-05-01 10:44:52.288056 |        Google Chrome
+2015-05-01 10:45:02.290346 |        Google Chrome
+2015-05-01 10:45:12.294288 |        Google Chrome
+2015-05-01 10:45:22.296181 |                iTerm
+2015-05-01 10:45:32.300361 |                iTerm
+2015-05-01 10:45:42.306485 |                iTerm
+2015-05-01 10:45:52.312630 |                iTerm
+2015-05-01 10:46:02.318315 |                iTerm
+2015-05-01 10:46:12.324447 |                iTerm
+2015-05-01 10:46:22.325607 |                iTerm
+2015-05-01 10:46:32.328095 |                iTerm
+2015-05-01 10:46:42.333625 |        Google Chrome
+2015-05-01 10:46:52.334260 |        Google Chrome
+2015-05-01 10:47:02.336500 |      pam_link_survey
+2015-05-01 10:47:12.339213 |      pam_link_survey
+2015-05-01 10:47:22.345379 |        Google Chrome
+2015-05-01 10:47:32.347951 |        Google Chrome
+2015-05-01 10:47:42.351105 |        Google Chrome
+2015-05-01 10:47:52.357241 |                iTerm
+2015-05-01 10:48:02.363265 |                iTerm
+2015-05-01 10:48:12.366199 |                iTerm
+2015-05-01 10:48:22.367285 |                iTerm
+2015-05-01 10:48:32.369872 |                iTerm
+2015-05-01 10:48:42.376043 |      pam_link_survey
+2015-05-01 10:48:52.377130 |                iTerm
+2015-05-01 10:49:02.383330 |                iTerm
+2015-05-01 10:49:12.389531 |        Script Editor
+2015-05-01 10:49:22.390520 |                iTerm
+2015-05-01 10:49:32.396652 |                iTerm
+2015-05-01 10:49:42.402767 |                iTerm
+2015-05-01 10:49:52.405931 |                iTerm
+2015-05-01 10:50:02.411648 |                iTerm
+2015-05-01 10:50:12.415701 |                iTerm
+2015-05-01 10:50:22.416864 |                iTerm
+2015-05-01 10:50:32.419052 |                iTerm
+2015-05-01 10:50:42.425172 |                iTerm
+2015-05-01 10:50:52.426129 |                iTerm
+2015-05-01 10:51:02.432315 |                iTerm
+2015-05-01 10:51:12.435434 |                iTerm
+2015-05-01 10:51:22.437631 |                iTerm
+2015-05-01 10:51:32.443847 |                iTerm
+2015-05-01 10:51:42.449929 |                iTerm
+2015-05-01 10:51:52.454520 |                iTerm
+2015-05-01 10:52:02.460826 |        Google Chrome
+2015-05-01 10:52:12.462108 |                iTerm
+2015-05-01 10:52:22.463624 |                iTerm
+2015-05-01 10:52:32.469724 |                iTerm
+2015-05-01 10:52:42.475846 |                iTerm
+2015-05-01 10:52:52.482003 |                iTerm
+2015-05-01 10:53:02.488110 |                iTerm
+2015-05-01 10:53:12.490368 |                iTerm
+2015-05-01 10:53:22.493853 |                iTerm
+2015-05-01 10:53:32.499412 |                iTerm
+2015-05-01 10:53:42.501069 |        Google Chrome
+2015-05-01 10:53:52.502719 |                iTerm
+2015-05-01 10:54:02.503751 |        Google Chrome
+2015-05-01 10:54:12.508871 |        Google Chrome
+2015-05-01 10:54:22.514224 |        Google Chrome
+2015-05-01 10:54:32.518673 |        Google Chrome
+2015-05-01 10:54:42.524019 |        Google Chrome
+2015-05-01 10:54:52.530177 |        Google Chrome
+2015-05-01 10:55:02.533917 |                iTerm
+2015-05-01 10:55:12.535623 |                iTerm
+2015-05-01 10:55:22.536829 |                iTerm
+2015-05-01 10:55:32.542976 |                iTerm
+2015-05-01 10:55:42.544141 |        Google Chrome
+2015-05-01 10:55:52.546241 |        Google Chrome
+2015-05-01 10:56:02.552479 |        Google Chrome
+2015-05-01 10:56:12.554439 |      pam_link_survey
+2015-05-01 10:56:22.558987 |                iTerm
+2015-05-01 10:56:32.565097 |                iTerm
+2015-05-01 10:56:42.571241 |                iTerm
+2015-05-01 10:56:52.571901 |                iTerm
+2015-05-01 10:57:02.573719 |                iTerm
+2015-05-01 10:57:12.574972 |        Google Chrome
+2015-05-01 10:57:22.581348 |                iTerm
+2015-05-01 10:57:32.583774 |                iTerm
+2015-05-01 10:57:42.586429 |                iTerm
+2015-05-01 10:57:52.592570 |                iTerm
+2015-05-01 10:58:02.594911 |        Google Chrome
+2015-05-01 10:58:12.599490 |                iTerm
+2015-05-01 10:58:22.602291 |        Google Chrome
+2015-05-01 10:58:32.608492 |        Google Chrome
+2015-05-01 10:58:42.614648 |        Google Chrome
+2015-05-01 10:58:52.615486 |        Google Chrome
+2015-05-01 10:59:02.616495 |                iTerm
+2015-05-01 10:59:12.618008 |        Script Editor
+2015-05-01 10:59:22.624183 |        Script Editor
+2015-05-01 10:59:32.626896 |                iTerm
+2015-05-01 10:59:42.628670 |                iTerm
+2015-05-01 10:59:52.634723 |                iTerm
+2015-05-01 11:00:02.640936 |                iTerm
+2015-05-01 11:00:12.647039 |                iTerm
+2015-05-01 11:00:22.651805 |               Finder
+2015-05-01 11:00:32.656802 |        Google Chrome
+2015-05-01 11:00:42.657645 |        Google Chrome
+2015-05-01 11:00:52.661814 |        Google Chrome
+2015-05-01 11:01:02.667933 |        Google Chrome
+2015-05-01 11:01:12.669844 |        Google Chrome
+2015-05-01 11:01:22.674041 |        Google Chrome
+2015-05-01 11:01:32.678399 |        Google Chrome
+2015-05-01 11:01:42.680302 |        Google Chrome
+2015-05-01 11:01:52.684424 |        Google Chrome
+2015-05-01 11:02:02.686302 |               Finder
+2015-05-01 11:02:12.687454 |               Finder
+2015-05-01 11:02:22.690565 |                iTerm
+2015-05-01 11:02:32.691927 |        Google Chrome
+2015-05-01 11:02:42.698072 |                iTerm
+2015-05-01 11:02:52.700527 |                iTerm
+2015-05-01 11:03:02.706750 |                iTerm
+2015-05-01 11:03:12.712934 |                iTerm
+2015-05-01 11:03:22.719070 |                iTerm
+2015-05-01 11:03:32.720286 |                iTerm
+2015-05-01 11:03:42.722589 |                iTerm
+2015-05-01 11:03:52.728770 |                iTerm
+2015-05-01 11:04:02.729857 |                iTerm
+2015-05-01 11:04:12.736005 |                iTerm
+2015-05-01 11:04:22.737529 |        Google Chrome
+2015-05-01 11:04:32.738965 |        Google Chrome
+2015-05-01 11:04:42.741945 |                iTerm
+2015-05-01 11:04:52.746091 |                iTerm
+2015-05-01 11:05:02.750118 |                iTerm
+2015-05-01 11:05:12.752957 |                iTerm
+2015-05-01 11:05:22.755143 |        Google Chrome
+2015-05-01 11:05:32.759847 |        Google Chrome
+2015-05-01 11:05:42.765927 |        Google Chrome
+2015-05-01 11:05:52.772033 |        Google Chrome
+2015-05-01 11:06:02.777974 |        Google Chrome
+2015-05-01 11:06:12.778632 |        Google Chrome
+2015-05-01 11:06:22.781582 |        Google Chrome
+2015-05-01 11:06:32.786287 |        Google Chrome
+2015-05-01 11:06:42.792451 |        Script Editor
+2015-05-01 11:06:52.798720 |        Script Editor
+2015-05-01 11:07:02.801796 |        Script Editor
+2015-05-01 11:07:12.805221 |               Finder
+2015-05-01 11:07:22.811431 |               Finder
+2015-05-01 11:07:32.813380 |                iTerm
+2015-05-01 11:07:42.816320 |                iTerm
+2015-05-01 11:07:52.822472 |                iTerm
+2015-05-01 11:08:02.828646 |                iTerm
+2015-05-01 11:08:12.829487 |               Finder
+2015-05-01 11:08:22.835581 |               Finder
+2015-05-01 11:08:32.838579 |               Finder
+2015-05-01 11:08:42.844764 |               Finder
+2015-05-01 11:08:52.850953 |                iTerm
+2015-05-01 11:09:02.857093 |                iTerm
+2015-05-01 11:09:12.863252 |                iTerm
+2015-05-01 11:09:22.864387 |                iTerm
+2015-05-01 11:09:32.870484 |                iTerm
+2015-05-01 11:09:42.873466 |                iTerm
+2015-05-01 11:09:52.878008 |                iTerm
+2015-05-01 11:10:02.879516 |                iTerm
+2015-05-01 11:10:12.885261 |                iTerm
+2015-05-01 11:10:22.891428 |                iTerm
+2015-05-01 11:10:32.895349 |                iTerm
+2015-05-01 11:10:42.898671 |               Finder
+2015-05-01 11:10:52.903516 |               Finder
+2015-05-01 11:11:02.906685 |               Finder
+2015-05-01 11:11:12.910088 |               Finder
+2015-05-01 11:11:22.911321 |               Finder
+2015-05-01 11:11:32.917433 |               Finder
+2015-05-01 11:11:42.923629 |               Finder
+2015-05-01 11:11:52.925040 |               Finder
+2015-05-01 11:12:02.931247 |               Finder
+2015-05-01 11:12:12.937371 |               Finder
+2015-05-01 11:12:22.943545 |               Finder
+2015-05-01 11:12:32.944559 |               Finder
+2015-05-01 11:12:42.948056 |               Finder
+2015-05-01 11:12:52.951045 |      pam_link_survey
+2015-05-01 11:13:02.952234 |        Google Chrome
+2015-05-01 11:13:12.958345 |      pam_link_survey
+2015-05-01 11:13:22.964474 |               Finder
+2015-05-01 11:13:32.969808 |               Finder
+2015-05-01 11:13:42.975777 |               Finder
+2015-05-01 11:13:52.979033 |                iTerm
+2015-05-01 11:14:02.985234 |                iTerm
+2015-05-01 11:14:12.991397 |      pam_link_survey
+2015-05-01 11:14:22.995204 |               Finder
+2015-05-01 11:14:32.999350 |             TextEdit
+2015-05-01 11:14:43.001138 |             TextEdit
+2015-05-01 11:14:53.007281 |             TextEdit
+2015-05-01 11:15:03.012960 |             TextEdit
+2015-05-01 11:15:13.014153 |      pam_link_survey
+2015-05-01 11:15:23.018807 |        Google Chrome
+2015-05-01 11:15:33.024489 |        Script Editor
+2015-05-01 11:15:43.028566 |        Script Editor
+2015-05-01 11:15:53.031232 |        Script Editor
+2015-05-01 11:16:03.037380 |        Script Editor
+2015-05-01 11:16:13.039800 |      pam_link_survey
+2015-05-01 11:16:23.042472 |        Google Chrome
+2015-05-01 11:16:33.045272 |                iTerm
+2015-05-01 11:16:43.050003 |                iTerm
+2015-05-01 11:16:53.053299 |                iTerm
+2015-05-01 11:17:03.055937 |                iTerm
+2015-05-01 11:17:13.058513 |                iTerm
+2015-05-01 11:17:23.063119 |      pam_link_survey
+2015-05-01 11:17:33.067165 |        Google Chrome
+2015-05-01 11:17:43.073332 |               Finder
+2015-05-01 11:17:53.077452 |               Finder
+2015-05-01 11:18:03.083622 |      pam_link_survey
+2015-05-01 11:18:13.085515 |        Google Chrome
+2015-05-01 11:18:23.091449 |                iTerm
+2015-05-01 11:18:33.097451 |        Google Chrome
+2015-05-01 11:18:43.103646 |                iTerm
+2015-05-01 11:18:53.109837 |                iTerm
+2015-05-01 11:19:03.111717 |                iTerm
+2015-05-01 11:19:13.112693 |      pam_link_survey
+2015-05-01 11:19:23.116999 |        Google Chrome
+2015-05-01 11:19:33.119440 |      pam_link_survey
+2015-05-01 11:19:43.125612 |                iTerm
+2015-05-01 11:19:53.131189 |                iTerm
+2015-05-01 11:20:03.133231 |                iTerm
+2015-05-01 11:20:13.135428 |                iTerm
+2015-05-01 11:20:23.141558 |      pam_link_survey
+2015-05-01 11:20:33.145847 |               Finder
+2015-05-01 11:20:43.147642 |               Finder
+2015-05-01 11:20:53.153582 |        Google Chrome
+2015-05-01 11:21:03.155653 |        Script Editor
+2015-05-01 11:21:13.161828 |        Script Editor
+2015-05-01 11:21:23.163328 |        Script Editor
+2015-05-01 11:21:33.165360 |        Google Chrome
+2015-05-01 11:21:43.166593 |        Script Editor
+2015-05-01 11:21:53.169098 |        Script Editor
+2015-05-01 11:22:03.175289 |        Script Editor
+2015-05-01 11:22:13.175914 |        Script Editor
+2015-05-01 11:22:23.179298 |        Script Editor
+2015-05-01 11:22:33.183420 |        Script Editor
+2015-05-01 11:22:43.189579 |        Script Editor
+2015-05-01 11:22:53.195554 |        Script Editor
+2015-05-01 11:23:03.198576 |        Script Editor
+2015-05-01 11:23:13.204717 |        Script Editor
+2015-05-01 11:23:23.208844 |        Script Editor
+2015-05-01 11:23:33.212500 |        Script Editor
+2015-05-01 11:23:43.213366 |        Script Editor
+2015-05-01 11:23:53.214489 |        Script Editor
+2015-05-01 11:24:03.219260 |               Finder
+2015-05-01 11:24:13.224954 |               Finder
+2015-05-01 11:24:23.226539 |               Finder
+2015-05-01 11:24:33.232102 |               Finder
+2015-05-01 11:24:43.235449 |      pam_link_survey
+2015-05-01 11:24:53.240899 |        Google Chrome
+2015-05-01 11:25:03.243529 |                iTerm
+2015-05-01 11:25:13.249647 |                iTerm
+2015-05-01 11:25:23.252978 |               Finder
+2015-05-01 11:25:33.256193 |      pam_link_survey
+2015-05-01 11:25:43.258067 |        Google Chrome
+2015-05-01 11:25:53.259783 |               Finder
+2015-05-01 11:26:03.263774 |               Finder
+2015-05-01 11:26:13.265569 |               Finder
+2015-05-01 11:26:23.266661 |      pam_link_survey
+2015-05-01 11:26:33.272958 |               Finder
+2015-05-01 11:26:43.277761 |               Finder
+2015-05-01 11:26:53.278432 |             TextEdit
+2015-05-01 11:27:03.279029 |                iTerm
+2015-05-01 11:27:13.279898 |        Script Editor
+2015-05-01 11:27:23.283662 |        Script Editor
+2015-05-01 11:27:33.285648 |        Script Editor
+2015-05-01 11:27:43.291847 |        Script Editor
+2015-05-01 11:27:53.298034 |        Script Editor
+2015-05-01 11:28:03.299308 |        Script Editor
+2015-05-01 11:28:13.303764 |        Script Editor
+2015-05-01 11:28:23.305175 |               Finder
+2015-05-01 11:28:33.309662 |               Finder
+2015-05-01 11:28:43.314763 |        Google Chrome
+2015-05-01 11:28:53.318349 |        Google Chrome
+2015-05-01 11:29:03.319378 |        Google Chrome
+2015-05-01 11:29:13.321628 |        Google Chrome
+2015-05-01 11:29:23.327916 |        Google Chrome
+2015-05-01 11:29:33.329212 |        Script Editor
+2015-05-01 11:29:43.333679 |        Script Editor
+2015-05-01 11:29:53.337891 |        Script Editor
+2015-05-01 11:30:03.344119 |                iTerm
+2015-05-01 11:30:13.347616 |                iTerm
+2015-05-01 11:30:23.351742 |                iTerm
+2015-05-01 11:30:33.357631 |                iTerm
+2015-05-01 11:30:43.363620 |                iTerm
+2015-05-01 11:30:53.369709 |                iTerm
+2015-05-01 11:31:03.371084 |                iTerm
+2015-05-01 11:31:13.377543 |                iTerm
+2015-05-01 11:31:23.383792 |                iTerm
+2015-05-01 11:31:33.388272 |                iTerm
+2015-05-01 11:31:43.389593 |                iTerm
+2015-05-01 11:31:53.395788 |                iTerm
+2015-05-01 11:32:03.401603 |                iTerm
+2015-05-01 11:32:13.404897 |                iTerm
+2015-05-01 11:32:23.411017 |                iTerm
+2015-05-01 11:32:33.413957 |                iTerm
+2015-05-01 11:32:43.420123 |                iTerm
+2015-05-01 11:32:53.423548 |        Script Editor
+2015-05-01 11:33:03.426797 |        Script Editor
+2015-05-01 11:33:13.429656 |                iTerm
+2015-05-01 11:33:23.435433 |                iTerm
+2015-05-01 11:33:33.438596 |        Google Chrome
+2015-05-01 11:33:43.444344 |        Google Chrome
+2015-05-01 11:33:53.449803 |               Finder
+2015-05-01 11:34:03.452593 |               Finder
+2015-05-01 11:34:13.454482 |        Google Chrome
+2015-05-01 11:34:23.456283 |                iTerm
+2015-05-01 11:34:33.462390 |                iTerm
+2015-05-01 11:34:43.468519 |        Script Editor
+2015-05-01 11:34:53.472722 |                iTerm
+2015-05-01 11:35:03.474668 |                iTerm
+2015-05-01 11:35:13.476618 |                iTerm
+2015-05-01 11:35:23.478306 |                iTerm
+2015-05-01 11:35:33.484421 |                iTerm
+2015-05-01 11:35:43.490090 |                iTerm
+2015-05-01 11:35:53.496231 |                iTerm
+2015-05-01 11:36:03.502422 |                iTerm
+2015-05-01 11:36:13.508627 |                iTerm
+2015-05-01 11:36:23.513244 |                iTerm
+2015-05-01 11:36:33.519338 |                iTerm
+2015-05-01 11:36:43.521571 |                iTerm
+2015-05-01 11:36:53.525207 |                iTerm
+2015-05-01 11:37:03.531406 |                iTerm
+2015-05-01 11:37:13.534594 |                iTerm
+2015-05-01 11:37:23.540764 |                iTerm
+2015-05-01 11:37:33.542160 |        Google Chrome
+2015-05-01 11:37:43.544471 |        Google Chrome
+2015-05-01 11:37:53.550618 |        Google Chrome
+2015-05-01 11:38:03.556618 |        Google Chrome
+2015-05-01 11:38:13.561653 |        Google Chrome
+2015-05-01 11:38:23.567801 |        Google Chrome
+2015-05-01 11:38:33.573973 |        Google Chrome
+2015-05-01 11:38:43.580134 |        Google Chrome
+2015-05-01 11:38:53.585136 |        Google Chrome
+2015-05-01 11:39:03.586848 |        Google Chrome
+2015-05-01 11:39:13.592949 |        Google Chrome
+2015-05-01 11:39:23.599079 |        Google Chrome
+2015-05-01 11:39:33.605255 |        Google Chrome
+2015-05-01 11:39:43.611420 |        Google Chrome
+2015-05-01 11:39:53.617575 |        Google Chrome
+2015-05-01 11:40:03.623688 |        Google Chrome
+2015-05-01 11:40:13.629904 |        Google Chrome
+2015-05-01 11:40:23.635978 |        Google Chrome
+2015-05-01 11:40:33.642144 |        Google Chrome
+2015-05-01 11:40:43.644284 |        Google Chrome
+2015-05-01 11:40:53.650448 |        Google Chrome
+2015-05-01 11:41:03.656572 |        Google Chrome
+2015-05-01 11:41:13.662093 |        Google Chrome
+2015-05-01 11:41:23.668255 |        Google Chrome
+2015-05-01 11:41:33.674361 |        Google Chrome
+2015-05-01 11:41:43.680547 |        Google Chrome
+2015-05-01 11:41:53.686696 |        Google Chrome
+2015-05-01 11:42:03.692878 |        Google Chrome
+2015-05-01 11:42:13.695308 |        Google Chrome
+2015-05-01 11:42:23.701534 |        Google Chrome
+2015-05-01 11:42:33.707689 |        Google Chrome
+2015-05-01 11:42:43.713835 |        Google Chrome
+2015-05-01 11:42:53.720005 |        Google Chrome
+2015-05-01 11:43:03.726070 |        Google Chrome
+2015-05-01 11:43:13.732219 |        Google Chrome
+2015-05-01 11:43:23.734501 |        Google Chrome
+2015-05-01 11:43:33.740692 |        Google Chrome
+2015-05-01 11:43:43.746816 |        Google Chrome
+2015-05-01 11:43:53.752955 |        Google Chrome
+2015-05-01 11:44:03.757193 |        Google Chrome
+2015-05-01 11:44:13.763386 |        Google Chrome
+2015-05-01 11:44:23.769519 |        Google Chrome
+2015-05-01 11:44:33.775671 |        Google Chrome
+2015-05-01 11:44:43.781808 |        Google Chrome
+2015-05-01 11:44:53.787895 |        Google Chrome
+2015-05-01 11:45:03.794152 |        Google Chrome
+2015-05-01 11:45:13.800339 |        Google Chrome
+2015-05-01 11:45:23.801766 |        Google Chrome
+2015-05-01 11:45:33.804700 |        Google Chrome
+2015-05-01 11:45:43.810348 |        Google Chrome
+2015-05-01 11:45:53.816524 |        Google Chrome
+2015-05-01 11:46:03.822632 |        Google Chrome
+2015-05-01 11:46:13.828851 |        Google Chrome
+2015-05-01 11:46:23.835021 |        Google Chrome
+2015-05-01 11:46:33.841106 |        Google Chrome
+2015-05-01 11:46:43.847238 |        Google Chrome
+2015-05-01 11:46:53.853337 |        Google Chrome
+2015-05-01 11:47:03.859472 |        Google Chrome
+2015-05-01 11:47:13.865605 |        Google Chrome
+2015-05-01 11:47:23.868035 |        Google Chrome
+2015-05-01 11:47:33.874270 |        Google Chrome
+2015-05-01 11:47:43.880532 |        Google Chrome
+2015-05-01 11:47:53.886703 |        Google Chrome
+2015-05-01 11:48:03.889235 |        Google Chrome
+2015-05-01 11:48:13.895376 |        Google Chrome
+2015-05-01 11:48:23.901549 |        Google Chrome
+2015-05-01 11:48:33.907728 |        Google Chrome
+2015-05-01 11:48:43.913969 |        Google Chrome
+2015-05-01 11:48:53.920101 |        Google Chrome
+2015-05-01 11:49:03.926267 |        Google Chrome
+2015-05-01 11:49:13.931928 |        Google Chrome
+2015-05-01 11:49:23.938113 |        Google Chrome
+2015-05-01 11:49:33.944242 |        Google Chrome
+2015-05-01 11:49:43.950428 |        Google Chrome
+2015-05-01 11:49:53.953314 |        Google Chrome
+2015-05-01 11:50:03.959473 |        Google Chrome
+2015-05-01 11:50:13.965564 |        Google Chrome
+2015-05-01 11:50:23.971650 |        Google Chrome
+2015-05-01 11:50:33.975713 |        Google Chrome
+2015-05-01 11:50:43.981907 |        Google Chrome
+2015-05-01 11:50:53.988024 |        Google Chrome
+2015-05-01 11:51:03.994201 |        Google Chrome
+2015-05-01 11:51:14.000361 |        Google Chrome
+2015-05-01 11:51:24.005898 |        Google Chrome
+2015-05-01 11:51:34.012056 |        Google Chrome
+2015-05-01 11:51:44.018278 |        Google Chrome
+2015-05-01 11:51:54.024453 |        Google Chrome
+2015-05-01 11:52:04.025471 |        Google Chrome
+2015-05-01 11:52:14.031544 |        Google Chrome
+2015-05-01 11:52:24.037695 |        Google Chrome
+2015-05-01 11:52:34.043873 |        Google Chrome
+2015-05-01 11:52:44.045095 |        Google Chrome
+2015-05-01 11:52:54.051204 |        Google Chrome
+2015-05-01 11:53:04.057375 |        Google Chrome
+2015-05-01 11:53:14.063517 |        Google Chrome
+2015-05-01 11:53:24.069743 |        Google Chrome
+2015-05-01 11:53:34.071242 |        Google Chrome
+2015-05-01 11:53:44.074549 |        Google Chrome
+2015-05-01 11:53:54.079436 |        Google Chrome
+2015-05-01 11:54:04.085602 |        Google Chrome
+2015-05-01 11:54:14.091727 |        Google Chrome
+2015-05-01 11:54:24.097932 |        Google Chrome
+2015-05-01 11:54:34.104091 |        Google Chrome
+2015-05-01 11:54:44.110283 |        Google Chrome
+2015-05-01 11:54:54.115199 |        Google Chrome
+2015-05-01 11:55:04.121354 |        Google Chrome
+2015-05-01 11:55:14.127488 |        Google Chrome
+2015-05-01 11:55:24.133687 |        Google Chrome
+2015-05-01 11:55:34.139808 |        Google Chrome
+2015-05-01 11:55:44.145945 |        Google Chrome
+2015-05-01 11:55:54.152092 |        Google Chrome
+2015-05-01 11:56:04.158264 |        Google Chrome
+2015-05-01 11:56:14.164414 |        Google Chrome
+2015-05-01 11:56:24.169560 |        Google Chrome
+2015-05-01 11:56:34.175690 |        Google Chrome
+2015-05-01 11:56:44.181857 |        Google Chrome
+2015-05-01 11:56:54.188021 |        Google Chrome
+2015-05-01 11:57:04.189644 |        Google Chrome
+2015-05-01 11:57:14.192489 |        Google Chrome
+2015-05-01 11:57:24.198597 |        Google Chrome
+2015-05-01 11:57:34.200021 |          loginwindow
+2015-05-01 11:57:44.209718 |          loginwindow
+2015-05-01 13:00:58.146597 |          loginwindow
+2015-05-01 13:01:08.151065 |        Google Chrome
+2015-05-01 13:01:18.153209 |        Google Chrome
+2015-05-01 13:01:28.158882 |        Google Chrome
+2015-05-01 13:01:38.159813 |        Google Chrome
+2015-05-01 13:01:48.162871 |        Google Chrome
+2015-05-01 13:01:58.165632 |        Google Chrome
+2015-05-01 13:02:08.166792 |        Google Chrome
+2015-05-01 13:02:18.170339 |        Google Chrome
+2015-05-01 13:02:28.171707 |        Google Chrome
+2015-05-01 13:02:38.173374 |        Google Chrome
+2015-05-01 13:02:48.178831 |        Google Chrome
+2015-05-01 13:02:58.184550 |        Google Chrome
+2015-05-01 13:03:08.189531 |        Google Chrome
+2015-05-01 13:03:18.195413 |        Google Chrome
+2015-05-01 13:03:28.200542 |        Google Chrome
+2015-05-01 13:03:38.205627 |        Google Chrome
+2015-05-01 13:03:48.210842 |        Google Chrome
+2015-05-01 13:03:58.216821 |        Google Chrome
+2015-05-01 13:04:08.217710 |        Google Chrome
+2015-05-01 13:04:18.221458 |        Google Chrome
+2015-05-01 13:04:28.226511 |        Google Chrome
+2015-05-01 13:04:38.230980 |        Google Chrome
+2015-05-01 13:04:48.232625 |        Google Chrome
+2015-05-01 13:04:58.238818 |        Google Chrome
+2015-05-01 13:05:08.242555 |        Google Chrome
+2015-05-01 13:05:18.244022 |        Google Chrome
+2015-05-01 13:05:28.247613 |        Google Chrome
+2015-05-01 13:05:38.252004 |        Google Chrome
+2015-05-01 13:05:48.258147 |              Preview
+2015-05-01 13:05:58.263317 |              Preview
+2015-05-01 13:06:08.266479 |        Google Chrome
+2015-05-01 13:06:18.272641 |        Google Chrome
+2015-05-01 13:06:28.276281 |        Google Chrome
+2015-05-01 13:06:38.280420 |        Google Chrome
+2015-05-01 13:06:48.286227 |        Google Chrome
+2015-05-01 13:06:58.291344 |        Google Chrome
+2015-05-01 13:07:08.294735 |        Google Chrome
+2015-05-01 13:07:18.298251 |        Google Chrome
+2015-05-01 13:07:28.300973 |        Google Chrome
+2015-05-01 13:07:38.302360 |        Google Chrome
+2015-05-01 13:07:48.303343 |        Google Chrome
+2015-05-01 13:07:58.305368 |        Google Chrome
+2015-05-01 13:08:08.310080 |        Google Chrome
+2015-05-01 13:08:18.311212 |        Google Chrome
+2015-05-01 13:08:28.315726 |        Google Chrome
+2015-05-01 13:08:38.321872 |        Google Chrome
+2015-05-01 13:08:48.324150 |        Google Chrome
+2015-05-01 13:08:58.326070 |        Google Chrome
+2015-05-01 13:09:08.332235 |        Google Chrome
+2015-05-01 13:09:18.338401 |        Google Chrome
+2015-05-01 13:09:28.344576 |        Google Chrome
+2015-05-01 13:09:38.345447 |        Google Chrome
+2015-05-01 13:09:48.348490 |        Google Chrome
+2015-05-01 13:09:58.352625 |        Google Chrome
+2015-05-01 13:10:08.358800 |        Google Chrome
+2015-05-01 13:10:18.364924 |        Google Chrome
+2015-05-01 13:10:28.366522 |        Google Chrome
+2015-05-01 13:10:38.367950 |        Google Chrome
+2015-05-01 13:10:48.369129 |        Google Chrome
+2015-05-01 13:10:58.375362 |        Google Chrome
+2015-05-01 13:11:08.381495 |        Google Chrome
+2015-05-01 13:11:18.387617 |        Google Chrome
+2015-05-01 13:11:28.393738 |        Google Chrome
+2015-05-01 13:11:38.399893 |        Google Chrome
+2015-05-01 13:11:48.403993 |        Google Chrome
+2015-05-01 13:11:58.405549 |        Google Chrome
+2015-05-01 13:12:08.411269 |        Google Chrome
+2015-05-01 13:12:18.417098 |        Google Chrome
+2015-05-01 13:12:28.423291 |        Google Chrome
+2015-05-01 13:12:38.429506 |        Google Chrome
+2015-05-01 13:12:48.435633 |        Google Chrome
+2015-05-01 13:12:58.440314 |        Google Chrome
+2015-05-01 13:13:08.446472 |        Google Chrome
+2015-05-01 13:13:18.452606 |        Google Chrome
+2015-05-01 13:13:28.458743 |        Google Chrome
+2015-05-01 13:13:38.464742 |        Google Chrome
+2015-05-01 13:13:48.470875 |        Google Chrome
+2015-05-01 13:13:58.475607 |        Google Chrome
+2015-05-01 13:14:08.481781 |        Google Chrome
+2015-05-01 13:14:18.487975 |        Google Chrome
+2015-05-01 13:14:28.494097 |        Google Chrome
+2015-05-01 13:14:38.495443 |        Google Chrome
+2015-05-01 13:14:48.501555 |        Google Chrome
+2015-05-01 13:14:58.507737 |        Google Chrome
+2015-05-01 13:15:08.513886 |        Google Chrome
+2015-05-01 13:15:18.518790 |        Google Chrome
+2015-05-01 13:15:28.524966 |        Google Chrome
+2015-05-01 13:15:38.531166 |        Google Chrome
+2015-05-01 13:15:48.537334 |        Google Chrome
+2015-05-01 13:15:58.543189 |        Google Chrome
+2015-05-01 13:16:08.549369 |        Google Chrome
+2015-05-01 13:16:18.553144 |        Google Chrome
+2015-05-01 13:16:28.559437 |        Google Chrome
+2015-05-01 13:16:38.565611 |        Google Chrome
+2015-05-01 13:16:48.571792 |        Google Chrome
+2015-05-01 13:16:58.577966 |        Google Chrome
+2015-05-01 13:17:08.584123 |        Google Chrome
+2015-05-01 13:17:18.590283 |        Google Chrome
+2015-05-01 13:17:28.596526 |        Google Chrome
+2015-05-01 13:17:38.602689 |        Google Chrome
+2015-05-01 13:17:48.608810 |        Google Chrome
+2015-05-01 13:17:58.612591 |        Google Chrome
+2015-05-01 13:18:08.618710 |        Google Chrome
+2015-05-01 13:18:18.623531 |        Google Chrome
+2015-05-01 13:18:28.627353 |        Google Chrome
+2015-05-01 13:18:38.630421 |        Google Chrome
+2015-05-01 13:18:48.635836 |        Google Chrome
+2015-05-01 13:18:58.641992 |        Google Chrome
+2015-05-01 13:19:08.645542 |        Google Chrome
+2015-05-01 13:19:18.651749 |        Google Chrome
+2015-05-01 13:19:28.653370 |        Google Chrome
+2015-05-01 13:19:38.659491 |        Google Chrome
+2015-05-01 13:19:48.663089 |        Google Chrome
+2015-05-01 13:19:58.669219 |        Google Chrome
+2015-05-01 13:20:08.675482 |        Google Chrome
+2015-05-01 13:20:18.677457 |        Google Chrome
+2015-05-01 13:20:28.678791 |        Google Chrome
+2015-05-01 13:20:38.684000 |        Google Chrome
+2015-05-01 13:20:48.688372 |        Google Chrome
+2015-05-01 13:20:58.693660 |        Google Chrome
+2015-05-01 13:21:08.699404 |        Google Chrome
+2015-05-01 13:21:18.702922 |        Google Chrome
+2015-05-01 13:21:28.706428 |        Google Chrome
+2015-05-01 13:21:38.712553 |        Google Chrome
+2015-05-01 13:21:48.718745 |        Google Chrome
+2015-05-01 13:21:58.722722 |        Google Chrome
+2015-05-01 13:22:08.723634 |        Google Chrome
+2015-05-01 13:22:18.729293 |        Google Chrome
+2015-05-01 13:22:28.734891 |        Google Chrome
+2015-05-01 13:22:38.738885 |        Google Chrome
+2015-05-01 13:22:48.740025 |        Google Chrome
+2015-05-01 13:22:58.741558 |        Google Chrome
+2015-05-01 13:23:08.746067 |        Google Chrome
+2015-05-01 13:23:18.749046 |        Google Chrome
+2015-05-01 13:23:28.755211 |        Google Chrome
+2015-05-01 13:23:38.756009 |        Google Chrome
+2015-05-01 13:23:48.762147 |        Google Chrome
+2015-05-01 13:23:58.768311 |        Google Chrome
+2015-05-01 13:24:08.774439 |        Google Chrome
+2015-05-01 13:24:18.780661 |        Google Chrome
+2015-05-01 13:24:28.786851 |        Google Chrome
+2015-05-01 13:24:38.788594 |        Google Chrome
+2015-05-01 13:24:48.794878 |        Google Chrome
+2015-05-01 13:24:58.801044 |        Google Chrome
+2015-05-01 13:25:08.804631 |        Google Chrome
+2015-05-01 13:25:18.806391 |        Google Chrome
+2015-05-01 13:25:28.812550 |        Google Chrome
+2015-05-01 13:25:38.813633 |        Google Chrome
+2015-05-01 13:25:48.816950 |        Google Chrome
+2015-05-01 13:25:58.823072 |        Google Chrome
+2015-05-01 13:26:08.827491 |        Google Chrome
+2015-05-01 13:26:18.833276 |        Google Chrome
+2015-05-01 13:26:28.839436 |        Google Chrome
+2015-05-01 13:26:38.845587 |        Google Chrome
+2015-05-01 13:26:48.851704 |        Google Chrome
+2015-05-01 13:26:58.853774 |        Google Chrome
+2015-05-01 13:27:08.859916 |        Google Chrome
+2015-05-01 13:27:18.866107 |        Google Chrome
+2015-05-01 13:27:28.867606 |        Google Chrome
+2015-05-01 13:27:38.870976 |        Google Chrome
+2015-05-01 13:27:48.877193 |        Google Chrome
+2015-05-01 13:27:58.883319 |        Google Chrome
+2015-05-01 13:28:08.887347 |        Google Chrome
+2015-05-01 13:28:18.893528 |        Google Chrome
+2015-05-01 13:28:28.899727 |        Google Chrome
+2015-05-01 13:28:38.905956 |        Google Chrome
+2015-05-01 13:28:48.907054 |        Google Chrome
+2015-05-01 13:28:58.909956 |        Google Chrome
+2015-05-01 13:29:08.915155 |        Google Chrome
+2015-05-01 13:29:18.921360 |        Google Chrome
+2015-05-01 13:29:28.922347 |        Google Chrome
+2015-05-01 13:29:38.924262 |        Google Chrome
+2015-05-01 13:29:48.930395 |        Google Chrome
+2015-05-01 13:29:58.934927 |        Google Chrome
+2015-05-01 13:30:08.940210 |        Google Chrome
+2015-05-01 13:30:18.942889 |        Google Chrome
+2015-05-01 13:30:28.946035 |        Google Chrome
+2015-05-01 13:30:38.947515 |        Google Chrome
+2015-05-01 13:30:48.951700 |        Google Chrome
+2015-05-01 13:30:58.953320 |        Google Chrome
+2015-05-01 13:31:08.954647 |        Google Chrome
+2015-05-01 13:31:18.956103 |        Google Chrome
+2015-05-01 13:31:28.961685 |        Google Chrome
+2015-05-01 13:31:38.966979 |        Google Chrome
+2015-05-01 13:31:48.970771 |        Google Chrome
+2015-05-01 13:31:58.975274 |               Safari
+2015-05-01 13:32:08.976919 |               Safari
+2015-05-01 13:32:18.982424 |               Safari
+2015-05-01 13:32:28.984312 |               Safari
+2015-05-01 13:32:38.990440 |               Safari
+2015-05-01 13:32:48.996594 |               Safari
+2015-05-01 13:32:58.999711 |               Safari
+2015-05-01 13:33:09.004831 |        Google Chrome
+2015-05-01 13:33:19.006058 |        Google Chrome
+2015-05-01 13:33:29.010145 |        Google Chrome
+2015-05-01 13:33:39.016129 |        Google Chrome
+2015-05-01 13:33:49.016892 |        Google Chrome
+2015-05-01 13:33:59.022015 |        Google Chrome
+2015-05-01 13:34:09.027298 |        Google Chrome
+2015-05-01 13:34:19.032779 |        Google Chrome
+2015-05-01 13:34:29.038036 |        Google Chrome
+2015-05-01 13:34:39.040600 |        Google Chrome
+2015-05-01 13:34:49.042328 |        Google Chrome
+2015-05-01 13:34:59.044949 |        Google Chrome
+2015-05-01 13:35:09.049409 |        Google Chrome
+2015-05-01 13:35:19.054148 |        Google Chrome
+2015-05-01 13:35:29.056593 |        Google Chrome
+2015-05-01 13:35:39.061406 |        Google Chrome
+2015-05-01 13:35:49.064895 |        Google Chrome
+2015-05-01 13:35:59.070173 |        Google Chrome
+2015-05-01 13:36:09.075639 |        Google Chrome
+2015-05-01 13:36:19.080396 |        Google Chrome
+2015-05-01 13:36:29.086120 |        Google Chrome
+2015-05-01 13:36:39.091425 |        Google Chrome
+2015-05-01 13:36:49.095642 |        Google Chrome
+2015-05-01 13:36:59.100373 |        Google Chrome
+2015-05-01 13:37:09.105176 |        Google Chrome
+2015-05-01 13:37:19.110144 |        Google Chrome
+2015-05-01 13:37:29.115561 |        Google Chrome
+2015-05-01 13:37:39.118070 |        Google Chrome
+2015-05-01 13:37:49.121076 |        Google Chrome
+2015-05-01 13:37:59.123253 |        Google Chrome
+2015-05-01 13:38:09.126674 |        Google Chrome
+2015-05-01 13:38:19.128709 |        Google Chrome
+2015-05-01 13:38:29.132157 |        Google Chrome
+2015-05-01 13:38:39.137587 |        Google Chrome
+2015-05-01 13:38:49.141993 |        Google Chrome
+2015-05-01 13:38:59.144839 |        Google Chrome
+2015-05-01 13:39:09.150012 |        Google Chrome
+2015-05-01 13:39:19.157499 |        Google Chrome
+2015-05-01 13:39:29.160666 |        Google Chrome
+2015-05-01 13:39:39.166100 |        Google Chrome
+2015-05-01 13:39:49.171304 |        Google Chrome
+2015-05-01 13:39:59.176791 |        Google Chrome
+2015-05-01 13:40:09.178429 |        Google Chrome
+2015-05-01 13:40:19.182262 |        Google Chrome
+2015-05-01 13:40:29.187411 |        Google Chrome
+2015-05-01 13:40:39.188645 |        Google Chrome
+2015-05-01 13:40:49.193813 |        Google Chrome
+2015-05-01 13:40:59.198161 |               Safari
+2015-05-01 13:41:09.203324 |                iTerm
+2015-05-01 13:41:19.207620 |      pam_link_survey
+2015-05-01 13:41:29.209841 |        Google Chrome
+2015-05-01 13:41:39.213965 |        Google Chrome
+2015-05-01 13:41:49.219389 |        Google Chrome
+2015-05-01 13:41:59.225163 |        Google Chrome
+2015-05-01 13:42:09.230131 |        Google Chrome
+2015-05-01 13:42:19.235265 |        Google Chrome
+2015-05-01 13:42:29.240676 |        Google Chrome
+2015-05-01 13:42:39.246115 |        Google Chrome
+2015-05-01 13:42:49.251332 |        Google Chrome
+2015-05-01 13:42:59.257430 |        Google Chrome
+2015-05-01 13:43:09.263046 |        Google Chrome
+2015-05-01 13:43:19.269500 |        Google Chrome
+2015-05-01 13:43:29.272507 |        Google Chrome
+2015-05-01 13:43:39.277894 |        Google Chrome
+2015-05-01 13:43:49.283521 |        Google Chrome
+2015-05-01 13:43:59.293022 |        Google Chrome
+2015-05-01 13:44:09.295366 |        Google Chrome
+2015-05-01 13:44:19.299426 |        Google Chrome
+2015-05-01 13:44:29.305306 |        Google Chrome
+2015-05-01 13:44:39.309245 |        Google Chrome
+2015-05-01 13:44:49.309955 |        Google Chrome
+2015-05-01 13:44:59.315271 |        Google Chrome
+2015-05-01 13:45:09.320588 |        Google Chrome
+2015-05-01 13:45:19.321950 |               Finder
+2015-05-01 13:45:29.326016 |               Finder
+2015-05-01 13:45:39.331173 |        Google Chrome
+2015-05-01 13:45:49.336648 |        Google Chrome
+2015-05-01 13:45:59.341832 |                Viber
+2015-05-01 13:46:09.347579 |                Viber
+2015-05-01 13:46:19.352775 |        Google Chrome
+2015-05-01 13:46:29.357441 |        Google Chrome
+2015-05-01 13:46:39.358226 |                iTerm
+2015-05-01 13:46:49.363306 |        Google Chrome
+2015-05-01 13:46:59.368823 |        Google Chrome
+2015-05-01 13:47:09.373938 |                Viber
+2015-05-01 13:47:19.379550 |                Viber
+2015-05-01 13:47:29.381644 |        Google Chrome
+2015-05-01 13:47:39.384645 |                iTerm
+2015-05-01 13:47:49.390086 |        Google Chrome
+2015-05-01 13:47:59.396013 |        Google Chrome
+2015-05-01 13:48:09.396783 |        Google Chrome
+2015-05-01 13:48:19.401610 |        Google Chrome
+2015-05-01 13:48:29.403748 |        Google Chrome
+2015-05-01 13:48:39.404437 |        Google Chrome
+2015-05-01 13:48:49.410653 |        Google Chrome
+2015-05-01 13:48:59.413312 |        Google Chrome
+2015-05-01 13:49:09.415237 |        Google Chrome
+2015-05-01 13:49:19.416111 |        Google Chrome
+2015-05-01 13:49:29.420684 |        Google Chrome
+2015-05-01 13:49:39.426212 |                Viber
+2015-05-01 13:49:49.427227 |        Google Chrome
+2015-05-01 13:49:59.433295 |                Viber
+2015-05-01 13:50:09.434069 |        Google Chrome
+2015-05-01 13:50:19.436170 |        Google Chrome
+2015-05-01 13:50:29.440841 |        Google Chrome
+2015-05-01 13:50:39.446595 |                Viber
+2015-05-01 13:50:49.447580 |        Google Chrome
+2015-05-01 13:50:59.448477 |        Script Editor
+2015-05-01 13:51:09.450186 |                Viber
+2015-05-01 13:51:19.454292 |                Viber
+2015-05-01 13:51:29.459306 |                Viber
+2015-05-01 13:51:39.463663 |               Finder
+2015-05-01 13:51:49.467517 |        Script Editor
+2015-05-01 13:51:59.473631 |                Viber
+2015-05-01 13:52:09.479376 |                Viber
+2015-05-01 13:52:19.482035 |        Script Editor
+2015-05-01 13:52:29.484894 |        Script Editor
+2015-05-01 13:52:39.487921 |        Script Editor
+2015-05-01 13:52:49.491184 |                Viber
+2015-05-01 13:52:59.497411 |                Viber
+2015-05-01 13:53:09.501123 |        Script Editor
+2015-05-01 13:53:19.503371 |        Script Editor
+2015-05-01 13:53:29.506195 |        Script Editor
+2015-05-01 13:53:39.511917 |                iTerm
+2015-05-01 13:53:49.517733 |                iTerm
+2015-05-01 13:53:59.521308 |                iTerm
+2015-05-01 13:54:09.527375 |        Script Editor
+2015-05-01 13:54:19.529553 |        Script Editor
+2015-05-01 13:54:29.535673 |        Script Editor
+2015-05-01 13:54:39.537410 |        Script Editor
+2015-05-01 13:54:49.543555 |        Script Editor
+2015-05-01 13:54:59.545790 |        Script Editor
+2015-05-01 13:55:09.548503 |        Script Editor
+2015-05-01 13:55:19.550962 |        Script Editor
+2015-05-01 13:55:29.557076 |                Viber
+2015-05-01 13:55:39.561508 |        Script Editor
+2015-05-01 13:55:49.564662 |        Script Editor
+2015-05-01 13:55:59.569994 |        Script Editor
+2015-05-01 13:56:09.576162 |        Script Editor
+2015-05-01 13:56:19.580206 |        Script Editor
+2015-05-01 13:56:29.583994 |        Script Editor
+2015-05-01 13:56:39.590072 |        Script Editor
+2015-05-01 13:56:49.596155 |                iTerm
+2015-05-01 13:56:59.602343 |                Viber
+2015-05-01 13:57:09.608534 |        Script Editor
+2015-05-01 13:57:19.612122 |                Viber
+2015-05-01 13:57:29.615712 |                Viber
+2015-05-01 13:57:39.616504 |                Viber
+2015-05-01 13:57:49.621609 |        Script Editor
+2015-05-01 13:57:59.622663 |        Script Editor
+2015-05-01 13:58:09.625095 |        Script Editor
+2015-05-01 13:58:19.631273 |        Script Editor
+2015-05-01 13:58:29.634395 |        Script Editor
+2015-05-01 13:58:39.637027 |                Viber
+2015-05-01 13:58:49.639334 |                Viber
+2015-05-01 13:58:59.640747 |                Viber
+2015-05-01 13:59:09.646227 |                Viber
+2015-05-01 13:59:19.650579 |                Viber
+2015-05-01 13:59:29.656810 |        Script Editor
+2015-05-01 13:59:39.661917 |               Finder
+2015-05-01 13:59:49.664761 |               Finder
+2015-05-01 13:59:59.666090 |               Finder
+2015-05-01 14:00:09.668196 |   System Preferences
+2015-05-01 14:00:19.670824 |   System Preferences
+2015-05-01 14:00:29.673816 |   System Preferences
+2015-05-01 14:00:39.678588 |               Finder
+2015-05-01 14:00:49.681538 |    startup-keystroke
+2015-05-01 14:00:59.687278 |        Script Editor
+2015-05-01 14:01:09.687915 |               Finder
+2015-05-01 14:01:19.688875 |               Safari
+2015-05-01 14:01:29.695016 |               Safari
+2015-05-01 14:01:39.698691 |               Finder
+2015-05-01 14:01:49.701372 |               Finder
+2015-05-01 14:01:59.706038 |               Finder
+2015-05-01 14:02:09.707054 |                Viber
+2015-05-01 14:02:19.711696 |        Google Chrome
+2015-05-01 14:02:29.716557 |        Google Chrome
+2015-05-01 14:02:39.721541 |        Google Chrome
+2015-05-01 14:02:49.727716 |                Viber
+2015-05-01 14:02:59.733330 |        Script Editor
+2015-05-01 14:03:09.739506 |               Finder
+2015-05-01 14:03:19.742547 |               Finder
+2015-05-01 14:03:29.746494 |               Finder
+2015-05-01 14:03:39.749620 |                Viber
+2015-05-01 14:03:49.754959 |                iTerm
+2015-05-01 14:03:59.756160 |                iTerm
+2015-05-01 14:04:09.758868 |                iTerm
+2015-05-01 14:04:19.761393 |                iTerm
+2015-05-01 14:04:29.767244 |                iTerm
+2015-05-01 14:04:39.770521 |               Finder
+2015-05-01 14:04:49.776198 |               Finder
+2015-05-01 14:04:59.782292 |   startup_foreground
+2015-05-01 14:05:09.785084 |               Finder
+2015-05-01 14:05:19.787941 |                Viber
+2015-05-01 14:05:29.789477 |        Script Editor
+2015-05-01 14:05:39.792411 |        Script Editor
+2015-05-01 14:05:49.798521 |        Script Editor
+2015-05-01 14:05:59.800168 |        Script Editor
+2015-05-01 14:06:09.801339 |        Script Editor
+2015-05-01 14:06:19.807597 |                iTerm
+2015-05-01 14:06:29.811155 |               Finder
+2015-05-01 14:06:39.817305 |               Finder
+2015-05-01 14:06:49.819120 |               Finder
+2015-05-01 14:06:59.821095 |               Finder
+2015-05-01 14:07:09.826058 |        Google Chrome
+2015-05-01 14:07:19.832197 |        Google Chrome
+2015-05-01 14:07:29.838326 |              Preview
+2015-05-01 14:07:39.842069 |              Preview
+2015-05-01 14:07:49.845363 |              Preview
+2015-05-01 14:07:59.851349 |              Preview
+2015-05-01 14:08:09.855297 |                Viber
+2015-05-01 14:08:19.861464 |                Viber
+2015-05-01 14:08:29.865703 |                Viber
+2015-05-01 14:08:39.870116 |                Viber
+2015-05-01 14:08:49.871140 |                Viber
+2015-05-01 14:08:59.872238 |                Viber
+2015-05-01 14:09:09.876122 |                Viber
+2015-05-01 14:09:19.876844 |                Viber
+2015-05-01 14:09:29.881357 |                Viber
+2015-05-01 14:09:39.886757 |                Viber
+2015-05-01 14:09:49.892171 |                Viber
+2015-05-01 14:09:59.896106 |                Viber
+2015-05-01 14:10:09.897412 |                Viber
+2015-05-01 14:10:19.898668 |                Viber
+2015-05-01 14:10:29.902035 |                Viber
+2015-05-01 14:10:39.908062 |                Viber
+2015-05-01 14:10:49.914130 |                Viber
+2015-05-01 14:10:59.918052 |        Google Chrome
+2015-05-01 14:11:09.920594 |        Google Chrome
+2015-05-01 14:11:19.924155 |                Viber
+2015-05-01 14:11:29.927121 |               Finder
+2015-05-01 14:11:39.933293 |               Finder
+2015-05-01 14:11:49.934754 |        Google Chrome
+2015-05-01 14:11:59.939364 |               Finder
+2015-05-01 14:12:09.945132 |               Finder
+2015-05-01 14:12:19.951330 |               Finder
+2015-05-01 14:12:29.957477 |               Finder
+2015-05-01 14:12:39.960864 |                Viber
+2015-05-01 14:12:49.965214 |                Viber
+2015-05-01 14:12:59.967176 |                Viber
+2015-05-01 14:13:09.969270 |                Viber
+2015-05-01 14:13:19.970596 |               Finder
+2015-05-01 14:13:29.974985 |         NetAuthAgent
+2015-05-01 14:13:39.976210 |              Preview
+2015-05-01 14:13:49.977118 |               Finder
+2015-05-01 14:13:59.978459 |                Viber
+2015-05-01 14:14:09.982194 |                Viber
+2015-05-01 14:14:19.985348 |                Viber
+2015-05-01 14:14:29.991469 |                Viber
+2015-05-01 14:14:39.992303 |                Viber
+2015-05-01 14:14:49.993538 |                Viber
+2015-05-01 14:14:59.996623 |                Viber
+2015-05-01 14:15:09.999505 |                Viber
+2015-05-01 14:15:20.000370 |                Viber
+2015-05-01 14:15:30.001453 |               Finder
+2015-05-01 14:15:40.007918 |               Finder
+2015-05-01 14:15:50.011685 |               Finder
+2015-05-01 14:16:00.016181 |             TextEdit
+2015-05-01 14:16:10.018443 |             TextEdit
+2015-05-01 14:16:20.022258 |               Finder
+2015-05-01 14:16:30.025173 |               Finder
+2015-05-01 14:16:40.026199 |                Viber
+2015-05-01 14:16:50.032329 |                Viber
+2015-05-01 14:17:00.037530 |                Viber
+2015-05-01 14:17:10.038620 |                Viber
+2015-05-01 14:17:20.044926 |               Finder
+2015-05-01 14:17:30.048970 |               Finder
+2015-05-01 14:17:40.051127 |               Finder
+2015-05-01 14:17:50.054862 |        Script Editor
+2015-05-01 14:18:00.056728 |        Script Editor
+2015-05-01 14:18:10.058238 |        Script Editor
+2015-05-01 14:18:20.062108 |        Script Editor
+2015-05-01 14:18:30.064363 |        Script Editor
+2015-05-01 14:18:40.065882 |        Script 
