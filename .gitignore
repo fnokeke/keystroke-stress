@@ -1,4 +1,5 @@
 .DS_Store
 .*pyc
-*log.txt
+.*txt
+.*log
 data/
