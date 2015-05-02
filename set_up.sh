@@ -10,8 +10,11 @@ git clone https://github.com/abarnert/pykeycode.git
 PYCODE_PATH="$(pwd)/pykeycode/"
 (cd $PYCODE_PATH; sudo python setup.py install)
 
-############### start keystroke application ###############
 PROJECT_PATH="$(pwd)"
+############### open accessibility ###############
+osascript $PROJECT_PATH/open_accessibility.scpt
+
+############### start keystroke application ###############
 open $PROJECT_PATH/startup_keystroke.app
 
 ############### start foreground application ###############
