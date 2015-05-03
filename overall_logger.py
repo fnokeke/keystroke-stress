@@ -11,6 +11,24 @@ from PyObjCTools import AppHelper
 import keycode
 import time
 
+# these are the only keys collected
+wanted_keys = [ 
+    '36', #ENTER/RETURN
+    '48', #TAB
+    '49', #SPACEBAR
+    '51', #DELETE
+    '53', #ESC
+    '123', #LEFT-ARROW,
+    '124', #RIGHT-ARROW
+    '125', #DOWN-ARROW
+    '126', #UP-ARROW
+    ['SHIFT'], #SHIFT
+    ['ALPHA-SHIFT'], #SHIFT
+    ['CONTROL'], #CTRL
+    ['ALTERNATE'], #ATERNATE
+    ['COMMAND'], #COMMAND
+    ['FUNCTION'], #FUNCTION
+]
 
 evtypes = dict(
     NSLeftMouseDown     = 1,
@@ -45,9 +63,21 @@ class Hooker(object):
         try:
             evt = kwargs.get('event')
             del kwargs['event']
-            items = ' '.join( [ x[0]+"="+unicode(x[1]) for x in kwargs.iteritems()] )
+            # items = ' '.join( [ x[0]+"="+unicode(x[1]) for x in kwargs.iteritems()] )
+            items = [ x[0]+"="+unicode(x[1]) for x in kwargs.iteritems()]
             import datetime
-            print "%s | %20s | %22s | %s" % ( datetime.datetime.now(), self.__class__.__name__, evtypes_rev[evt.type()], items)
+            if self.__class__.__name__ == "KeyHooker":
+                kk = str(items[2]).strip("key=")
+                if kk in wanted_keys:
+                    items = ' '.join( [ x[0]+"="+unicode(x[1]) for x in kwargs.iteritems()] )
+                    print "%s | %20s | %22s | %s" % ( datetime.datetime.now(), self.__class__.__name__, evtypes_rev[evt.type()], items)
+                else:
+                    print "%s | %20s | %22s | x" % ( datetime.datetime.now(), self.__class__.__name__, evtypes_rev[evt.type()])
+
+            else:
+                items = ' '.join( [ x[0]+"="+unicode(x[1]) for x in kwargs.iteritems()] )
+                result = "%s | %20s | %22s | %s" % ( datetime.datetime.now(), self.__class__.__name__, evtypes_rev[evt.type()], items)
+                print "Hooker", result
         except Exception as e:
             print 'Horrific error!', e
             AppHelper.stopEventLoop()
