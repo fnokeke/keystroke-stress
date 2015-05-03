@@ -9,7 +9,7 @@ from Cocoa import *
 from Quartz import CGWindowListCopyWindowInfo, kCGWindowListOptionOnScreenOnly, kCGNullWindowID
 from PyObjCTools import AppHelper
 import keycode
-import time
+import datetime
 
 # these are the only keys collected
 wanted_keys = [ 
@@ -63,21 +63,17 @@ class Hooker(object):
         try:
             evt = kwargs.get('event')
             del kwargs['event']
-            # items = ' '.join( [ x[0]+"="+unicode(x[1]) for x in kwargs.iteritems()] )
             items = [ x[0]+"="+unicode(x[1]) for x in kwargs.iteritems()]
-            import datetime
-            if self.__class__.__name__ == "KeyHooker":
-                kk = str(items[2]).strip("key=")
-                if kk in wanted_keys:
-                    items = ' '.join( [ x[0]+"="+unicode(x[1]) for x in kwargs.iteritems()] )
-                    print "%s | %20s | %22s | %s" % ( datetime.datetime.now(), self.__class__.__name__, evtypes_rev[evt.type()], items)
-                else:
-                    print "%s | %20s | %22s | x" % ( datetime.datetime.now(), self.__class__.__name__, evtypes_rev[evt.type()])
+            current_key = str(items[2]).strip("key=")
 
-            else:
-                items = ' '.join( [ x[0]+"="+unicode(x[1]) for x in kwargs.iteritems()] )
-                result = "%s | %20s | %22s | %s" % ( datetime.datetime.now(), self.__class__.__name__, evtypes_rev[evt.type()], items)
-                print "Hooker", result
+            # block out unwanted keys typed
+            if self.__class__.__name__ == "KeyHooker":
+                if current_key not in wanted_keys:
+                    items[0] = 'char=$$'
+                    items[2] = 'key=$$'
+
+            items = ' '.join(items)
+            print "%s | %20s | %22s | %s" % ( datetime.datetime.now(), self.__class__.__name__, evtypes_rev[evt.type()], items)
         except Exception as e:
             print 'Horrific error!', e
             AppHelper.stopEventLoop()
@@ -129,7 +125,6 @@ class SniffCocoa:
     def handler(self, event):
 
         try:
-            # time.sleep(10) #rest 5 mins
 
             activeApps = self.workspace.runningApplications()
             for app in activeApps:
