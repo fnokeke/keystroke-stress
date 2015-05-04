@@ -1,8 +1,10 @@
 #! /bin/bash
 
-#start server
-SERVER_DIR="/Users/fnokeke/dev/info6010/keystroke-dynamics/web_local_pam/pam-php"
-(cd $SERVER_DIR; php -S localhost:8000 &)
+# get server directory passed from applescript
+SERVER_DIR=$1
+
+# start server
+(php -S localhost:8000 -t $SERVER_DIR &)
 sleep 5 
 
 #open browser
