@@ -22,12 +22,6 @@ wanted_keys = [
     '124', #RIGHT-ARROW
     '125', #DOWN-ARROW
     '126', #UP-ARROW
-    ['SHIFT'], #SHIFT
-    ['ALPHA-SHIFT'], #SHIFT
-    ['CONTROL'], #CTRL
-    ['ALTERNATE'], #ATERNATE
-    ['COMMAND'], #COMMAND
-    ['FUNCTION'], #FUNCTION
 ]
 
 evtypes = dict(
@@ -64,13 +58,19 @@ class Hooker(object):
             evt = kwargs.get('event')
             del kwargs['event']
             items = [ x[0]+"="+unicode(x[1]) for x in kwargs.iteritems()]
-            current_key = str(items[2]).strip("key=")
+            current_key = 0
+            items_len = len(items)
+            if items_len >= 3: 
+                current_key = str(items[2]).strip("key=")
 
             # block out unwanted keys typed
             if self.__class__.__name__ == "KeyHooker":
-                if current_key not in wanted_keys:
+                if current_key not in wanted_keys and items_len >= 3:
                     items[0] = 'char=$$'
                     items[2] = 'key=$$'
+                # stop enter/return key from causing new line 
+                if current_key == '36': 
+                    items[0] = 'char=$$'
 
             items = ' '.join(items)
             print "%s | %20s | %22s | %s" % ( datetime.datetime.now(), self.__class__.__name__, evtypes_rev[evt.type()], items)
