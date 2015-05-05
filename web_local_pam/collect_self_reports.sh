@@ -11,9 +11,9 @@ sleep 5
 open "http://localhost:8000/form.php"
 
 # Wait for a few seconds
-sleep 20 
-echo "shutting down server..."
+# sleep 20 
+# echo "shutting down server..."
 
 # Kill server 
 # kill $PID
-killall php
+# killall php
