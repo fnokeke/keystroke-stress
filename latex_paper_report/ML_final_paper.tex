@@ -1,0 +1,196 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%% ICML 2012 EXAMPLE LATEX SUBMISSION FILE %%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Use the following line _only_ if you're still using LaTeX 2.09.
+%\documentstyle[icml2012,epsf,natbib]{article}
+% If you rely on Latex2e packages, like most moden people use this:
+\documentclass{article}
+
+% For figures
+\usepackage{graphicx} % more modern
+%\usepackage{epsfig} % less modern
+\usepackage{subfigure} 
+
+% For citations
+\usepackage{natbib}
+
+% For algorithms
+\usepackage{algorithm}
+\usepackage{algorithmic}
+
+% As of 2011, we use the hyperref package to produce hyperlinks in the
+% resulting PDF.  If this breaks your system, please commend out the
+% following usepackage line and replace \usepackage{icml2012} with
+% \usepackage[nohyperref]{icml2012} above.
+\usepackage{hyperref}
+
+% Packages hyperref and algorithmic misbehave sometimes.  We can fix
+% this with the following command.
+\newcommand{\theHalgorithm}{\arabic{algorithm}}
+
+% Employ the following version of the ``usepackage'' statement for
+% submitting the draft version of the paper for review.  This will set
+% the note in the first column to ``Under review.  Do not distribute.''
+\usepackage[accepted]{icml2012} 
+% Employ this version of the ``usepackage'' statement after the paper has
+% been accepted, when creating the final version.  This will set the
+% note in the first column to ``Appearing in''
+% \usepackage[accepted]{icml2012}
+
+
+% The \icmltitle you define below is probably too long as a header.
+% Therefore, a short form for the running title is supplied here:
+\icmltitlerunning{Detecting stress level through computer usage pattern}
+
+\begin{document} 
+
+\twocolumn[
+\icmltitle{Detecting stress level through computer usage pattern \\ 
+          }
+
+% It is OKAY to include author information, even for blind
+% submissions: the style file will automatically remove it for you
+% unless you've provided the [accepted] option to the icml2012
+% package.
+\icmlauthor{name1}{email1}
+\icmladdress{school addy}
+\icmlauthor{name1}{email1}
+\icmladdress{school addy}
+
+% You may provide any keywords that you 
+% find helpful for describing your paper; these are used to populate 
+% the "keywords" metadata in the PDF but will not be shown in the document
+\icmlkeywords{stress, machine learning, computer usage}
+
+\vskip 0.3in
+]
+
+\begin{abstract} 
+Stress is inevitable. Sometimes people fall back to their old habits or perform a series of actions that can be directly linked to their stressful states. Since many perform work on their personal computers, stress detection through these devices could lead to insightful results. This project aims to discover which computer activities, if any, correlate with individual stress levels. Can one’s typing pattern, websites usage, browsing duration, or overall computer usage be linked to their stress level?
+\end{abstract} 
+
+\section{Introduction}
+\label{introduction}
+
+Stress is inevitable. Sometimes when stressed, we fall back to our old habits or perform a series of actions in order to become relaxed. Other times, we are oblivious of our stressful states not because we cannot anticipate that we are stressed but because we feel it is just one of life’s challenges. Since the computing era has propelled many to perform work on their personal computers, stress detection correlated to usage of these electronic devices could lead to insightful results. This research aims to discover which computer activities, if any, correlate with individual stress levels. Can one’s typing pattern, websites usage, browsing duration, or overall computer usage be linked to their stress level? Positive results could have multiple applications such as personalized health recommendation systems for handling stress, timely interventions for detecting stress at an individual’s peak, holistic feedback for doctors during diagnosis, among other health driven purposes. 
+
+As we know, overstress undermines our productivity, and more seriously, it might bring harm to our health, even cause mental diseases. However, sometimes we tend to feel exhausted and stressed, but unaware of what cause us to feel stressed exactly. Therefore, it is crucial to find out the sources of stress, and at some appropriate time, give  users some reminders that you are overstressed and you should take a break and relax yourself right away.
+
+When people are under stress, their behaviors tend to change accordingly. In particular, we have observed that people’s computer using patterns, the way they type, click, browse webs change with regard to their stress, or anxiousness level. For example, when people feel stressed, they click the mouses with higher frequency; they tend to have more typos, and thus the frequency of doing error correction raises; the frequency of switching between different web pages also increases; they might check their phones more frequently but unconsciously, etc. We suppose these are good indicators to users’ stress level, and by analyzing users’ baseline stress level and detecting abnormal stress level, we will be able to understand whether they are overstressed and give proper reminders.
+
+\section{Related Work}
+Beyond emotional states, we are more interested in connecting other computer activities such as mouse activity and application switch. Further, our work extends to multi-modal stress sensing with multiple sensors [2].
+
+
+\subsection{Affective Computing}
+Epp Clayton et al, arguably did the first major work connecting keystroke dynamics and emotional states. This research measured 15 emotional states of users using periodical self report and keystroke features throughout the day. 
+For sensing stress, we initially proposed self-report and GSR but we are foregoing the latter while adding other sensing devices. Our stress sensors will involve:\\
+Stress-sense for vocal stress detector
+*In Ubicomp’ 12, Hong et al. proposed StressSense, which can detect human stress via through acoustic features. Hence we will use StressSense as our baseline [8].\\
+Affectiva worn on the wrist\\
+*It’s claimed that Affectiva is an unobtrusive, watch-like sensor, which can detect a person’s emotion through his/her skin  . Therefore we will use Affectiva to explore some correlations between their keystroke/clicking patterns and their emotions [7].
+Single question self-report logging emotional states
+*In Ubicomp’ 14,  Wang et al. used SurveyMonkey and mobileEMA to measure participants’ stress as ground truth in StudentLife. We will also use the same approaches as our ground truth [6].
+\subsection{Keystroke Dynamics}
+Hernandez, Javier, et al in Under Pressure use a pressure sensitive keyboard and capacitive mouse to discriminate between stressful and relaxed states in a lab setting. We do not rely on custom hardware as this may not be scalable in reality [4].
+
+\subsection{Mouse Usage}
+Sun, David et al in MouStress proposed an approach to detect stress from mouse motion, but from a physiological perspective -- a model of the arm. Our approach differs as it is not in a lab setting: we focus on continuous mouse-sensing as observed in real world [1].Ark Wendy S. et al in The Emotion Mouse relate the mouse touch to the emotion attached to a computer task. GSR and chest sensors were used to collect heart rate, temperature, galvanic skin response (GSR), and somatic movement, which were measured against the six Ekman’s facial emotions. Our approach is less intrusive as we do not propose a chest sensor. Besides, we measure other computer activities [3].
+\subsection{Computer Applications}
+Karpathy on his blog shows how he measures computer activities for self tracking. Some of the ideas stated will be utilized in our project especially the visualization insights [5].
+
+\section{Methodology}
+The experiment involves experience sampling and data collection of keystrokes, mouse together with computer applications used.
+\subsection{Experience Sampling of Keystrokes}
+Emotional states were collected using PAM and EMA. 
+\subsection{Data Collection Software}
+Using our custom applications, we will install our background scripts on the participants’ computers. Ideally, our background programs will record the keys users type, but the corresponding values will be randomized due to privacy sensitivity, and the frequency of mouse clicking as well.
+Data for Web browsing and application usage will be collected through available python APIs. All the data will be stored as txt/csv files, awaiting further analysis.
+
+\subsection{Feature Extraction}
+For training and testing, 15 keyboard features were used, which include typing speed per minute, etc;
+\subsection{Classification}
+
+
+\section{Results}
+Figure 1 shows the performance when all keyboard features were used. 
+
+
+
+
+\section{Discussion}
+PAM and EMA were used in other to reduce the chances of false report. For instance, a user who picks an 'angry' picture and goes on to select 'not stressed at all', 'very energetic', 'very pleasant', will have two differing results, thereby nullifying the input. 
+\subsection{Limitations}
+Since recruited participants were PhD students, our prediction model performance cannot be generalized to a broader audience. Since self-report surveys are subject, the definition of stress for different participants will have varying likert scale values. 
+
+Survey popping up periodically can become annoying to users thereby making reducing performance over time. Since emotional states are short-lived and a user can have multiple emotions in a short time, the surveys cannot fully capture the end user's entire emotional states but only a fraction of it.
+
+
+\section{Future Work}
+In order to improve multimodal sensing, future work will involve external sensors for measuring HR, BP, EEG. The current application focuses on batch learning of data already amassed so for next iteration will involve online learning especially for making efficient recommendation systems. Participants for this experiment were PhD students recruited from a research lab familiar with some of the measuring tools used; more insightful applications might involve workers in industries especially end users oblivious of the methods of the current research.
+
+
+
+% Acknowledgements should only appear in the accepted version. 
+\section*{Acknowledgments} 
+Special thanks to Prof Daniel Cosley, students of INFO 6010, reviewers of Advanced Machine Learning course (Spring 2015), members of the PAC lab at Cornell University Information Science, and Prof Tanzeem Choudhury, whose guidance was instrumental in this project. 
+
+ 
+\subsection{Citations and References} 
+
+Please use APA reference format regardless of your formatter
+or word processor. If you rely on the \LaTeX\/ bibliographic 
+facility, use {\tt natbib.sty} and {\tt icml2012.bst} 
+included in the style-file package to obtain this format.
+
+Citations within the text should include the authors' last names and
+year. If the authors' names are included in the sentence, place only
+the year in parentheses, for example when referencing Arthur Samuel's
+pioneering work \yrcite{Samuel59}. Otherwise place the entire
+reference in parentheses with the authors and year separated by a
+comma \cite{Samuel59}. List multiple references separated by
+semicolons \cite{kearns89,Samuel59,mitchell80}. Use the `et~al.'
+construct only for citations with three or more authors or after
+listing all authors to a publication in an earlier reference \cite{MachineLearningI}.
+
+Authors should cite their own work in the third person
+in the initial version of their paper submitted for blind review.
+Please refer to Section~\ref{author info} for detailed instructions on how to
+cite your own papers.
+
+Use an unnumbered first-level section heading for the references, and 
+use a hanging indent style, with the first line of the reference flush
+against the left margin and subsequent lines indented by 10 points. 
+The references at the end of this document give examples for journal
+articles \cite{Samuel59}, conference publications \cite{langley00}, book chapters \cite{Newell81}, books \cite{DudaHart2nd}, edited volumes \cite{MachineLearningI}, 
+technical reports \cite{mitchell80}, and dissertations \cite{kearns89}. 
+
+Alphabetize references by the surnames of the first authors, with
+single author entries preceding multiple author entries. Order
+references for the same authors by year of publication, with the
+earliest first. Make sure that each reference includes all relevant
+information (e.g., page numbers).
+
+% In the unusual situation where you want a paper to appear in the
+% references without citing it in the main text, use \nocite
+\nocite{langley00}
+
+\bibliography{example_paper}
+\bibliographystyle{icml2012}
+
+\end{document} 
+
+
+% This document was modified from the file originally made available by
+% Pat Langley and Andrea Danyluk for ICML-2K. This version was
+% created by Lise Getoor and Tobias Scheffer, it was slightly modified  
+% from the 2010 version by Thorsten Joachims & Johannes Fuernkranz, 
+% slightly modified from the 2009 version by Kiri Wagstaff and 
+% Sam Roweis's 2008 version, which is slightly modified from 
+% Prasad Tadepalli's 2007 version which is a lightly 
+% changed version of the previous year's version by Andrew Moore, 
+% which was in turn edited from those of Kristian Kersting and 
+% Codrina Lauth. Alex Smola contributed to the algorithmic style files.  
+
+
