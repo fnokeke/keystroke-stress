@@ -7,53 +7,46 @@ Database file #1: ml_paper.bib
  :  howpublished=\
  :                "url{http://karpathy.github.io/2014/08/03/quantifying-productivity/}",
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "Samuel59"
-Warning--I didn't find a database entry for "kearns89"
-Warning--I didn't find a database entry for "mitchell80"
-Warning--I didn't find a database entry for "MachineLearningI"
-Warning--I didn't find a database entry for "langley00"
-Warning--I didn't find a database entry for "Newell81"
-Warning--I didn't find a database entry for "DudaHart2nd"
 Warning--empty year in karpathy
-You've used 7 entries,
+You've used 9 entries,
             2773 wiz_defined-function locations,
-            641 strings with 6447 characters,
-and the built_in function-call counts, 4389 in all, are:
-= -- 388
-> -- 298
-< -- 6
-+ -- 100
-- -- 93
-* -- 350
-:= -- 645
-add.period$ -- 24
-call.type$ -- 7
-change.case$ -- 52
-chr.to.int$ -- 7
-cite$ -- 15
-duplicate$ -- 194
-empty$ -- 326
-format.name$ -- 100
-if$ -- 950
+            640 strings with 6712 characters,
+and the built_in function-call counts, 5432 in all, are:
+= -- 481
+> -- 358
+< -- 7
++ -- 120
+- -- 111
+* -- 431
+:= -- 797
+add.period$ -- 31
+call.type$ -- 9
+change.case$ -- 63
+chr.to.int$ -- 9
+cite$ -- 19
+duplicate$ -- 248
+empty$ -- 413
+format.name$ -- 120
+if$ -- 1179
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 6
-newline$ -- 42
-num.names$ -- 28
-pop$ -- 125
+missing$ -- 9
+newline$ -- 52
+num.names$ -- 36
+pop$ -- 155
 preamble$ -- 1
-purify$ -- 45
+purify$ -- 55
 quote$ -- 0
-skip$ -- 165
+skip$ -- 205
 stack$ -- 0
-substring$ -- 153
-swap$ -- 51
-text.length$ -- 5
+substring$ -- 189
+swap$ -- 63
+text.length$ -- 6
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 77
+type$ -- 94
 warning$ -- 1
-while$ -- 36
+while$ -- 45
 width$ -- 0
-write$ -- 97
+write$ -- 123
 (There was 1 error message)

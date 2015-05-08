@@ -1,4 +1,4 @@
-\begin{thebibliography}{7}
+\begin{thebibliography}{9}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -15,6 +15,13 @@ Epp, Clayton, Lippold, Michael, and Mandryk, Regan~L.
 \newblock Identifying emotional states using keystroke dynamics.
 \newblock In \emph{Proceedings of the SIGCHI Conference on Human Factors in
   Computing Systems}, pp.\  715--724. ACM, 2011.
+
+\bibitem[Hektner et~al.(2007)Hektner, Schmidt, and
+  Csikszentmihalyi]{hektner2007experience}
+Hektner, Joel~M, Schmidt, Jennifer~A, and Csikszentmihalyi, Mihaly.
+\newblock \emph{Experience sampling method: Measuring the quality of everyday
+  life}.
+\newblock Sage, 2007.
 
 \bibitem[Hernandez et~al.(2014)Hernandez, Paredes, Roseway, and
   Czerwinski]{hernandez2014under}
@@ -35,6 +42,13 @@ Lu, Hong, Frauendorfer, Denise, Rabbi, Mashfiqui, Mast, Marianne~Schmid,
   using smartphones.
 \newblock In \emph{Proceedings of the 2012 ACM Conference on Ubiquitous
   Computing}, pp.\  351--360. ACM, 2012.
+
+\bibitem[Pollak et~al.(2011)Pollak, Adams, and Gay]{pollak2011pam}
+Pollak, John~P, Adams, Phil, and Gay, Geri.
+\newblock Pam: a photographic affect meter for frequent, in situ measurement of
+  affect.
+\newblock In \emph{Proceedings of the SIGCHI conference on Human factors in
+  computing systems}, pp.\  725--734. ACM, 2011.
 
 \bibitem[Sun et~al.(2014)Sun, Paredes, and Canny]{sun2014moustress}
 Sun, David, Paredes, Pablo, and Canny, John.

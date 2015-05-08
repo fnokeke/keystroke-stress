@@ -65,7 +65,7 @@
 ]
 
 \begin{abstract} 
-Stress is inevitable. Sometimes people fall back to their old habits or perform a series of actions that can be directly linked to their stressful states. Identifying stress is important but the approach scales poorly when invasive sensors have to be used or the method relies on induced stress in a timed lab experiment.  Our solution aims to identify stressful states based on continuous logging of keystroke dynamics, mouse patterns, and foreground application usage. We propose a privacy-aware system, E-stress detector, that logs participants' computer activities alongside their stress self report. After extracting relevant features, our top classifiers provide 85 to 95 \% accuracy for predicting user stress level. 
+Stress is inevitable. Sometimes people fall back to their old habits or perform a series of actions that can be directly linked to their stressful states. Identifying stress is important but the approach scales poorly when invasive sensors have to be used or the method relies on induced stress in a timed lab experiment.  Our solution aims to identify stressful states based on continuous logging of keystroke dynamics, mouse patterns, and foreground application usage. We propose a privacy-aware system, E-stress detector, that logs participants' computer activities alongside their stress self report. After extracting relevant features, our top classifiers provide 85 to 95 \% accuracy for predicting user future stress level based on historical data. 
 \end{abstract} 
 
 \section{Introduction}
@@ -87,16 +87,51 @@ Epp Clayton et al, arguably did the first major work connecting keystroke dynami
 Hernandez, Javier, et al in Under Pressure use a pressure sensitive keyboard and capacitive mouse to discriminate between stressful and relaxed states in a lab setting \cite{hernandez2014under}. To allow our application to scale easily, we do not rely on using custom hardware.
 
 \subsection{Mouse Usage}
-Early work done by Ark Wendy S. et al in The Emotion Mouse relate the mouse touch to the emotion attached to a computer task. GSR and chest sensors were used to collect heart rate, temperature, galvanic skin response (GSR), and somatic movement, which were measured against the six Ekman’s facial emotions \cite{ark1999emotion}. In more recent work, Sun, David et al in MouStress proposed an approach to detect stress from mouse motion, but from a physiological perspective -- a model of the arm \cite{sun2014moustress}. Our approach is less intrusive as we do not propose an external sensor; rather, we focus on  non-invasive continuous mouse tracking activites such as click rate and coordinates.
+Early work done by Ark Wendy S. et al in The Emotion Mouse relate the mouse touch to the emotion attached to a computer task. GSR and chest sensors were used to collect heart rate, temperature, galvanic skin response (GSR), and somatic movement, which were measured against the six Ekman’s facial emotions \cite{ark1999emotion}. In more recent work, Sun, David et al in MouStress proposed an approach to detect stress from mouse motion, but from a physiological perspective--- a model of the arm \cite{sun2014moustress}. Our approach is less intrusive as we do not propose an external sensor; rather, we focus on  non-invasive continuous mouse tracking activites such as click rate and coordinates.
 
 \subsection{Computer Applications}
 Karpathy on his blog shows how he measures computer activities for self tracking. However, this is done with the idea of quantified self but without linking user stress state. Some of the ideas used in our project design were inspired by work on Karpathy's system \cite{karpathy}.
 
+Unlike previous works, which focus on only keystrokes, only mouse, or both, our work adds foreground application usage as an extra data source. This is based on the intuition that certain applications might immensely affect user emotional state compared to others. For instance, a non-programmer using Matlab for the first few days might hit the backspace key to delete wrongly written code; click on the menu buttons several times, perhaps in search of a functionality or switch applications multiple times between Matlab software and a browser page showing ``how to perform matrix multipication in Matlab''.
+
+It is important to note that unlike previous works, which have logged user computer activities without explicitly discussing how user data is protected, our application only logs specific keys when users type, every other key is blocked with the symbol ``\$\$''. For instance, alphabetic and numeric keys are logged as ``\$\$'' as a user could type highly sensitive information such as passwords or personal messages. In addition, every data logged is not uploaded to a cloud server; the data is locally stored on the user's computer. This way, a user can decide to opt out of the data logging process and delete all data collected.
+
 \section{Methodology}
-The experiment involves stress self-report and data collection of keystrokes, mouse activites, together with computer applications used.
-\subsection{Experience Sampling of Keystrokes}
-Emotional states were collected using PAM and EMA. 
+The work involves two major components: the data logging process done in-situ -- as participants carried out their daily activities, and the data processing required to classify stress states. For the data collection, users' keystrokes, mouse activities, and computer applications usage are timestamped and logged. The data processing involved extracting relevant keystroke features in order to build Machine Learning classifiers. 
+
+\subsection{Experience Sampling of Computer Activities}
+Experience Samping Method (ESM) involves continuously logging computer activities while periodically collecting user responses to self-reports of their level of stress \cite{hektner2007experience}. Stress states were measured using Photographic Affect Meter (PAM) \cite{pollak2011pam}and three-question likert-scale survey. 
+
+Figure 1 shows the performance when all keyboard features were used. 
+\begin{figure}[ht]
+	\vskip 0.2in
+	\begin{center}
+		\centerline{\includegraphics[width=\columnwidth]{pam}}
+		\caption{PAM: the user selects one of 16 grid pictures that reflects their internal emotional state. 
+		}
+		\label{icml-historical}
+	\end{center}
+	\vskip -0.2in
+\end{figure} 
+
+Figure 1 shows the PAM survey. During periodic interval---we arbitrarily select 30 minutes interval---a webpage automatically opens up and a user is asked \textit{``How do you feel right now?''} Then the user selects one of 16 grid pictures that reflects their internal emotional state. 
+
+
+\begin{figure}[ht]
+	\vskip 0.2in
+	\begin{center}
+		\centerline{\includegraphics[width=\columnwidth]{ema}}
+		\caption{A 3-question survey: the user gets to pick one response out of five categories for each question. 
+		}
+		\label{icml-historical}
+	\end{center}
+	\vskip -0.2in
+\end{figure} 
+
+Figure 2 shows a self-report questionnaire. After selecting a picture in PAM, a 3-question survey page opens up where the user gets to pick one response out of five categories. 
+
 \subsection{Data Collection Software}
+
 Using our custom applications, we will install our background scripts on the participants’ computers. Ideally, our background programs will record the keys users type, but the corresponding values will be randomized due to privacy sensitivity, and the frequency of mouse clicking as well.
 Data for Web browsing and application usage will be collected through available python APIs. All the data will be stored as txt/csv files, awaiting further analysis.
 
@@ -104,13 +139,12 @@ Data for Web browsing and application usage will be collected through available 
 For training and testing, 15 keyboard features were used, which include typing speed per minute, etc;
 \subsection{Classification}
 
-Figure 1 shows the performance when all keyboard features were used. 
 \begin{figure}[ht]
 	\vskip 0.2in
 	\begin{center}
 		\centerline{\includegraphics[width=\columnwidth]{keyboard}}
-		\caption{Heatmap for keyboard
-			}
+		\caption{Keyboard Heatmap
+		}
 		\label{icml-historical}
 	\end{center}
 	\vskip -0.2in
@@ -120,29 +154,7 @@ Figure 1 shows the performance when all keyboard features were used.
 	\vskip 0.2in
 	\begin{center}
 		\centerline{\includegraphics[width=\columnwidth]{mouse_movement}}
-		\caption{Mouse movement
-		}
-		\label{icml-historical}
-	\end{center}
-	\vskip -0.2in
-\end{figure} 
-
-\begin{figure}[ht]
-	\vskip 0.2in
-	\begin{center}
-		\centerline{\includegraphics[width=\columnwidth]{pam}}
-		\caption{Photographic Affect Meter (PAM)
-		}
-		\label{icml-historical}
-	\end{center}
-	\vskip -0.2in
-\end{figure} 
-
-\begin{figure}[ht]
-	\vskip 0.2in
-	\begin{center}
-		\centerline{\includegraphics[width=\columnwidth]{ema}}
-		\caption{Ecological Momentary Assessment (EMA)
+		\caption{Mouse Keystrokes
 		}
 		\label{icml-historical}
 	\end{center}
@@ -151,6 +163,7 @@ Figure 1 shows the performance when all keyboard features were used.
 
 \section{Discussion}
 PAM and EMA were used in other to reduce the chances of false report. For instance, a user who picks an 'angry' picture and goes on to select 'not stressed at all', 'very energetic', 'very pleasant', will have two differing results, thereby nullifying the input. 
+
 \subsection{Limitations}
 Since recruited participants were PhD students, our prediction model performance cannot be generalized to a broader audience. Since self-report surveys are subject, the definition of stress for different participants will have varying likert scale values. 
 
@@ -166,45 +179,8 @@ In order to improve multimodal sensing, future work will involve external sensor
 \section*{Acknowledgments} 
 Special thanks to Prof Daniel Cosley, students of INFO 6010, reviewers of Advanced Machine Learning course (Spring 2015), members of the PAC lab at Cornell University Information Science, and Prof Tanzeem Choudhury, whose guidance was instrumental in this project. 
 
- 
-\subsection{Citations and References} 
-
-Please use APA reference format regardless of your formatter
-or word processor. If you rely on the \LaTeX\/ bibliographic 
-facility, use {\tt natbib.sty} and {\tt icml2012.bst} 
-included in the style-file package to obtain this format.
-
-Citations within the text should include the authors' last names and
-year. If the authors' names are included in the sentence, place only
-the year in parentheses, for example when referencing Arthur Samuel's
-pioneering work \yrcite{Samuel59}. Otherwise place the entire
-reference in parentheses with the authors and year separated by a
-comma \cite{Samuel59}. List multiple references separated by
-semicolons \cite{kearns89,Samuel59,mitchell80}. Use the `et~al.'
-construct only for citations with three or more authors or after
-listing all authors to a publication in an earlier reference \cite{MachineLearningI}.
-
-Authors should cite their own work in the third person
-in the initial version of their paper submitted for blind review.
-Please refer to Section~\ref{author info} for detailed instructions on how to
-cite your own papers.
-
-Use an unnumbered first-level section heading for the references, and 
-use a hanging indent style, with the first line of the reference flush
-against the left margin and subsequent lines indented by 10 points. 
-The references at the end of this document give examples for journal
-articles \cite{Samuel59}, conference publications \cite{langley00}, book chapters \cite{Newell81}, books \cite{DudaHart2nd}, edited volumes \cite{MachineLearningI}, 
-technical reports \cite{mitchell80}, and dissertations \cite{kearns89}. 
-
-Alphabetize references by the surnames of the first authors, with
-single author entries preceding multiple author entries. Order
-references for the same authors by year of publication, with the
-earliest first. Make sure that each reference includes all relevant
-information (e.g., page numbers).
-
 % In the unusual situation where you want a paper to appear in the
 % references without citing it in the main text, use \nocite
-\nocite{epp2011identifying}
 
 \bibliography{ml_paper}
 \bibliographystyle{icml2012}
