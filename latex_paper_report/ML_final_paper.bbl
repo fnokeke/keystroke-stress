@@ -5,46 +5,50 @@
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
 
-\bibitem[Duda et~al.(2000)Duda, Hart, and Stork]{DudaHart2nd}
-Duda, R.~O., Hart, P.~E., and Stork, D.~G.
-\newblock \emph{Pattern Classification}.
-\newblock John Wiley and Sons, 2nd edition, 2000.
+\bibitem[Ark et~al.(1999)Ark, Dryer, and Lu]{ark1999emotion}
+Ark, Wendy~S, Dryer, D~Christopher, and Lu, Davia~J.
+\newblock The emotion mouse.
+\newblock In \emph{HCI (1)}, pp.\  818--823, 1999.
 
-\bibitem[Kearns(1989)]{kearns89}
-Kearns, M.~J.
-\newblock \emph{Computational Complexity of Machine Learning}.
-\newblock PhD thesis, Department of Computer Science, Harvard University, 1989.
+\bibitem[Epp et~al.(2011)Epp, Lippold, and Mandryk]{epp2011identifying}
+Epp, Clayton, Lippold, Michael, and Mandryk, Regan~L.
+\newblock Identifying emotional states using keystroke dynamics.
+\newblock In \emph{Proceedings of the SIGCHI Conference on Human Factors in
+  Computing Systems}, pp.\  715--724. ACM, 2011.
 
-\bibitem[Langley(2000)]{langley00}
-Langley, P.
-\newblock Crafting papers on machine learning.
-\newblock In Langley, Pat (ed.), \emph{Proceedings of the 17th International
-  Conference on Machine Learning (ICML 2000)}, pp.\  1207--1216, Stanford, CA,
-  2000. Morgan Kaufmann.
+\bibitem[Hernandez et~al.(2014)Hernandez, Paredes, Roseway, and
+  Czerwinski]{hernandez2014under}
+Hernandez, J, Paredes, P, Roseway, A, and Czerwinski, M.
+\newblock Under pressure: Sensing stress of computing users.
+\newblock \emph{Proc. of Computer and Human Interaction}, 2014.
 
-\bibitem[Michalski et~al.(1983)Michalski, Carbonell, and
-  Mitchell]{MachineLearningI}
-Michalski, R.~S., Carbonell, J.~G., and Mitchell, T.~M. (eds.).
-\newblock \emph{Machine Learning: An Artificial Intelligence Approach, Vol. I}.
-\newblock Tioga, Palo Alto, CA, 1983.
+\bibitem[Karpathy()]{karpathy}
+Karpathy, Andrej.
+\newblock Quantifying productivity.
 
-\bibitem[Mitchell(1980)]{mitchell80}
-Mitchell, T.~M.
-\newblock The need for biases in learning generalizations.
-\newblock Technical report, Computer Science Department, Rutgers University,
-  New Brunswick, MA, 1980.
+\bibitem[Lu et~al.(2012)Lu, Frauendorfer, Rabbi, Mast, Chittaranjan, Campbell,
+  Gatica-Perez, and Choudhury]{lu2012stresssense}
+Lu, Hong, Frauendorfer, Denise, Rabbi, Mashfiqui, Mast, Marianne~Schmid,
+  Chittaranjan, Gokul~T, Campbell, Andrew~T, Gatica-Perez, Daniel, and
+  Choudhury, Tanzeem.
+\newblock Stresssense: Detecting stress in unconstrained acoustic environments
+  using smartphones.
+\newblock In \emph{Proceedings of the 2012 ACM Conference on Ubiquitous
+  Computing}, pp.\  351--360. ACM, 2012.
 
-\bibitem[Newell \& Rosenbloom(1981)Newell and Rosenbloom]{Newell81}
-Newell, A. and Rosenbloom, P.~S.
-\newblock Mechanisms of skill acquisition and the law of practice.
-\newblock In Anderson, J.~R. (ed.), \emph{Cognitive Skills and Their
-  Acquisition}, chapter~1, pp.\  1--51. Lawrence Erlbaum Associates, Inc.,
-  Hillsdale, NJ, 1981.
+\bibitem[Sun et~al.(2014)Sun, Paredes, and Canny]{sun2014moustress}
+Sun, David, Paredes, Pablo, and Canny, John.
+\newblock Moustress: detecting stress from mouse motion.
+\newblock In \emph{Proceedings of the 32nd annual ACM conference on Human
+  factors in computing systems}, pp.\  61--70. ACM, 2014.
 
-\bibitem[Samuel(1959)]{Samuel59}
-Samuel, A.~L.
-\newblock Some studies in machine learning using the game of checkers.
-\newblock \emph{IBM Journal of Research and Development}, 3\penalty0
-  (3):\penalty0 211--229, 1959.
+\bibitem[Wang et~al.(2014)Wang, Chen, Chen, Li, Harari, Tignor, Zhou, Ben-Zeev,
+  and Campbell]{wang2014studentlife}
+Wang, Rui, Chen, Fanglin, Chen, Zhenyu, Li, Tianxing, Harari, Gabriella,
+  Tignor, Stefanie, Zhou, Xia, Ben-Zeev, Dror, and Campbell, Andrew~T.
+\newblock Studentlife: assessing mental health, academic performance and
+  behavioral trends of college students using smartphones.
+\newblock In \emph{Proceedings of the 2014 ACM International Joint Conference
+  on Pervasive and Ubiquitous Computing}, pp.\  3--14. ACM, 2014.
 
 \end{thebibliography}
