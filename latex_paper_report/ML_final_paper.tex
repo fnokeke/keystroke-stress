@@ -92,9 +92,11 @@ Early work done by Ark Wendy S. et al in The Emotion Mouse relate the mouse touc
 \subsection{Computer Applications}
 Karpathy on his blog shows how he measures computer activities for self tracking. However, this is done with the idea of quantified self but without linking user stress state. Some of the ideas used in our project design were inspired by work on Karpathy's system \cite{karpathy}.
 
-Unlike previous works, which focus on only keystrokes, only mouse, or both, our work adds foreground application usage as an extra data source. This is based on the intuition that certain applications might immensely affect user emotional state compared to others. For instance, a non-programmer using Matlab for the first few days might hit the backspace key to delete wrongly written code; click on the menu buttons several times, perhaps in search of a functionality or switch applications multiple times between Matlab software and a browser page showing ``how to perform matrix multipication in Matlab''.
+Our work differs from all other works in 3 major ways: a custom hardware does not need to be installed; data collection is not done in a stress-induced lab setting for a short period of time, rather data is continuously logged with the intent of long-term continuity; as far as we know, we are the first to incorporate computer usage application as part of stress sensing. 
 
-It is important to note that unlike previous works, which have logged user computer activities without explicitly discussing how user data is protected, our application only logs specific keys when users type, every other key is blocked with the symbol ``\$\$''. For instance, alphabetic and numeric keys are logged as ``\$\$'' as a user could type highly sensitive information such as passwords or personal messages. In addition, every data logged is not uploaded to a cloud server; the data is locally stored on the user's computer. This way, a user can decide to opt out of the data logging process and delete all data collected.
+Unlike previous works, which focus on only keystrokes, only mouse, or both, our work leverages foreground application usage as an extra data source. This is based on the intuition that certain applications might immensely affect user emotional state compared to others. For instance, a non-programmer using Matlab for the first few days might hit the backspace key to delete wrongly written code; click on the menu buttons several times, perhaps in search of a functionality or switch applications multiple times between Matlab software and a browser page showing ``how to perform matrix multipication in Matlab''.
+
+It is worthwile to note that previous works have logged user computer activities without explicitly discussing how user data is protected; our application takes a different approach by only logging specific keys when users type. Every other key is blocked with the symbol ``\$\$''. For instance, alphabetic and numeric keys are logged as ``\$\$'' as a user could type highly sensitive information such as passwords or personal messages. In addition, every data logged is not uploaded to a cloud server; the data is locally stored on the user's computer. This way, a user can decide to opt out of the data logging process and delete all data collected.
 
 \section{Methodology}
 The work involves two major components: the data logging process done in-situ -- as participants carried out their daily activities, and the data processing required to classify stress states. For the data collection, users' keystrokes, mouse activities, and computer applications usage are timestamped and logged. The data processing involved extracting relevant keystroke features in order to build Machine Learning classifiers. 
@@ -131,6 +133,18 @@ Figure 1 shows the PAM survey. During periodic interval---we arbitrarily select 
 Figure 2 shows a self-report questionnaire. After selecting a picture in PAM, a 3-question survey page opens up where the user gets to pick one response out of five categories. 
 
 \subsection{Data Collection Software}
+A system was built that logs user keystrokes, mouse activities and applications used throughout the day. While there are a few open sourced tools that could have been adopted, a custom application was built because existing tools suffer from poor documentation and incomprehensible programming approaches. 
+
+Upon installation, our software tool contains a keystroke logger, a mouse logger, an application logger and a self-report logger. The keyboard and mouse applications continuously logs keystrokes and mouse activities; the foreground application is logged every 3 seconds; while the stress self-report is logged every 30 minutes. The self-report application starts up a PHP server, opens PAM webpage with the user's default browser. Upon selecting a choice from the 16-grid pictures, the response is saved in a file. Thereafter, the 3-question survey is opened as the next webpage, which upon answering a ``thank-you'' page loads. After about 5 seconds, the ``thank-you'' page automatically closes. Self-report application logs user response based on when they responded and not when the page opens. For instance, if the Web page opens at 4pm but the user responds at 7pm, then the response is logged at 7pm. 
+
+Every 15 minutes, a background script checks if all the applications are running or if they have been stopped either manually by the user, another running process, or through a power down of the user computer. This ensures that user logging continues non-intrusively as users do not have to manually start the applications if they were shut down. In order to maintain user access control, every activity application has an icon that appears in the dock so that the user can close the application whenever they want to; users can also delete the data directory if they don't want to partake in the experiment. 
+
+mouse logging format
+keyboard logging format
+application logging format
+pam logging format
+These intervals for each application were arbitrarily chosen. 
+
 
 Using our custom applications, we will install our background scripts on the participants’ computers. Ideally, our background programs will record the keys users type, but the corresponding values will be randomized due to privacy sensitivity, and the frequency of mouse clicking as well.
 Data for Web browsing and application usage will be collected through available python APIs. All the data will be stored as txt/csv files, awaiting further analysis.
