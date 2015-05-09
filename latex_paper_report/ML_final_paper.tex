@@ -166,7 +166,8 @@ Using our custom applications, we will install our background scripts on the par
 Data for Web browsing and application usage will be collected through available python APIs. All the data will be stored as text files awaiting further analysis.
 
 \subsection{Feature Extraction}
-For training and testing, 15 keyboard features were used, which include typing speed per minute, etc;
+We segmented the raw computer usage activities with sliding window size = 1 minute and the extracted three types of computer usage features, \textbf{M}, \textbf{K}, and \textbf{A} for mouse clicks, keystrokes, and application usage within each sliding window. \textbf{M} = $[d_{m}, r_{m}, t_{m}]$, where $d_{m}$ is the total distance of mouse movement, $r_{m}$ is the mouse click rate, and $t_{m}$ is the average mouse button pressed duration. \textbf{K} = $[r_{k_1}, t_{k_1}, r_{k_2}, t_{k_2}, t_{k_i}, ..., r_{k_N}, t_{k_N}]$, i $\in{N}$, where $k_{i}$ stands for different keys and N stands for total number of key types we logged, and $N=9$ in our case, including function keys, letter keys, enter key, tab key, space key, delete key, escape key, arrow key, and all the keys that were pressed (that is, the previous key types were also taken into account), and $t_{k_i}$ is key pressed time for key $k_{i}$.  \textbf{A} = $[t_{a_1}, t_{a_2}, t_{a_j}, ..., t_{a_P}, x]$, j $\in{P}$, where $a_{i}$ stands for different applications, $P$ is the total number of applications users might open when using computers, $t_{a_j}$ is the time users spent on application $a_{j}$, and $x$ is the number of active applications within each time window. To know decide what $P$ is, we first iterated through the users' historical application usage logs.
+
 \subsection{Classification}
 
 \begin{figure}[ht]
