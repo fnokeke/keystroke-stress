@@ -137,17 +137,33 @@ A system was built that logs user keystrokes, mouse activities and applications 
 
 Upon installation, our software tool contains a keystroke logger, a mouse logger, an application logger and a self-report logger. The keyboard and mouse applications continuously logs keystrokes and mouse activities; the foreground application is logged every 3 seconds; while the stress self-report is logged every 30 minutes. The self-report application starts up a PHP server, opens PAM webpage with the user's default browser. Upon selecting a choice from the 16-grid pictures, the response is saved in a file. Thereafter, the 3-question survey is opened as the next webpage, which upon answering a ``thank-you'' page loads. After about 5 seconds, the ``thank-you'' page automatically closes. Self-report application logs user response based on when they responded and not when the page opens. For instance, if the Web page opens at 4pm but the user responds at 7pm, then the response is logged at 7pm. 
 
-Every 15 minutes, a background script checks if all the applications are running or if they have been stopped either manually by the user, another running process, or through a power down of the user computer. This ensures that user logging continues non-intrusively as users do not have to manually start the applications if they were shut down. In order to maintain user access control, every activity application has an icon that appears in the dock so that the user can close the application whenever they want to; users can also delete the data directory if they don't want to partake in the experiment. 
+Every 15 minutes, a background script checks if all the applications are running or if they have been stopped either manually by the user, another running process, or through a power down of the user computer. This ensures that user logging continues non-intrusively as users do not have to manually start the applications if they were shut down. In order to maintain user access control, every activity application has an icon that appears in the dock so that the user can close the application whenever they want to; users can also delete the data directory if they don't want to partake in the experiment. These intervals for each application were arbitrarily chosen. 
 
 mouse logging format
+2015-05-03 12:18:55.438360 |      MouseMoveHooker |           NSMouseMoved | y=606.19140625 x=683.0390625
+2015-05-03 12:19:51.473070 |    MouseButtonHooker |         NSRightMouseUp | y=22.234375 x=274.37109375
+2015-05-03 12:19:55.261508 |    MouseButtonHooker |          NSLeftMouseUp | y=272.79296875 x=293.51953125
+2015-05-03 12:19:53.588968 |    MouseButtonHooker |        NSLeftMouseDown | y=81.90234375 x=109.9609375
+
+
 keyboard logging format
+%2015-05-03 12:18:57.540228 |            KeyHooker |                NSKeyUp | char=  mods=[] key=49 is_repeat=False
+%2015-05-03 12:20:28.903225 |            KeyHooker |              NSKeyDown | char=\$\$ mods=['COMMAND'] key=\$\$ is_repeat=False
+
+
 application logging format
+%2015-05-07 22:39:09.113787 |        Google Chrome
+
+
 pam logging format
-These intervals for each application were arbitrarily chosen. 
+%time: 2015-04-29 23:47:11, image_id: 11, cell_id: 4, pam_pa: 16, pam_na: 3, arousal: 4, valence: 4
 
+ema logging format
+%time: 2015-04-27 03:59:49, pleasant_state: slightly_pleasant, energy_state: slightly_energetic, stress_state: feeling_good
 
+ 
 Using our custom applications, we will install our background scripts on the participants’ computers. Ideally, our background programs will record the keys users type, but the corresponding values will be randomized due to privacy sensitivity, and the frequency of mouse clicking as well.
-Data for Web browsing and application usage will be collected through available python APIs. All the data will be stored as txt/csv files, awaiting further analysis.
+Data for Web browsing and application usage will be collected through available python APIs. All the data will be stored as text files awaiting further analysis.
 
 \subsection{Feature Extraction}
 For training and testing, 15 keyboard features were used, which include typing speed per minute, etc;
@@ -176,18 +192,25 @@ For training and testing, 15 keyboard features were used, which include typing s
 \end{figure} 
 
 \section{Discussion}
-PAM and EMA were used in other to reduce the chances of false report. For instance, a user who picks an 'angry' picture and goes on to select 'not stressed at all', 'very energetic', 'very pleasant', will have two differing results, thereby nullifying the input. 
+coming soon from Vincent
+
 
 \subsection{Limitations}
-Since recruited participants were PhD students, our prediction model performance cannot be generalized to a broader audience. Since self-report surveys are subject, the definition of stress for different participants will have varying likert scale values. 
+Our dataset is limited. Since recruited participants were PhD students, our prediction model performance cannot be generalized to a broader audience. Since self-report surveys are subject, the definition of stress for different participants will have varying likert scale values. 
 
-Survey popping up periodically can become annoying to users thereby making reducing performance over time. Since emotional states are short-lived and a user can have multiple emotions in a short time, the surveys cannot fully capture the end user's entire emotional states but only a fraction of it.
+Survey popping up periodically can become annoying to users thereby making reducing performance over time. Since emotional states are short-lived and a user can have multiple emotions in a short time, the surveys cannot fully capture the end user's entire emotional states but only a fraction of it
+
 
 
 \section{Future Work}
 In order to improve multimodal sensing, future work will involve external sensors for measuring HR, BP, EEG. The current application focuses on batch learning of data already amassed so for next iteration will involve online learning especially for making efficient recommendation systems. Participants for this experiment were PhD students recruited from a research lab familiar with some of the measuring tools used; more insightful applications might involve workers in industries especially end users oblivious of the methods of the current research.
 
+do some form of active learning
 
+collect data for a longer period of time --- like several months
+
+
+\subsection{Conclusion}
 
 % Acknowledgements should only appear in the accepted version. 
 \section*{Acknowledgments} 
