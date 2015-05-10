@@ -104,19 +104,19 @@ The work involves two major components: the data logging process done in-situ --
 \subsection{Experience Sampling of Computer Activities}
 Experience Samping Method (ESM) involves continuously logging computer activities while periodically collecting user responses to self-reports of their level of stress \cite{hektner2007experience}. Stress states were measured using Photographic Affect Meter (PAM) \cite{pollak2011pam}and three-question likert-scale survey. 
 
-Figure 1 shows the performance when all keyboard features were used. 
+Figure \ref{pam} shows the PAM survey. During periodic interval---we arbitrarily select 30 minutes interval---a webpage automatically opens up and a user is asked \textit{``How do you feel right now?''} Then the user selects one of 16 grid pictures that reflects their internal emotional state. 
+
+Figure \ref{ema} shows a self-report questionnaire. After selecting a picture in PAM, a 3-question survey page opens up where the user gets to pick one response out of five categories. 
+
 \begin{figure}[ht]
-	\vskip 0.2in
-	\begin{center}
-		\centerline{\includegraphics[width=\columnwidth]{pam}}
-		\caption{PAM: the user selects one of 16 grid pictures that reflects their internal emotional state. 
-		}
-		\label{icml-historical}
-	\end{center}
-	\vskip -0.2in
+		\centering
+		\includegraphics[width=\columnwidth]{pam}
+		\label{pam}
+		\caption{PAM: the user selects one of 16 grid pictures that reflects their internal emotional state.} 
+		\label{pam}
 \end{figure} 
 
-Figure 1 shows the PAM survey. During periodic interval---we arbitrarily select 30 minutes interval---a webpage automatically opens up and a user is asked \textit{``How do you feel right now?''} Then the user selects one of 16 grid pictures that reflects their internal emotional state. 
+
 
 
 \begin{figure}[ht]
@@ -125,12 +125,11 @@ Figure 1 shows the PAM survey. During periodic interval---we arbitrarily select 
 		\centerline{\includegraphics[width=\columnwidth]{ema}}
 		\caption{A 3-question survey: the user gets to pick one response out of five categories for each question. 
 		}
-		\label{icml-historical}
+		\label{ema}
 	\end{center}
 	\vskip -0.2in
 \end{figure} 
 
-Figure 2 shows a self-report questionnaire. After selecting a picture in PAM, a 3-question survey page opens up where the user gets to pick one response out of five categories. 
 
 \subsection{Data Collection Software}
 A system was built that logs user keystrokes, mouse activities and applications used throughout the day. While there are a few open sourced tools that could have been adopted, a custom application was built because existing tools suffer from poor documentation and incomprehensible programming approaches. 
@@ -169,16 +168,34 @@ Data for Web browsing and application usage will be collected through available 
 We segmented the raw computer usage activities with sliding window size = 1 minute and the extracted three types of computer usage features, \textbf{M}, \textbf{K}, and \textbf{A} for mouse clicks, keystrokes, and application usage within each sliding window. \textbf{M} = $[d_{m}, r_{m}, t_{m}]$, where $d_{m}$ is the total distance of mouse movement, $r_{m}$ is the mouse click rate, and $t_{m}$ is the average mouse button pressed duration. \textbf{K} = $[r_{k_1}, t_{k_1}, r_{k_2}, t_{k_2}, t_{k_i}, ..., r_{k_N}, t_{k_N}]$, i $\in{N}$, where $k_{i}$ stands for different keys and N stands for total number of key types we logged, and $N=9$ in our case, including function keys, letter keys, enter key, tab key, space key, delete key, escape key, arrow key, and all the keys that were pressed (that is, the previous key types were also taken into account), and $t_{k_i}$ is key pressed time for key $k_{i}$.  \textbf{A} = $[t_{a_1}, t_{a_2}, t_{a_j}, ..., t_{a_P}, x]$, j $\in{P}$, where $a_{i}$ stands for different applications, $P$ is the total number of applications users might open when using computers, $t_{a_j}$ is the time users spent on application $a_{j}$, and $x$ is the number of active applications within each time window. To know decide what $P$ is, we first iterated through the users' historical application usage logs.
 
 \subsection{Algorithm}
-Since the self-report survey popped up every 30 minutes, we only considered raw computer usage features within the 30-minute duration, if the computer was active,  before the survey is filled out. That is, assuming the user filled out the survey at timestamp $T_end$, and the computer got active at timestamp $T_c$, we only considered raw features with timestamps in $[T_{begin}, T_s)$, where $T_begin=min(T_{end-1800}, T_c)$. Then according to the previous section, we extracted high level features from the raw features among each period and got computer usage samples $S_{T_{begin}}, S_{T_{begin+60}}, ..., S_{T_{end-60}}, S_{T_{end}}$, where each sample $S$ was labeled with the corresponding binary results of users' stress level based on the participants' EMA self-report score. 
+Since the self-report survey popped up every 30 minutes, we only considered raw computer usage features within the 30-minute duration, if the computer was active,  before the survey is filled out. That is, assuming the user filled out the survey at timestamp $T_end$, and the computer got active at timestamp $T_c$, we only considered raw features with timestamps in $[T_{begin}, T_s)$, where $T_{begin}$=$min(T_{end-1800}, T_c)$. Then according to the previous section, we extracted high level features from the raw features among each period and got computer usage samples $S_{T_{begin}}, S_{T_{begin+60}}, ..., S_{T_{end-60}}, S_{T_{end}}$, where each sample $S$ was labeled with the corresponding binary results of users' stress level based on the participants' EMA self-report score. 
 
-Due to time limit, we could only collect data from one participant for consecutive 3 days after the deployment, and we got 352 samples from the deployment. We used Decision Tree, Random Forest and SVM for stress prediction. We tried  different ways of splits for training and testing, from 50-50 split to 90-10 split. 
+Due to time limit, we could only collect data from one participant for consecutive 3 days after the deployment, and we got 352 samples from the deployment. We used Decision Tree, Random Forest and support vector machine (SVM) for stress prediction. We tried  different ways of splits for training and testing, from 50-50 split to 90-10 split. Figure \ref{prediction} is the accuracy of stress prediction with different algorithms as well as different ways of data splits. For the baseline algorithm, it randomly guesses whether the user is stressed or not.
+
+\begin{figure}
+	\centering
+	\begin{subfigure}
+		\centering
+		\includegraphics[width=\columnwidth]{DecisionTree.png} {a. Decision Tree}
+	\end{subfigure}
+	\begin{subfigure}
+		\centering
+		\includegraphics[width=\columnwidth]{RandomForest.png} {b. Random Forest}
+	\end{subfigure}
+	\begin{subfigure}
+		\centering
+		\includegraphics[width=\columnwidth]{SVM.png} {c. SVM}
+	\end{subfigure}
+	\caption{The accuracy of stress prediction with different algorithms: (a) Decision Tree, (b) Random Forest, (c) Support Vector Machine (SVM) and with different ways of data splits.} \label{prediction}
+\end{figure}
 
 \begin{figure}[ht]
 	\vskip 0.2in
 	\begin{center}
 		\centerline{\includegraphics[width=\columnwidth]{keyboard}}
-		\caption{Keyboard Heatmap
-		}
+		\label{keyboard}
+		\caption{Keyboard Heatmap}
+
 		\label{icml-historical}
 	\end{center}
 	\vskip -0.2in
