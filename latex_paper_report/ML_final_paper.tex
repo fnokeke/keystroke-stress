@@ -116,9 +116,6 @@ Figure \ref{ema} shows a self-report questionnaire. After selecting a picture in
 		\label{pam}
 \end{figure} 
 
-
-
-
 \begin{figure}[ht]
 	\vskip 0.2in
 	\begin{center}
@@ -167,10 +164,8 @@ Data for Web browsing and application usage will be collected through available 
 \subsection{Feature Extraction}
 We segmented the raw computer usage activities with sliding window size = 1 minute and the extracted three types of computer usage features, \textbf{M}, \textbf{K}, and \textbf{A} for mouse clicks, keystrokes, and application usage within each sliding window. \textbf{M} = $[d_{m}, r_{m}, t_{m}]$, where $d_{m}$ is the total distance of mouse movement, $r_{m}$ is the mouse click rate, and $t_{m}$ is the average mouse button pressed duration. \textbf{K} = $[r_{k_1}, t_{k_1}, r_{k_2}, t_{k_2}, t_{k_i}, ..., r_{k_N}, t_{k_N}]$, i $\in{N}$, where $k_{i}$ stands for different keys and N stands for total number of key types we logged, and $N=9$ in our case, including function keys, letter keys, enter key, tab key, space key, delete key, escape key, arrow key, and all the keys that were pressed (that is, the previous key types were also taken into account), and $t_{k_i}$ is key pressed time for key $k_{i}$.  \textbf{A} = $[t_{a_1}, t_{a_2}, t_{a_j}, ..., t_{a_P}, x]$, j $\in{P}$, where $a_{i}$ stands for different applications, $P$ is the total number of applications users might open when using computers, $t_{a_j}$ is the time users spent on application $a_{j}$, and $x$ is the number of active applications within each time window. To know decide what $P$ is, we first iterated through the users' historical application usage logs.
 
-\subsection{Algorithm}
-Since the self-report survey popped up every 30 minutes, we only considered raw computer usage features within the 30-minute duration, if the computer was active,  before the survey is filled out. That is, assuming the user filled out the survey at timestamp $T_end$, and the computer got active at timestamp $T_c$, we only considered raw features with timestamps in $[T_{begin}, T_s)$, where $T_{begin}$=$min(T_{end-1800}, T_c)$. Then according to the previous section, we extracted high level features from the raw features among each period and got computer usage samples $S_{T_{begin}}, S_{T_{begin+60}}, ..., S_{T_{end-60}}, S_{T_{end}}$, where each sample $S$ was labeled with the corresponding binary results of users' stress level based on the participants' EMA self-report score. 
-
-Due to time limit, we could only collect data from one participant for consecutive 3 days after the deployment, and we got 352 samples from the deployment. We used Decision Tree, Random Forest and support vector machine (SVM) for stress prediction. We tried  different ways of splits for training and testing, from 50-50 split to 90-10 split. Figure \ref{prediction} is the accuracy of stress prediction with different algorithms as well as different ways of data splits. For the baseline algorithm, it randomly guesses whether the user is stressed or not.
+\subsection{Algorithms}
+Since the self-report survey popped up every 30 minutes, we only considered raw computer usage features within the 30-minute duration, if the computer was active,  before the survey is filled out. That is, assuming the user filled out the survey at timestamp $T_end$, and the computer got active at timestamp $T_c$, we only considered raw features with timestamps in $[T_{begin}, T_s)$, where $T_{begin}$=$min(T_{end-1800}, T_c)$. And according to the previous section, we extracted high level features from the raw features among each period and got computer usage samples $S_{T_{begin}}, S_{T_{begin+60}}, ..., S_{T_{end-60}}, S_{T_{end}}$, where each sample $S$ was labeled with the corresponding binary results of users' stress level based on the participants' EMA self-report score. Then we used Decision Tree, Random Forest, support vector machine (SVM), as well as participants' historical data for future stress prediction.
 
 \begin{figure}
 	\centering
@@ -212,8 +207,8 @@ Due to time limit, we could only collect data from one participant for consecuti
 	\vskip -0.2in
 \end{figure} 
 
-\section{Discussion}
-coming soon from Vincent
+\section{Results}
+Due to time limit, we could only collect data from one participant for consecutive 3 days after the deployment, and we got 352 samples from the deployment. We tried different ways of splits for training and testing, from 50-50 split to 90-10 split, as well as different combinations of features ($M$, $K$, $A$, $M+K$). But we found that the prediction accuracy was very low using only $A$, because during each time window, the tended to open just a couple of applications, which made the feature vector of $A$ become very sparse and in turn diminished $A$'s ability for prediction. As a consequence, we decided not to consider all the applications users might use as features. Instead, we only took into account the top 5 frequently used applications as features. That is, the application usage features became $A'=[t_{a_1'}, t_{a_2'}, t_{a_3'}, t_{a_4'}, t_{a_5'}, t_{a_6'}, x]$, where $t_{a_1'}\sim t_{a_5'}$ are the amount of time users spend on the top 5 most frequently used applications in each 1-minute window, and $t_{a_6'}$ is the amount of time users spend on the rest of the applications. After the features were adjusted, the accuracy significantly improved. Figure \ref{prediction} is the accuracy of stress prediction with different algorithms, different combinations of features, as well as different ways of data splits. For the baseline algorithm, it randomly guesses whether the user is stressed or not. The reason why the split for SVM is only down to 60-40 is that the participant's self-report score is quite consistent during the first few days of study, where the participant kept reporting "not-stressed" among the first half of the data we collected. Thus, we would have not training data labeled with "stressed" if we did 50-50 split.
 
 
 \subsection{Limitations}
