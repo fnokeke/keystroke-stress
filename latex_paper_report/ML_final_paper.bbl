@@ -1,9 +1,19 @@
-\begin{thebibliography}{9}
+\begin{thebibliography}{11}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[key()]{keystroke}
+{Keystroke}.
+\newblock \url{https://github.com/fnokeke/keystroke-stress}.
+\newblock Accessed: 2015-05-01.
+
+\bibitem[wha()]{whatpulse}
+{WhatPulse}.
+\newblock \url{https://whatpulse.org/}.
+\newblock Accessed: 2015-05-01.
 
 \bibitem[Ark et~al.(1999)Ark, Dryer, and Lu]{ark1999emotion}
 Ark, Wendy~S, Dryer, D~Christopher, and Lu, Davia~J.
@@ -31,7 +41,9 @@ Hernandez, J, Paredes, P, Roseway, A, and Czerwinski, M.
 
 \bibitem[Karpathy()]{karpathy}
 Karpathy, Andrej.
-\newblock Quantifying productivity.
+\newblock {Quantifying Productivity}.
+\newblock \url{http://karpathy.github.io/2014/08/03/quantifying-productivity/}.
+\newblock Accessed: 2015-05-01.
 
 \bibitem[Lu et~al.(2012)Lu, Frauendorfer, Rabbi, Mast, Chittaranjan, Campbell,
   Gatica-Perez, and Choudhury]{lu2012stresssense}

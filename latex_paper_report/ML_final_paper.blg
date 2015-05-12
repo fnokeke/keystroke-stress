@@ -3,50 +3,50 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: ML_final_paper.aux
 The style file: icml2012.bst
 Database file #1: ml_paper.bib
-""" immediately follows a field part---line 55 of file ml_paper.bib
- :  howpublished=\
- :                "url{http://karpathy.github.io/2014/08/03/quantifying-productivity/}",
-I'm skipping whatever remains of this entry
+Warning--to sort, need author or key in whatpulse
+Warning--to sort, need author or key in keystroke
+Warning--empty year in keystroke
+Warning--empty year in whatpulse
 Warning--empty year in karpathy
-You've used 9 entries,
+You've used 11 entries,
             2773 wiz_defined-function locations,
-            640 strings with 6712 characters,
-and the built_in function-call counts, 5432 in all, are:
-= -- 481
+            648 strings with 6918 characters,
+and the built_in function-call counts, 5944 in all, are:
+= -- 536
 > -- 358
 < -- 7
-+ -- 120
++ -- 122
 - -- 111
-* -- 431
-:= -- 797
-add.period$ -- 31
-call.type$ -- 9
-change.case$ -- 63
-chr.to.int$ -- 9
-cite$ -- 19
-duplicate$ -- 248
-empty$ -- 413
+* -- 459
+:= -- 844
+add.period$ -- 39
+call.type$ -- 11
+change.case$ -- 69
+chr.to.int$ -- 11
+cite$ -- 29
+duplicate$ -- 278
+empty$ -- 483
 format.name$ -- 120
-if$ -- 1179
+if$ -- 1306
 int.to.chr$ -- 1
 int.to.str$ -- 1
 missing$ -- 9
-newline$ -- 52
+newline$ -- 64
 num.names$ -- 36
-pop$ -- 155
+pop$ -- 191
 preamble$ -- 1
-purify$ -- 55
+purify$ -- 59
 quote$ -- 0
-skip$ -- 205
+skip$ -- 218
 stack$ -- 0
-substring$ -- 189
-swap$ -- 63
+substring$ -- 195
+swap$ -- 65
 text.length$ -- 6
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 94
-warning$ -- 1
+type$ -- 116
+warning$ -- 5
 while$ -- 45
 width$ -- 0
-write$ -- 123
-(There was 1 error message)
+write$ -- 149
+(There were 5 warnings)

@@ -69,7 +69,7 @@
 ]
 
 \begin{abstract} 
-Stress is inevitable. Sometimes people fall back to their old habits or perform a series of actions that can be directly linked to their stressful states. Identifying stress is important but the approach scales poorly when invasive sensors have to be used or the when the research method relies on induced stress in a timed lab experiment.  Our solution aims to identify stressful states based on continuous logging of keystroke dynamics, mouse patterns, and foreground application usage. We propose a privacy-aware system, E-stress detector, that logs participants' computer activities alongside their stress self report. After extracting relevant features, our top classifiers provide highest accuracy of  when training-test split is 70\% to 80\% predicting user future stress level based on historical data. 
+Stress is inevitable. Sometimes people fall back to their old habits or perform a series of actions that can be directly linked to their stressful states. Identifying stress is important but the approach scales poorly when invasive sensors have to be used or the when the research method relies on induced stress in a timed lab experiment.  Our solution aims to identify stressful states based on continuous logging of keystroke dynamics, mouse patterns, and foreground application usage. We propose a privacy-aware system, E-stress detector, that logs participants' computer activities alongside their stress self report. After extracting relevant features, our top classifiers provide highest accuracy when training-test split is 70\% to 80\% for predicting user future stress level based on historical data. 
 \end{abstract} 
 
 \section{Introduction}
@@ -96,24 +96,25 @@ Early work done by Ark Wendy S. et al in The Emotion Mouse relate the mouse touc
 \subsection{Computer Applications}
 Karpathy on his blog shows how he measures computer activities for self tracking. However, this is done with the idea of quantifying productivity without linking user stress state. Some of the ideas used in our project design were inspired by work on Karpathy's system \cite{karpathy}.
 
-Our work differs from all other works in 3 major ways: a custom hardware does not need to be installed; data collection is not done in a stress-induced lab setting for a short period of time, rather data is continuously logged with the intent of long-term continuity; as far as we know, we are the first to incorporate computer usage application as part of stress sensing. 
+Our work differs from all other works in 3 major ways: a custom hardware does not need to be installed; data collection is not done in a stress-induced lab setting for a short period of time, rather data is continuously logged with the intent of long-term continuity; we are the first, as far as we know, to incorporate computer usage application as part of stress sensing. 
 
 Unlike previous works, which focus on only keystrokes, only mouse, or both, our work leverages foreground application usage as an extra data source. This is based on the intuition that certain applications might immensely affect user emotional state compared to others. For instance, a non-programmer using Matlab for the first few days might hit the backspace key to delete wrongly written code; click on the menu buttons several times, perhaps in search of a functionality or switch applications multiple times between Matlab software and a browser page showing ``how to perform matrix multipication in Matlab''.
 
-It is worthwile to note that previous works have logged user computer activities without explicitly discussing how user data is protected; our application takes a different approach by only logging specific keys when users type. Every other key is blocked with the symbol ``\$\$''. For instance, alphabetic and numeric keys are logged as ``\$\$'' as a user could type highly sensitive information such as passwords or personal messages. In addition, every data logged is not uploaded to a cloud server; the data is locally stored on the user's computer. This way, a user can decide to opt out of the data logging process and delete all data collected.
+It is worthwile to note that previous works have logged user computer activities without explicitly discussing how user data is protected. As such, a significant amount of work went into building the tool necessary for collecting data while preserving user privacy. Our application takes a different approach by only logging specific keys when users type. Every other key is blocked with the symbol ``\$\$''. In addition, every data logged is not uploaded to a cloud server as the data is locally stored on the user's computer. 
 
-Unlike other research problems, which readily provide data for carrying out Machine Learning techniques, ours requires collecting more sensitive data. As such, a significant amount of work went into building the tool necessary for collecting data while preserving user privacy. The end goal is to deploy a tool that can be easily installed on multiple users' computers. In this way, data sharing for future research building on our work can gain from users donating their data. 
-
-We are aware that the definition of stress is subjective and the use of body sensors may provide more convincing result. However, for project scope and due to time constraint, our work focuses on self-report of stress state as with  existing literature \cite{epp2011identifying}, \cite{wang2014studentlife}. Further, research work on stress do not necessarily involve hundreds/thousands of users as this is not a big data problem; rather, the focus is on personalized model for each user and a sample sample size is usually normal.
+For project scope, we do not use body sensors as our work focuses on self-report of stress state as with existing literature \cite{epp2011identifying}, \cite{wang2014studentlife}.
 \section{Methodology}
 The work involves two major components: the data logging process done in-situ -- as participants carried out their daily activities, and the data processing required to classify stress states. For the data collection, users' keystrokes, mouse activities, and computer applications usage are timestamped and logged. The data processing involved extracting relevant keystroke features in order to build Machine Learning classifiers. 
 
 \subsection{Experience Sampling of Computer Activities}
 Experience Samping Method (ESM) involves continuously logging computer activities while periodically collecting user responses to self-reports of their level of stress \cite{hektner2007experience}. Stress states were measured using Photographic Affect Meter (PAM) \cite{pollak2011pam}and three-question likert-scale survey. 
 
-Figure \ref{pam} shows the PAM survey. During periodic interval---we arbitrarily select 30 minutes interval---a webpage automatically opens up and a user is asked \textit{``How do you feel right now?''} Then the user selects one of 16 grid pictures that reflects their internal emotional state. Each grid represents each of 16 emotions and there are 3 possible images that could be displayed per grid.  On clicking \textit{You can load more images button}, some of the grid images change.
+Figure \ref{pam} shows the PAM survey. PAM existed for only mobile phones but we have ported it to computers. During periodic interval---we arbitrarily select 30 minutes interval---a webpage automatically opens up and a user is asked \textit{``How do you feel right now?''} Then the user selects one of 16 grid pictures that reflects their internal emotional state. Each grid represents each of 16 emotions and there are 3 possible images that could be displayed per grid.  On clicking \textit{You can load more images button}, some of the grid images change based on randomized selection. In our study, we divide the positive and negative emotions into stress and not-stressed respectively. \cite{pollak2011pam} provides detailed information on valence and arousals and how these map to user emotions, which we then use as a stress self-report.
 
 Figure \ref{ema} shows a self-report questionnaire. After selecting a picture in PAM, a 3-question survey page opens up where the user gets to pick one response out of five categories. 
+
+Like StudentLife, \cite{wang2014studentlife}, our groundtruth is the 3-question survey. StudentLife precisely used a one-question survey which is the same as the third question in our 3-question survey; the only difference in our approach is that we add two extra questions---the first and the second---in order to capture more input from the user. Input from PAM is compared to the responses from the 3-question survey and this can help control the amount of irregular reports made by an end user. For instance, if a user selected the ice-cream picture on the top right of figure 1 but ``very stressed'' in the 3-question survey, then we can easily identify that the input is incorrect. 
+
 
 \begin{figure}[ht]
 		\centering
@@ -124,7 +125,6 @@ Figure \ref{ema} shows a self-report questionnaire. After selecting a picture in
 \end{figure} 
 
 \begin{figure}[ht]
-	\vskip 0.2in
 	\begin{center}
 		\centerline{\includegraphics[width=\columnwidth]{ema}}
 		\caption{A 3-question survey: the user gets to pick one response out of five categories for each question. 
