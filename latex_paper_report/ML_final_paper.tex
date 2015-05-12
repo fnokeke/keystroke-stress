@@ -67,7 +67,7 @@
 ]
 
 \begin{abstract} 
-Stress is inevitable. Sometimes people fall back to their old habits or perform a series of actions that can be directly linked to their stressful states. Identifying stress is important but the approach scales poorly when invasive sensors have to be used or the method relies on induced stress in a timed lab experiment.  Our solution aims to identify stressful states based on continuous logging of keystroke dynamics, mouse patterns, and foreground application usage. We propose a privacy-aware system, E-stress detector, that logs participants' computer activities alongside their stress self report. After extracting relevant features, our top classifiers provide 85 to 95 \% accuracy for predicting user future stress level based on historical data. 
+Stress is inevitable. Sometimes people fall back to their old habits or perform a series of actions that can be directly linked to their stressful states. Identifying stress is important but the approach scales poorly when invasive sensors have to be used or the method relies on induced stress in a timed lab experiment.  Our solution aims to identify stressful states based on continuous logging of keystroke dynamics, mouse patterns, and foreground application usage. We propose a privacy-aware system, E-stress detector, that logs participants' computer activities alongside their stress self report. After extracting relevant features, our top classifiers provide highest accuracy when training-test split is 70\% to 80\% predicting user future stress level based on historical data. 
 \end{abstract} 
 
 \section{Introduction}
@@ -131,7 +131,7 @@ Figure \ref{ema} shows a self-report questionnaire. After selecting a picture in
 
 
 \subsection{Data Collection Software}
-A system was built that logs user keystrokes, mouse activities and applications used throughout the day. While there are a few open sourced tools that could have been adopted, a custom application was built because existing tools suffer from poor documentation and incomprehensible programming approaches. 
+For visualizing keystrokes heatmap and mouse heatmap, we use WhatPulse \cite{whatpulse}. This can easily be downloaded and installed on the end user system. Since WhatPulse does not provide data to the granularity necessary for conducting our research, a system was built that logs user keystrokes, mouse activities and applications used throughout the day. While there are a few open sourced tools that could have been adopted, a custom application was built because existing tools suffer from poor documentation and/or incomprehensible programming approaches. 
 
 Upon installation, our software tool contains a keystroke logger, a mouse logger, an application logger and a self-report logger. The keyboard and mouse applications continuously logs keystrokes and mouse activities; the foreground application is logged every 3 seconds; while the stress self-report is logged every 30 minutes. The self-report application starts up a PHP server, opens PAM webpage with the user's default browser. Upon selecting a choice from the 16-grid pictures, the response is saved in a file. Thereafter, the 3-question survey is opened as the next webpage, which upon answering a ``thank-you'' page loads. After about 5 seconds, the ``thank-you'' page automatically closes. Self-report application logs user response based on when they responded and not when the page opens. For instance, if the Web page opens at 4pm but the user responds at 7pm, then the response is logged at 7pm. 
 
@@ -161,7 +161,7 @@ time
 	\textpipe \ char=\  char\textunderscore pressed \ 
     key=numeric\textunderscore value
      mods=$['fcn\textunderscore value']$
-    is\textunderscore repeat=boolean\textunderscore value\\.
+    is\textunderscore repeat=boolean\textunderscore value.\\
     \newline
     where \  key\textunderscore event is \textit{KeyHooker};  key\textunderscore direction is either of \textit{NSKeyUp, NSKeyDown}; char\textunderscore value is the actual key typed (this shows as \$\$ to protect user privacy), mods is any key command combined with an alphabetic key such as SHIFT, CONTROL, ALTERNATE, etc, which are referred to as fcn\textunderscore value i.e. function value;  is\textunderscore repeat is either of \textit{True, False} depending on if a key is held down or not.\\
     
@@ -230,7 +230,7 @@ Since the self-report survey popped up every 30 minutes, we only considered raw 
 	\begin{center}
 		\centerline{\includegraphics[width=\columnwidth]{keyboard}}
 		\label{keyboard}
-		\caption{Keyboard Heatmap}
+		\caption{WhatPulse: Keyboard Heatmap}
 
 		\label{icml-historical}
 	\end{center}
@@ -241,7 +241,7 @@ Since the self-report survey popped up every 30 minutes, we only considered raw 
 	\vskip 0.2in
 	\begin{center}
 		\centerline{\includegraphics[width=\columnwidth]{mouse_movement}}
-		\caption{Mouse Keystrokes
+		\caption{WhatPulse: Mouse Heatmap
 		}
 		\label{icml-historical}
 	\end{center}
@@ -258,23 +258,16 @@ Initially, we assumed that the more features we used, the better accuracy we wou
 \subsection{Limitations}
 Our dataset is limited. Since recruited participants were PhD students, our prediction model performance cannot be generalized to a broader audience. Since self-report surveys are subject, the definition of stress for different participants will have varying likert scale values. 
 
-Survey popping up periodically can become annoying to users thereby making reducing performance over time. Since emotional states are short-lived and a user can have multiple emotions in a short time, the surveys cannot fully capture the end user's entire emotional states but only a fraction of it
-
-
+Self-report periodically popping up can become annoying to users and/or boring overtime; this invariably means providing misleading training data for our algorithm should users absent-mindedly select a response or none at all. Moreover, emotional states are short-lived and a user can have multiple emotions in a short time so the surveys cannot fully capture the end user's entire emotional states but only a portion.
 
 \section{Future Work}
 Future work will involve external sensors for measuring HR, BP, EEG. The current application focuses on batch learning of data already amassed so next iteration will involve online learning especially for making efficient recommendation systems. 
 
-We also plan to use active learning during training and testing in order to control the amount of 
+We also plan to use active learning during training and testing in order to overtime reduce the amout of self-reports that occur: in this future approach, the algorithm starts by collecting self-reports periodically. Later, it only prompts the user for self-report after detecting anomalies during data logging.
 
-Participants for this experiment were PhD students recruited from a research lab familiar with some of the measuring tools used; more insightful applications might involve workers in industries especially end users oblivious of the methods of the current research.
+Further, we intend to collect data for a broader audience and for a longer time to demonstrate more applications of our system and algorithm. 
 
-do some form of active learning
-
-collect data for a longer period of time --- like several months
-
-
-\subsection{Conclusion}
+\section{Conclusion}
 In this work, we present a system that predicts user future level of stress based on historical data of keystroke dynamics, mouse activities, application usage, and self report of stress state. Major contributions of our work to existing literature include: building a custom privacy-aware open-sourced stress keylogger, adding computer applications as a contextual feature, deploying diverse machine learning prediction techniques, and providing personalized visualization, which the end user can control. Even though our project is currently limited by the amount of data collected so far, our system and algorithm still demonstrates its functionality; we are confident that our system will demonstrate its full capabilities upon collecting data for a longer period of time. Our work mildly addresses personalized recommendation so future work can building upon more tailored result for each end user. 
 % Acknowledgements should only appear in the accepted version. 
 \section*{Acknowledgments} 
