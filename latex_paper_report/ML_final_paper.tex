@@ -262,11 +262,14 @@ Due to time limit and the sensitivity of data initially collected, we could only
 In general, the algorithms achieve the highest accuracy when 70\% $\sim$ 80\% data is used as training data, and the accuracy goes down if more data is used as training data. We have to collect more data and calculate their p-values in order to know what kind of data splits can really achieve the best accuracy and yet the result it obtains is statistical significance, since it is a must for the system to know to how many historical data it has to acquire in order to predict future stress level correctly for the next whole day. 
 
 Initially, we assumed that the more features we used, the better accuracy we would get, but it turned out we got worse accuracy if we built the models using multiple features at the same time, $M+K$ for instance. According to Figure \ref{prediction}, the models trained with $M+K$ performed worse than models trained only with single feature during most of the time. Our speculation is that owning to the limited amount of data, our models tend to over-fit the data if too many features are given. On the other hand, we also noticed that different algorithms perform differently given different types of features. For example, Decision Tree gives the highest prediction accuracy with application usage features, whereas Random Forest somewhat does better with keystrokes features. Therefore, for our next step, we are considering using ensemble methods, combining all these different models together and generating the final prediction with the linear combination of the results given by individual algorithms, where each algorithm is only trained with single type of features with which it is most discriminative.  
+
+\input{results}
  
 \subsection{Limitations}
 Our dataset is limited. Since recruited participants were PhD students, our prediction model performance cannot be generalized to a broader audience. Since self-report surveys are subject, the definition of stress for different participants will have varying likert scale values. 
 
 Self-report periodically popping up can become annoying to users and/or boring overtime; this invariably means providing misleading training data for our algorithm should users absent-mindedly select a response or none at all. Moreover, emotional states are short-lived and a user can have multiple emotions in a short time so the surveys cannot fully capture the end user's entire emotional states but only a portion.
+\input{results}
 
 \section{Future Work}
 Future work will involve external sensors for measuring HR, BP, EEG. The current application focuses on batch learning of data already amassed so next iteration will involve online learning especially for making efficient recommendation systems. 
