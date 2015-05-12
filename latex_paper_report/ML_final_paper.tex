@@ -51,10 +51,12 @@
 % submissions: the style file will automatically remove it for you
 % unless you've provided the [accepted] option to the icml2012
 % package.
-\icmlauthor{name1}{email1}
-\icmladdress{school addy}
-\icmlauthor{name1}{email1}
-\icmladdress{school addy}
+\icmlauthor{Fabian Okeke*}{fno2@cornell.edu}
+\icmladdress{Cornell University, Ithaca, NY 14850, USA}
+\icmlauthor{Vincent Tseng*}{wt262@cornell.edu}
+\icmladdress{Cornell University, Ithaca, NY 14850, USA}
+\icmlauthor{Vasily Kuksenkov}{vdk23@cornell.edu}
+\icmladdress{Cornell University, Ithaca, NY 14850, USA}
 
 % You may provide any keywords that you 
 % find helpful for describing your paper; these are used to populate 
@@ -65,17 +67,17 @@
 ]
 
 \begin{abstract} 
-Stress is inevitable. Sometimes people fall back to their old habits or perform a series of actions that can be directly linked to their stressful states. Identifying stress is important but the approach scales poorly when invasive sensors have to be used or the method relies on induced stress in a timed lab experiment.  Our solution aims to identify stressful states based on continuous logging of keystroke dynamics, mouse patterns, and foreground application usage. We propose a privacy-aware system, E-stress detector, that logs participants' computer activities alongside their stress self report. After extracting relevant features, our top classifiers provide 85 to 95 \% accuracy for predicting user future stress level based on historical data. 
+Stress is inevitable. Sometimes, people fall back to bad habits or perform regrettable actions that can be directly linked to their stressful states. Identifying stress is important but the typical approach scales poorly when invasive sensors are required or the when the research method relies on induced stress in a timed lab experiment.  Our solution aims to identify stressful states based on continuous logging of keystroke dynamics, mouse patterns, and application usage. We propose E-stress detector, a privacy-aware system that logs participants' computer activities alongside their self-reported stress. After extracting relevant features, our top classifiers provide an accuracy between 85 and 95\% when using 70 to 80\% of our training set as historical data to predict the future stress level in the rest.
 \end{abstract} 
 
 \section{Introduction}
 \label{introduction}
 
-As we know, overstress undermines our productivity, and more seriously, it might bring harm to our health, even cause mental diseases. However, sometimes we tend to feel exhausted and stressed, but unaware of what cause us to feel stressed exactly. Therefore, it is crucial to find out the sources of stress, and at some appropriate time, give  users some reminders that you are overstressed and you should take a break and relax yourself right away.
+As we know, many daily tasks at a work environment can lead to stress, which very quickly becomes overstress. Overstress undermines our productivity, and, more seriously, it brings harm to our health, even causing mental diseases. Sometimes we tend to feel exhausted and stressed, but unaware of what cause us to feel stressed exactly. Therefore, it is crucial to find out the sources of stress, and, at some appropriate time, give users some reminders that they are overstressed and should take a break and relax themselves right away.
 
-When people are under stress, their behaviors tend to change accordingly. In particular, we have observed that people’s computer using patterns, the way they type, click, browse webs change with regard to their stress, or anxiousness level. For example, when people feel stressed, they click the mouses with higher frequency; they tend to have more typos, and thus the frequency of doing error correction raises; the frequency of switching between different web pages also increases; they might check their phones more frequently but unconsciously, etc. We suppose these are good indicators to users’ stress level, and by analyzing users’ baseline stress level and detecting abnormal stress level, we will be able to understand whether they are overstressed and give proper reminders.
+When people are under stress, their behaviors tend to change accordingly. In particular, we have observed that people's computer usage patterns vacillate---the way they type, click, and browse change with regard to their stress, or anxiety level. For example, when people feel stressed, they click the mouse with higher frequency; they tend to have more typos, and thus the frequency of having to correct errors rises. The frequency of switching between different web pages also increases. They might unconsciously check their phones more frequently. We suppose these are good indicators to a user's stress levels, and by analyzing a user's baseline stress level and detecting abnormalitiesl, we will be able to understand whether they are overstressed and give proper notifications.
 
-Since the computing age has encouraged working on personal computers, stress detection correlated to usage of these electronic devices could lead to insightful results. This research aims to discover which computer activities, if any, correlate with individual stress levels. Can one’s typing pattern, duration on a browser, rate of mouse clicking or overall computer usage be linked to their stress level?  Insightful results could have multiple applications such as personalized health recommendation systems for handling stress, timely interventions for detecting stress at an individual’s peak, holistic feedback for doctors during diagnosis, among other health driven and personal purposes. 
+Since the computing age has encouraged working on personal computers, stress detection correlated to usage of these electronic devices could lead to insightful results. This research aims to discover which computer activities, if any, correlate with individual stress levels. We wish to determine if one's typing pattern, duration on a browser, rate of mouse clicking or overall computer usage can be linked to their stress level. Insightful results could have multiple applications such as personalized health recommendation systems for handling stress, timely interventions for detecting stress at an individual’s peak, holistic feedback for doctors during diagnosis, or other health driven and personal purposes. This could also be an infomative tool for analyzing the deployment of a new tool for students introduced in a course or a new software just adopted by employees in a company. 
 
 \section{Related Work}
 Computer activities such as keystroke dynamics and mouse click patterns have been used in detecting user emotional and stress states. Related works can be broadly grouped into three major categories: Affective Computing, Keystroke Dynamics, and Mouse Usage. 
@@ -104,7 +106,7 @@ The work involves two major components: the data logging process done in-situ --
 \subsection{Experience Sampling of Computer Activities}
 Experience Samping Method (ESM) involves continuously logging computer activities while periodically collecting user responses to self-reports of their level of stress \cite{hektner2007experience}. Stress states were measured using Photographic Affect Meter (PAM) \cite{pollak2011pam}and three-question likert-scale survey. 
 
-Figure \ref{pam} shows the PAM survey. During periodic interval---we arbitrarily select 30 minutes interval---a webpage automatically opens up and a user is asked \textit{``How do you feel right now?''} Then the user selects one of 16 grid pictures that reflects their internal emotional state. 
+Figure \ref{pam} shows the PAM survey. After a periodic interval (which we have arbitrarily set to 30 minutes), a webpage automatically opens up and a user is asked \textit{``How do you feel right now?''} The user then selects one of 16 grid pictures that reflects their internal emotional state.
 
 Figure \ref{ema} shows a self-report questionnaire. After selecting a picture in PAM, a 3-question survey page opens up where the user gets to pick one response out of five categories. 
 
@@ -129,7 +131,7 @@ Figure \ref{ema} shows a self-report questionnaire. After selecting a picture in
 
 
 \subsection{Data Collection Software}
-A system was built that logs user keystrokes, mouse activities and applications used throughout the day. While there are a few open sourced tools that could have been adopted, a custom application was built because existing tools suffer from poor documentation and incomprehensible programming approaches. 
+For visualizing heatmaps of keystrokes and mouse movement, we use WhatPulse \cite{whatpulse}. This can easily be downloaded and installed on the end user system. Since WhatPulse does not provide data to the granularity necessary for conducting our research, a system was built that logs user keystrokes, mouse activities and applications used throughout the day. While there are a few open sourced tools that could have been adopted, a custom application was built because existing tools suffer from poor documentation and/or incomprehensible programming approaches. 
 
 Upon installation, our software tool contains a keystroke logger, a mouse logger, an application logger and a self-report logger. The keyboard and mouse applications continuously logs keystrokes and mouse activities; the foreground application is logged every 3 seconds; while the stress self-report is logged every 30 minutes. The self-report application starts up a PHP server, opens PAM webpage with the user's default browser. Upon selecting a choice from the 16-grid pictures, the response is saved in a file. Thereafter, the 3-question survey is opened as the next webpage, which upon answering a ``thank-you'' page loads. After about 5 seconds, the ``thank-you'' page automatically closes. Self-report application logs user response based on when they responded and not when the page opens. For instance, if the Web page opens at 4pm but the user responds at 7pm, then the response is logged at 7pm. 
 
@@ -166,6 +168,30 @@ We segmented the raw computer usage activities with sliding window size = 1 minu
 
 \subsection{Algorithms}
 Since the self-report survey popped up every 30 minutes, we only considered raw computer usage features within the 30-minute duration, if the computer was active,  before the survey is filled out. That is, assuming the user filled out the survey at timestamp $T_end$, and the computer got active at timestamp $T_c$, we only considered raw features with timestamps in $[T_{begin}, T_s)$, where $T_{begin}$=$min(T_{end-1800}, T_c)$. And according to the previous section, we extracted high level features from the raw features among each period and got computer usage samples $S_{T_{begin}}, S_{T_{begin+60}}, ..., S_{T_{end-60}}, S_{T_{end}}$, where each sample $S$ was labeled with the corresponding binary results of users' stress level based on the participants' EMA self-report score. Then we used Decision Tree, Random Forest, support vector machine (SVM), as well as participants' historical data for future stress prediction.
+
+\begin{figure}[ht]
+	\vskip 0.2in
+	\label{fig:stress}	
+	\begin{center}
+		\centerline{\includegraphics[width=\columnwidth]{stress}}
+		\caption{Measured stress level over testing period
+		}
+		\label{icml-historical}
+	\end{center}
+	\vskip -0.2in
+\end{figure} 
+
+\begin{figure}[ht]
+	\vskip 0.2in
+	\label{fig:apps}	
+	\begin{center}
+		\centerline{\includegraphics[width=\columnwidth]{apps}}
+		\caption{Total application usage over testing period
+		}
+		\label{icml-historical}
+	\end{center}
+	\vskip -0.2in
+\end{figure} 
 
 \begin{figure}
 	\centering
@@ -208,7 +234,11 @@ Since the self-report survey popped up every 30 minutes, we only considered raw 
 \end{figure} 
 
 \section{Results}
-Due to time limit, we could only collect data from one participant for consecutive 3 days after the deployment, and we got 352 samples from the deployment. We tried different ways of splits for training and testing, from 50-50 split to 90-10 split, as well as different combinations of features ($M$, $K$, $A$, $M+K$). But we found that the prediction accuracy was very low using only $A$, because during each time window, the participant tended to open just a couple of applications, which made the feature vector of $A$ become very sparse and in turn diminished $A$'s ability for prediction. As a consequence, we decided not to consider all the applications users might use as features. Instead, we only took into account the top 5 frequently used applications as features. That is, the application usage features became $A'=[t_{a_1'}, t_{a_2'}, t_{a_3'}, t_{a_4'}, t_{a_5'}, t_{a_6'}, x]$, where $t_{a_1'}\sim t_{a_5'}$ are the amount of time users spend on the top 5 most frequently used applications during each 1-minute window, and $t_{a_6'}$ is the amount of time users spend on the rest of the applications. After the features were adjusted, the accuracy significantly improved. Figure \ref{prediction} is the accuracy of stress prediction with different algorithms, different combinations of features, as well as different ways of data splits. For the baseline algorithm, it randomly guesses whether the user is stressed or not. The reason why the split for SVM is only down to 60-40 is that the participant's self-report score is quite consistent during the first few days of study, where the participant kept reporting "not-stressed" among the first half of the data we collected. Thus, we would have no training data labeled with "stressed" if we did 50-50 split.
+Due to limited time, we could only collect data from one participant for consecutive 3 days after the deployment, with 352 samples from the deployment. The stress level measurements over the testing period are shown in Figure \ref{fig:stress}.
+
+ We tried different ways of splitting the data for training and testing, from 50-50 split to 90-10 split, as well as different combinations of features ($M$, $K$, $A$, $M+K$). We found that the prediction accuracy was very low using only $A$, because, during each time window, the participant tended to open just a couple of applications, which made the feature vector of $A$ become very sparse and, in turn, diminished $A$'s ability for prediction. A histogram of total application usage over the testing period is displayed in Figure \ref{fig:apps}. 
+
+As a consequence, we decided not to consider all the applications users might use as features. Instead, we only took into account the top 5 frequently used applications as features. That is, the application usage features became $A'=[t_{a_1'}, t_{a_2'}, t_{a_3'}, t_{a_4'}, t_{a_5'}, t_{a_6'}, x]$, where $t_{a_1'}\sim t_{a_5'}$ are the amount of time users spend on the top 5 most frequently used applications during each 1-minute window, and $t_{a_6'}$ is the amount of time users spend on the rest of the applications. After the features were adjusted, the accuracy significantly improved. Figure \ref{prediction} is the accuracy of stress prediction with different algorithms, different combinations of features, as well as different ways of data splits. For the baseline algorithm, it randomly guesses whether the user is stressed or not. The reason why the split for SVM is only down to 60-40 is that the participant's self-report score is quite consistent during the first few days of study, where the participant kept reporting "not-stressed" among the first half of the data we collected. Thus, we would have no training data labeled with "stressed" if we did 50-50 split.
 
 In general, the algorithms achieve the highest accuracy when 70\% $\sim$ 80\% data is used as training data, and the accuracy goes down if more data is used as training data. We have to collect more data and calculate their p-values in order to know what kind of data splits can really achieve the best accuracy and yet the result it obtains is statistical significance, since it is a must for the system to know to how many historical data it has to acquire in order to predict future stress level correctly for the next whole day. 
 
@@ -217,9 +247,9 @@ Initially, we assumed that the more features we used, the better accuracy we wou
 \input{results}
  
 \subsection{Limitations}
-Our dataset is limited. Since recruited participants were PhD students, our prediction model performance cannot be generalized to a broader audience. Since self-report surveys are subject, the definition of stress for different participants will have varying likert scale values. 
+Our dataset is limited. Since recruited participants were PhD students, our prediction model performance cannot be generalized to a broader audience. Since self-report surveys are subjective, the definition of stress for different participants will have varying likert scale values. 
 
-Survey popping up periodically can become annoying to users thereby making reducing performance over time. Since emotional states are short-lived and a user can have multiple emotions in a short time, the surveys cannot fully capture the end user's entire emotional states but only a fraction of it
+Surveys popping up periodically can become annoying to users, thereby making reducing performance over time. Since emotional states are short-lived and a user can have multiple emotions in a short time, the surveys cannot fully capture the end user's entire emotional states but only a fraction of it
 
 
 
