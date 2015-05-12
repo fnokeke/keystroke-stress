@@ -102,7 +102,9 @@ Unlike previous works, which focus on only keystrokes, only mouse, or both, our 
 
 It is worthwile to note that previous works have logged user computer activities without explicitly discussing how user data is protected; our application takes a different approach by only logging specific keys when users type. Every other key is blocked with the symbol ``\$\$''. For instance, alphabetic and numeric keys are logged as ``\$\$'' as a user could type highly sensitive information such as passwords or personal messages. In addition, every data logged is not uploaded to a cloud server; the data is locally stored on the user's computer. This way, a user can decide to opt out of the data logging process and delete all data collected.
 
-We are aware that the definition of stress is subjective and the use of body sensors may provide more convincing result. However, for project scope, our work focuses on self-report of stress state as with  existing literature\cite{epp2011identifying}, \cite{wang2014studentlife}. 
+Unlike other research problems, which readily provide data for carrying out Machine Learning techniques, ours requires collecting more sensitive data. As such, a significant amount of work went into building the tool necessary for collecting data while preserving user privacy. The end goal is to deploy a tool that can be easily installed on multiple users' computers. In this way, data sharing for future research building on our work can gain from users donating their data. 
+
+We are aware that the definition of stress is subjective and the use of body sensors may provide more convincing result. However, for project scope and due to time constraint, our work focuses on self-report of stress state as with  existing literature \cite{epp2011identifying}, \cite{wang2014studentlife}. Further, research work on stress do not necessarily involve hundreds/thousands of users as this is not a big data problem; rather, the focus is on personalized model for each user and a sample sample size is usually normal.
 \section{Methodology}
 The work involves two major components: the data logging process done in-situ -- as participants carried out their daily activities, and the data processing required to classify stress states. For the data collection, users' keystrokes, mouse activities, and computer applications usage are timestamped and logged. The data processing involved extracting relevant keystroke features in order to build Machine Learning classifiers. 
 
@@ -149,7 +151,8 @@ Each activity logged had specific data formats that aided the analysis and visua
 	time 
 	\textpipe \  mouse\textunderscore event  
 	\textpipe  \  mouse\textunderscore direction  
-	\textpipe \  y=y\textunderscore coordinate \   x=x\textunderscore coordinate\\
+	\textpipe \  y=y\textunderscore coordinate \   x=x\textunderscore coordinate\\   
+	    \newline
 	where mouse\textunderscore event could be \textit{MouseButtonHooker} and
 	mouse\textunderscore direction is either of \textit{NSRightMouseUp, NSRightMouseDown, NSLeftMouseUp, NSLeftMouseDown}.
 	
@@ -179,7 +182,7 @@ time
          key=\$\$ 
          is\textunderscore repeat=False
          
-\textbf{application logging format:}
+\textbf{application logging format:}\\
 time \textpipe \  application  \\
 
 For instance:\\
@@ -203,7 +206,7 @@ time: 2015-04-27 03:59:49, pleasant\textunderscore state: p\textunderscore state
 where each of the states are one out of the five options as shown in the 3-point survey question above. 
 
 For instance: \\
-time: 2015-04-27 03:59:49, pleasant\textunderscore state: slightly\textunderscore pleasant, energy\textunderscore state: slightly\textunderscore energetic, stress\textunderscore state: feeling\textunderscore good.
+time:2015-04-2703:59:49, pleasant\textunderscore state: slightly\textunderscore pleasant, energy\textunderscore state: slightly\textunderscore energetic, stress\textunderscore state: feeling\textunderscore good.
 
 %time: 2015-04-27 03:59:49, pleasant_state: slightly_pleasant, energy_state: slightly_energetic, stress_state: feeling_good
 
