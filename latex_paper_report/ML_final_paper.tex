@@ -42,6 +42,8 @@
 % Therefore, a short form for the running title is supplied here:
 \icmltitlerunning{Detecting stress level through computer usage pattern}
 
+\usepackage{ tipa }
+
 \begin{document} 
 
 \twocolumn[
@@ -65,7 +67,7 @@
 ]
 
 \begin{abstract} 
-Stress is inevitable. Sometimes people fall back to their old habits or perform a series of actions that can be directly linked to their stressful states. Identifying stress is important but the approach scales poorly when invasive sensors have to be used or the method relies on induced stress in a timed lab experiment.  Our solution aims to identify stressful states based on continuous logging of keystroke dynamics, mouse patterns, and foreground application usage. We propose a privacy-aware system, E-stress detector, that logs participants' computer activities alongside their stress self report. After extracting relevant features, our top classifiers provide 85 to 95 \% accuracy for predicting user future stress level based on historical data. 
+Stress is inevitable. Sometimes people fall back to their old habits or perform a series of actions that can be directly linked to their stressful states. Identifying stress is important but the approach scales poorly when invasive sensors have to be used or the method relies on induced stress in a timed lab experiment.  Our solution aims to identify stressful states based on continuous logging of keystroke dynamics, mouse patterns, and foreground application usage. We propose a privacy-aware system, E-stress detector, that logs participants' computer activities alongside their stress self report. After extracting relevant features, our top classifiers provide highest accuracy when training-test split is 70\% to 80\% predicting user future stress level based on historical data. 
 \end{abstract} 
 
 \section{Introduction}
@@ -104,7 +106,7 @@ The work involves two major components: the data logging process done in-situ --
 \subsection{Experience Sampling of Computer Activities}
 Experience Samping Method (ESM) involves continuously logging computer activities while periodically collecting user responses to self-reports of their level of stress \cite{hektner2007experience}. Stress states were measured using Photographic Affect Meter (PAM) \cite{pollak2011pam}and three-question likert-scale survey. 
 
-Figure \ref{pam} shows the PAM survey. During periodic interval---we arbitrarily select 30 minutes interval---a webpage automatically opens up and a user is asked \textit{``How do you feel right now?''} Then the user selects one of 16 grid pictures that reflects their internal emotional state. 
+Figure \ref{pam} shows the PAM survey. During periodic interval---we arbitrarily select 30 minutes interval---a webpage automatically opens up and a user is asked \textit{``How do you feel right now?''} Then the user selects one of 16 grid pictures that reflects their internal emotional state. Each grid represents each of 16 emotions and there are 3 possible images that could be displayed per grid.  On clicking \textit{You can load more images button}, some of the grid images change.
 
 Figure \ref{ema} shows a self-report questionnaire. After selecting a picture in PAM, a 3-question survey page opens up where the user gets to pick one response out of five categories. 
 
@@ -129,37 +131,76 @@ Figure \ref{ema} shows a self-report questionnaire. After selecting a picture in
 
 
 \subsection{Data Collection Software}
-A system was built that logs user keystrokes, mouse activities and applications used throughout the day. While there are a few open sourced tools that could have been adopted, a custom application was built because existing tools suffer from poor documentation and incomprehensible programming approaches. 
+For visualizing keystrokes heatmap and mouse heatmap, we use WhatPulse \cite{whatpulse}. This can easily be downloaded and installed on the end user system. Since WhatPulse does not provide data to the granularity necessary for conducting our research, a system was built that logs user keystrokes, mouse activities and applications used throughout the day. While there are a few open sourced tools that could have been adopted, a custom application was built because existing tools suffer from poor documentation and/or incomprehensible programming approaches. 
 
 Upon installation, our software tool contains a keystroke logger, a mouse logger, an application logger and a self-report logger. The keyboard and mouse applications continuously logs keystrokes and mouse activities; the foreground application is logged every 3 seconds; while the stress self-report is logged every 30 minutes. The self-report application starts up a PHP server, opens PAM webpage with the user's default browser. Upon selecting a choice from the 16-grid pictures, the response is saved in a file. Thereafter, the 3-question survey is opened as the next webpage, which upon answering a ``thank-you'' page loads. After about 5 seconds, the ``thank-you'' page automatically closes. Self-report application logs user response based on when they responded and not when the page opens. For instance, if the Web page opens at 4pm but the user responds at 7pm, then the response is logged at 7pm. 
 
 Every 15 minutes, a background script checks if all the applications are running or if they have been stopped either manually by the user, another running process, or through a power down of the user computer. This ensures that user logging continues non-intrusively as users do not have to manually start the applications if they were shut down. In order to maintain user access control, every activity application has an icon that appears in the dock so that the user can close the application whenever they want to; users can also delete the data directory if they don't want to partake in the experiment. These intervals for each application were arbitrarily chosen. 
 
-mouse logging format
-2015-05-03 12:18:55.438360 |      MouseMoveHooker |           NSMouseMoved | y=606.19140625 x=683.0390625
-2015-05-03 12:19:51.473070 |    MouseButtonHooker |         NSRightMouseUp | y=22.234375 x=274.37109375
-2015-05-03 12:19:55.261508 |    MouseButtonHooker |          NSLeftMouseUp | y=272.79296875 x=293.51953125
-2015-05-03 12:19:53.588968 |    MouseButtonHooker |        NSLeftMouseDown | y=81.90234375 x=109.9609375
+\subsection{Data Format}
+Each activity logged had specific data formats that aided the analysis and visualizations. 
 
+\textbf{mouse logging format:}\\
+	time 
+	\textpipe \  mouse\textunderscore event  
+	\textpipe  \  mouse\textunderscore direction  
+	\textpipe \  y=y\textunderscore coordinate \   x=x\textunderscore coordinate\\
+	where mouse\textunderscore event could be \textit{MouseButtonHooker} and
+	mouse\textunderscore direction is either of \textit{NSRightMouseUp, NSRightMouseDown, NSLeftMouseUp, NSLeftMouseDown}.
+	
+For instance: \\
+2015-05-03 12:18:55.438360 
+MouseMoveHooker 
+NSMouseMoved 
+y=606.19140625 x=683.0390625
 
-keyboard logging format
-%2015-05-03 12:18:57.540228 |            KeyHooker |                NSKeyUp | char=  mods=[] key=49 is_repeat=False
-%2015-05-03 12:20:28.903225 |            KeyHooker |              NSKeyDown | char=\$\$ mods=['COMMAND'] key=\$\$ is_repeat=False
+\textbf{keyboard logging format:}\\
+time
+	\textpipe \  key\textunderscore event  
+	\textpipe  \  key\textunderscore direction
+	\textpipe \ char=\  char\textunderscore pressed \ 
+    key=numeric\textunderscore value
+     mods=$['fcn\textunderscore value']$
+    is\textunderscore repeat=boolean\textunderscore value.\\
+    \newline
+    where \  key\textunderscore event is \textit{KeyHooker};  key\textunderscore direction is either of \textit{NSKeyUp, NSKeyDown}; char\textunderscore value is the actual key typed (this shows as \$\$ to protect user privacy), mods is any key command combined with an alphabetic key such as SHIFT, CONTROL, ALTERNATE, etc, which are referred to as fcn\textunderscore value i.e. function value;  is\textunderscore repeat is either of \textit{True, False} depending on if a key is held down or not.\\
+    
+ For instance: \\
+2015-05-03 12:20:28.903225 
+        \textpipe \ KeyHooker               
+        \textpipe \ NSKeyDown 
+        \textpipe \ char=\$\$ 
+        mods=$['COMMAND']$
+         key=\$\$ 
+         is\textunderscore repeat=False
+         
+\textbf{application logging format:}
+time \textpipe \  application  \\
 
+For instance:\\
+2015-05-07 22:39:09.113787 \textpipe  \  Google Chrome
 
-application logging format
-%2015-05-07 22:39:09.113787 |        Google Chrome
+\textbf{pam logging format:}
+time, 
+image\textunderscore id: img\textunderscore num, 
+cell\textunderscore id: id\textunderscore num, 
+pam\textunderscore pa: pa\textunderscore num, 
+pam\textunderscore na: na\textunderscore num, 
+arousal: arousal\textunderscore num, 
+valence: valence\textunderscore num. \\
 
+For instance: \\
+time: 2015-04-29 23:47:11, image\textunderscore id: 11, cell\textunderscore id: 4, pam\textunderscore pa: 16, pam\textunderscore na: 3, arousal: 4, valence: 4. \\
+where each image has an associated id that identifies the exact picture selected by the user. Details about the scoring mechanism can be found in the PAM literature \cite{pollak2011pam}.
 
-pam logging format
-%time: 2015-04-29 23:47:11, image_id: 11, cell_id: 4, pam_pa: 16, pam_na: 3, arousal: 4, valence: 4
+\textbf{ema logging format:}\\
+time: 2015-04-27 03:59:49, pleasant\textunderscore state: p\textunderscore state, energy\textunderscore state: e\textunderscore state, stress\textunderscore state: s\textunderscore state. \\
+where each of the states are one out of the five options as shown in the 3-point survey question above. 
 
-ema logging format
+For instance: \\
+time: 2015-04-27 03:59:49, pleasant\textunderscore state: slightly\textunderscore pleasant, energy\textunderscore state: slightly\textunderscore energetic, stress\textunderscore state: feeling\textunderscore good.
+
 %time: 2015-04-27 03:59:49, pleasant_state: slightly_pleasant, energy_state: slightly_energetic, stress_state: feeling_good
-
- 
-Using our custom applications, we will install our background scripts on the participants’ computers. Ideally, our background programs will record the keys users type, but the corresponding values will be randomized due to privacy sensitivity, and the frequency of mouse clicking as well.
-Data for Web browsing and application usage will be collected through available python APIs. All the data will be stored as text files awaiting further analysis.
 
 \subsection{Feature Extraction}
 We segmented the raw computer usage activities with sliding window size = 1 minute and the extracted three types of computer usage features, \textbf{M}, \textbf{K}, and \textbf{A} for mouse clicks, keystrokes, and application usage within each sliding window. \textbf{M} = $[d_{m}, r_{m}, t_{m}]$, where $d_{m}$ is the total distance of mouse movement, $r_{m}$ is the mouse click rate, and $t_{m}$ is the average mouse button pressed duration. \textbf{K} = $[r_{k_1}, t_{k_1}, r_{k_2}, t_{k_2}, t_{k_i}, ..., r_{k_N}, t_{k_N}]$, i $\in{N}$, where $k_{i}$ stands for different keys and N stands for total number of key types we logged, and $N=9$ in our case, including function keys, letter keys, enter key, tab key, space key, delete key, escape key, arrow key, and all the keys that were pressed (that is, the previous key types were also taken into account), and $t_{k_i}$ is key pressed time for key $k_{i}$.  \textbf{A} = $[t_{a_1}, t_{a_2}, t_{a_j}, ..., t_{a_P}, x]$, j $\in{P}$, where $a_{i}$ stands for different applications, $P$ is the total number of applications users might open when using computers, $t_{a_j}$ is the time users spent on application $a_{j}$, and $x$ is the number of active applications within each time window. To know decide what $P$ is, we first iterated through the users' historical application usage logs.
@@ -189,7 +230,7 @@ Since the self-report survey popped up every 30 minutes, we only considered raw 
 	\begin{center}
 		\centerline{\includegraphics[width=\columnwidth]{keyboard}}
 		\label{keyboard}
-		\caption{Keyboard Heatmap}
+		\caption{WhatPulse: Keyboard Heatmap}
 
 		\label{icml-historical}
 	\end{center}
@@ -200,7 +241,7 @@ Since the self-report survey popped up every 30 minutes, we only considered raw 
 	\vskip 0.2in
 	\begin{center}
 		\centerline{\includegraphics[width=\columnwidth]{mouse_movement}}
-		\caption{Mouse Keystrokes
+		\caption{WhatPulse: Mouse Heatmap
 		}
 		\label{icml-historical}
 	\end{center}
@@ -208,7 +249,7 @@ Since the self-report survey popped up every 30 minutes, we only considered raw 
 \end{figure} 
 
 \section{Results}
-Due to time limit, we could only collect data from one participant for consecutive 3 days after the deployment, and we got 352 samples from the deployment. We tried different ways of splits for training and testing, from 50-50 split to 90-10 split, as well as different combinations of features ($M$, $K$, $A$, $M+K$). But we found that the prediction accuracy was very low using only $A$, because during each time window, the participant tended to open just a couple of applications, which made the feature vector of $A$ become very sparse and in turn diminished $A$'s ability for prediction. As a consequence, we decided not to consider all the applications users might use as features. Instead, we only took into account the top 5 frequently used applications as features. That is, the application usage features became $A'=[t_{a_1'}, t_{a_2'}, t_{a_3'}, t_{a_4'}, t_{a_5'}, t_{a_6'}, x]$, where $t_{a_1'}\sim t_{a_5'}$ are the amount of time users spend on the top 5 most frequently used applications during each 1-minute window, and $t_{a_6'}$ is the amount of time users spend on the rest of the applications. After the features were adjusted, the accuracy significantly improved. Figure \ref{prediction} is the accuracy of stress prediction with different algorithms, different combinations of features, as well as different ways of data splits. For the baseline algorithm, it randomly guesses whether the user is stressed or not. The reason why the split for SVM is only down to 60-40 is that the participant's self-report score is quite consistent during the first few days of study, where the participant kept reporting "not-stressed" among the first half of the data we collected. Thus, we would have no training data labeled with "stressed" if we did 50-50 split.
+Due to time limit, we could only collect data from one participant for consecutive 3 days after the deployment, and we got 352 samples from the deployment. We tried different ways of splits for training and testing, from 50-50 split to 90-10 split,  well as different combinations of features ($M$, $K$, $A$, $M+K$). But we found that the prediction accuracy was very low using only $A$, because during each time window, the participant tended to open just a couple of applications, which made the feature vector of $A$ become very sparse and in turn diminished $A$'s ability for prediction. As a consequence, we decided not to consider all the applications users might use as features. Instead, we only took into account the top 5 frequently used applications as features. That is, the application usage features became $A'=[t_{a_1'}, t_{a_2'}, t_{a_3'}, t_{a_4'}, t_{a_5'}, t_{a_6'}, x]$, where $t_{a_1'}\sim t_{a_5'}$ are the amount of time users spend on the top 5 most frequently used applications during each 1-minute window, and $t_{a_6'}$ is the amount of time users spend on the rest of the applications. After the features were adjusted, the accuracy significantly improved. Figure \ref{prediction} is the accuracy of stress prediction with different algorithms, different combinations of features, as well as different ways of data splits. For the baseline algorithm, it randomly guesses whether the user is stressed or not. The reason why the split for SVM is only down to 60-40 is that the participant's self-report score is quite consistent during the first few days of study, where the participant kept reporting "not-stressed" among the first half of the data we collected. Thus, we would have no training data labeled with "stressed" if we did 50-50 split.
 
 In general, the algorithms achieve the highest accuracy when 70\% $\sim$ 80\% data is used as training data, and the accuracy goes down if more data is used as training data. We have to collect more data and calculate their p-values in order to know what kind of data splits can really achieve the best accuracy and yet the result it obtains is statistical significance, since it is a must for the system to know to how many historical data it has to acquire in order to predict future stress level correctly for the next whole day. 
 
@@ -229,20 +270,17 @@ Algorithms & DT                        & RF                        & SVM        
 \subsection{Limitations}
 Our dataset is limited. Since recruited participants were PhD students, our prediction model performance cannot be generalized to a broader audience. Since self-report surveys are subject, the definition of stress for different participants will have varying likert scale values. 
 
-Survey popping up periodically can become annoying to users thereby making reducing performance over time. Since emotional states are short-lived and a user can have multiple emotions in a short time, the surveys cannot fully capture the end user's entire emotional states but only a fraction of it
-
-
+Self-report periodically popping up can become annoying to users and/or boring overtime; this invariably means providing misleading training data for our algorithm should users absent-mindedly select a response or none at all. Moreover, emotional states are short-lived and a user can have multiple emotions in a short time so the surveys cannot fully capture the end user's entire emotional states but only a portion.
 
 \section{Future Work}
-In order to improve multimodal sensing, future work will involve external sensors for measuring HR, BP, EEG. The current application focuses on batch learning of data already amassed so for next iteration will involve online learning especially for making efficient recommendation systems. Participants for this experiment were PhD students recruited from a research lab familiar with some of the measuring tools used; more insightful applications might involve workers in industries especially end users oblivious of the methods of the current research.
+Future work will involve external sensors for measuring HR, BP, EEG. The current application focuses on batch learning of data already amassed so next iteration will involve online learning especially for making efficient recommendation systems. 
 
-do some form of active learning
+We also plan to use active learning during training and testing in order to overtime reduce the amout of self-reports that occur: in this future approach, the algorithm starts by collecting self-reports periodically. Later, it only prompts the user for self-report after detecting anomalies during data logging.
 
-collect data for a longer period of time --- like several months
+Further, we intend to collect data for a broader audience and for a longer time to demonstrate more applications of our system and algorithm. 
 
-
-\subsection{Conclusion}
-
+\section{Conclusion}
+In this work, we present a system that predicts user future level of stress based on historical data of keystroke dynamics, mouse activities, application usage, and self report of stress state. Major contributions of our work to existing literature include: building a custom privacy-aware open-sourced stress keylogger, adding computer applications as a contextual feature, deploying diverse machine learning prediction techniques, and providing personalized visualization, which the end user can control. Even though our project is currently limited by the amount of data collected so far, our system and algorithm still demonstrates its functionality; we are confident that our system will demonstrate its full capabilities upon collecting data for a longer period of time. Our work mildly addresses personalized recommendation so future work can building upon more tailored result for each end user. 
 % Acknowledgements should only appear in the accepted version. 
 \section*{Acknowledgments} 
 Special thanks to Prof Daniel Cosley, students of INFO 6010, reviewers of Advanced Machine Learning course (Spring 2015), members of the PAC lab at Cornell University Information Science, and Prof Tanzeem Choudhury, whose guidance was instrumental in this project. 

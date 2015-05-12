@@ -20,9 +20,9 @@ do
         # start a new logger program
         python $PROJECT_PATH/overall_logger.py >> $filepath &
 
-    #keylogger running fine
-    else
-        osascript -e 'tell app "System Events" to display dialog "Keylogger running just fine."'
+        #keylogger running fine
+        #     else
+        #        osascript -e 'tell app "System Events" to display dialog "Keylogger running just fine."'
     fi
 
     # kill any ongoing keylogger processes to avoid multiple logging 
@@ -30,5 +30,5 @@ do
     # killall python overall_logger.py
 
     # repeat cron job
-    sleep 900 
+    sleep 3600 
 done

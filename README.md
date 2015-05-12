@@ -85,6 +85,7 @@ Current focus is on OS X (other operating systems coming soon...)
     - automatically install pykeycode for the user
     - reference pykeycode
     - explain that is_repeat=True when a key pressed and held down.
+    - automatically create ninja_data directory
 
 
 
