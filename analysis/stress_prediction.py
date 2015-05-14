@@ -94,7 +94,7 @@ for feature in features:
 #clf = tree.DecisionTreeClassifier()
 clf = svm.SVC()
 #clf = RandomForestClassifier(n_estimators=10)
-clf = AdaBoostClassifier(n_estimators=100)
+#clf = AdaBoostClassifier(n_estimators=100)
 
 "Begin/end indices for different types of features. Mouse:[0,3), Keyboard:[3,21), Application: [21:]"
 accuracies = list()

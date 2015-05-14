@@ -1,8 +1,10 @@
 There are three scripts for data analysis: get_keystroke_features.py, get_app_features.py, and stress_prediction.py
 
 
-get_keystroke_features.py: This script is to extract high level features (for more details about what high level features we use, please refer to section "feature extraction" in our paper) from raw mouse click and keystroke features, and the extracted features will be stored in a CSV file under directory "keystroke_fatures". To run the script, first put your raw keystroke feature file under the directory "keystroke_data", then change the filename to the name of your file with the file extentsion being removed, then run the script. A CSV file called "features_[your_filename].csv" will be generated under directory "keystroke_features".  
+get_keystroke_features.py: This script is to extract high level features (for more details about what high level features we use, please refer to section "feature extraction" in our paper) from raw mouse click and keystroke features, and the extracted features will be stored in a CSV file under directory "keystroke_fatures". To run the script, first put your raw keystroke feature file the directory "keystroke_data", then change the filename to that of your file with the file extentsion emoved, and run the script. A CSV file called "features_[your_filename].csv" will be generated under directory "keystroke_features".  
 
 
-get_app_features.py: This script is 
+get_app_features.py: This script is to extract high level features for raw application usage features. To run the script, first put your raw application usage feature file under directory "app_data", then change the filename to taht of your file with the file extention removed, and run the script. A CSV file called "features_[your_filename].csv" will be generated under directory "app_features".
 
+
+stress_prediction.py: This script is to take in features from different modalities, build models based on the those features, and predict future stress level. You have frist to put the pam and ema log files under directory "pam" and "ema" respectively. Then specifiy mouseclick_keystroke feature file and app_usage feature file in line 54 and line 55. And you can also change the algorithm you want to use in line 94. The script will read all the pam and ema score in and use them as labels for prediciton. Moreover, in addition to those self-report scores, the five-point stress scores will also be converted into bianry results for prediction in order to see which kind of model will be more informative for users. 
