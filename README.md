@@ -73,6 +73,9 @@ Current focus is on OS X (other operating systems coming soon...)
 
     `<true/>`
 
+### Data Analysis
+For data analysis, you can go to the folder 'analysis', there are scripts and associated readme files regarding how to run the data analysis.
+
 ### TO-DO
     - update time-format so that files follow a chronological order
     - change hardcoded dataset directory in applescript
